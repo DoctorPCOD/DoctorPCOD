@@ -13,7 +13,8 @@ Sometimes, in lab, you are provided with code to use to learn from, or as a temp
 ![screenshot showing how to select the correct port in Arduino IDE](https://doctor-pasquale.com/wp-content/uploads/2021/11/selecting-correct-port.png)
 
 6. If unsure if the code will work, select Verify (checkmark icon or CONTROL-R)
-7. If you're sure that the code will work, select Upload (arrow icon or CONTROL-U)
+7. Before uploading code to the board, ensure that nothing is connected to pin `D0` and pin `D1`
+8. If you're sure that the code will work, select Upload (arrow icon or CONTROL-U)
 
 # Links and other resources
 * [Doctor P's microcontrollers website](https://doctor-pasquale.com/engin-2223/) -- contains resources, errata, etc. for all of the labs you'll do in this class
