@@ -1,4 +1,4 @@
-	; convert to BCD (hundreds place)
+	; convert 8-bit binary to BCD (hundreds place)
 	LDI r18, -1
 BCD1:
 	INC r18
