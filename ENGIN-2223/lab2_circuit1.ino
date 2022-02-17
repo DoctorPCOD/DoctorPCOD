@@ -41,10 +41,12 @@ void loop()
 
   if (buttonState) {
     //Turn on LED
+    //if using compound operators, replace the following line with PORTB |= 0x20;
     PORTB = PORTB | 0x20;
   }
   else {
     // Turn off LED
+    //if using compound operators, replace the following line with PORTB &= 0xDF;
     PORTB = PORTB & 0xDF;
   }
 
