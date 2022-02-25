@@ -1,9 +1,5 @@
-- 👋 Hi, I’m @DoctorPCOD
-- 👀 I’m interested in creating more open educational resources for my classes, and making physics and engineering content for everyone
-- 🌱 I’m currently learning how to use GitHub to host open educational resources for my classes
+- 👋 Hi, Dr. Pasquale
+- 👩🏻‍🏫 I teach engineering and physics at the College of DuPage
+- 📚 I’m interested in creating more open educational resources for my classes, and making physics and engineering content for everyone
 
-
-<!---
-DoctorPCOD/DoctorPCOD is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+A lot of my course resources are available on [my website](https://doctor-pasquale.com).
