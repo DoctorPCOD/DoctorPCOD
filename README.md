@@ -1,4 +1,4 @@
-- 👋 Hi, Dr. Pasquale
+- 👋 Hi, I'm Dr. Pasquale
 - 👩🏻‍🏫 I teach engineering and physics at the College of DuPage
 - 📚 I’m interested in creating more open educational resources for my classes, and making physics and engineering content for everyone
 
