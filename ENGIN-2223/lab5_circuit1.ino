@@ -3,7 +3,7 @@
   External interrupt rising-edge triggered adder using a keypad, output displays on an LCD screen
   By: Alyssa J. Pasquale, Ph.D.
   Written: June 14, 2017
-  Edited: November 19, 2021
+  Edited: March 2, 2022
   I/O Pins
   A0:
   A1:
@@ -78,7 +78,7 @@ void loop()
 }
 
 ISR(INT0_vect) {
-  static char x = 0;
+  static unsigned char x = 0;
   if (x) {
     a = PIND >> 4;
   }
