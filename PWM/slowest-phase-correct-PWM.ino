@@ -1,3 +1,4 @@
+// Delta T = 8.4 seconds
 void setup() {
   cli();
   DDRB = 0x04;
