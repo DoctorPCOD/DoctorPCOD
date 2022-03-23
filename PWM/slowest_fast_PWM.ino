@@ -1,3 +1,6 @@
+// slowest fast PWM
+// N = 1024
+// frequency approx 61 Hz
 void setup() {
   cli();
   DDRD = 0x20;
