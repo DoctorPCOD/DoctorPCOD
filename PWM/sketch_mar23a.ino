@@ -1,3 +1,5 @@
+// fastest fast PWM
+// noisy ~4 MHz signal on scope
 void setup() {
   cli();
   DDRD = 0x20;
