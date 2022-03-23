@@ -1,3 +1,5 @@
+// phase-correct
+// frequency is less noisy than fast PWM and is 4 MHz
 void setup() {
   cli();
   DDRB = 0x04;
