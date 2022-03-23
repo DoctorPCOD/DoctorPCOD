@@ -1,3 +1,4 @@
+// much cleaner 4 MHz
 void setup() {
   cli();
   DDRD = 0x20;
