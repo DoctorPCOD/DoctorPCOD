@@ -3,7 +3,7 @@ Fast PWM operates with a frequency of `f = f_I/O / (N * (TOP+1))`, where `f_I/O`
 
 The **fastest fast PWM** signal will occur when `TOP` is as small as possible. Using a `TOP` value of `0` and prescaler of 1, a timer/counter can be used in CTC mode with a max frequency of `f_I/O / 2`, but with no way to modulate the duty cycle.
 
-To change the duty cycle, the largest `TOP` value would be `2` and a prescaler of 1. This leads to a frequency of `f_I/O / 4`. The only duty cycle options are 0%, 50%, and 100%. The output may not have clean transitions between LOW and HIGH output levels.
+To change the duty cycle, the largest `TOP` value would be `2` and a prescaler of 1. This leads to a frequency of `f_I/O / 3`. The only duty cycle options are 0%, 50%, and 100%. The output may not have clean transitions between LOW and HIGH output levels.
 
 ![fastest fast PWM timer/counter 0](fastest-fast-pwm.png)
 > Fast PWM with `TOP=2`, prescaler of 1, and duty-cycle of 50% on timer/counter 0. Note the lack of sharp transition on rising and falling edges, and duty-cycle not exactly 50%.
