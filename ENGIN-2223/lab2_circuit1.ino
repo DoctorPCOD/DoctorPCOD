@@ -1,6 +1,7 @@
 /*
-  Lab 2, Circuit 1
+  Lab 2, Circuit 1a
   Using a pushbutton to turn on/off an LED
+  (External pull-down resistor used)
   By: Alyssa J. Pasquale, Ph.D.
   Written: May 15, 2017
   Edited: May 12, 2022
