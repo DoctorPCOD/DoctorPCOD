@@ -3,7 +3,7 @@
   Using a pushbutton to turn on/off an LED
   By: Alyssa J. Pasquale, Ph.D.
   Written: May 15, 2017
-  Edited: May 1, 2019
+  Edited: May 12, 2022
   I/O Pins
   A0:
   A1:
@@ -41,13 +41,11 @@ void loop()
 
   if (buttonState) {
     //Turn on LED
-    //if using compound operators, replace the following line with PORTB |= 0x20;
-    PORTB = PORTB | 0x20;
+    PORTB |= 0x20;
   }
   else {
     // Turn off LED
-    //if using compound operators, replace the following line with PORTB &= 0xDF;
-    PORTB = PORTB & 0xDF;
+    PORTB &= 0xDF;
   }
 
 }
