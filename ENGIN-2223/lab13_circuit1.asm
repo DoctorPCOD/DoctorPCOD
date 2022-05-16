@@ -8,16 +8,16 @@
 ; AUTHOR : Alyssa J. Pasquale, Ph.D.
 ;
 
-JMP main
-
-main:
+; setup subroutine starts here
 ; CONFIGURE PORTB BIT 0 (PIN D8) AS OUTPUT
 SBI	DDRB, 0
-; CLEAR PORTB BIT 0
-CBI PORTB, 0
 
+; loop subroutine starts here
+loop:
 ; INPUT DATA FROM PIND REGISTER
 IN r16, PIND
+; MASK DATA FROM PIND REGISTER
+ANDI r16, 0x80
 
 ; COMPARE REGISTER 16 TO 0x80
 CPI r16, 0x80
@@ -27,13 +27,12 @@ BRSH turn_on_led
 ; OTHERWISE, TURN OFF THE LED
 turn_off_led:
 CBI PORTB, 0
-; JUMP TO THE END, SKIP THE TURN ON LED SECTION
-JMP end
+; JUMP TO THE START OF THE LOOP
+JMP loop
 
 ; THIS IS THE TURN ON LED CODE
 turn_on_led:
 SBI PORTB, 0
 
 ; TELL THE CODE TO REPEAT AGAIN FROM THE BEGINNING OF main
-end:
-JMP main
+JMP loop
