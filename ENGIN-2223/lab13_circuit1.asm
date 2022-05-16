@@ -10,7 +10,7 @@
 
 ; setup subroutine starts here
 ; CONFIGURE PORTB BIT 0 (PIN D8) AS OUTPUT
-SBI	DDRB, 0
+SBI DDRB, 0
 
 ; loop subroutine starts here
 loop:
