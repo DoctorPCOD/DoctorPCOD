@@ -4,7 +4,7 @@
     numerals 0-9 on a 7-segment common-cathode display
   By: Alyssa J. Pasquale, Ph.D.
   Written: October 1, 2017
-  Edited: November 19, 2021
+  Edited: May 18, 2022
   I/O Pins
   A0:
   A1:
@@ -29,10 +29,8 @@
 */
 
 void setup() {
-  // configure SCK, MOSI and SS as output pins
-  DDRB = 0x2C;
-  // write secondary select high (inhibits data transfer)
-  PORTB |= 0x04;
+  DDRB = 0x2C;   // SCK, MOSI, SS are output pins
+  PORTB |= 0x04; // SS high
 
   cli();
   // Enable SPI, LSB first, primary mode, default prescaler
@@ -52,15 +50,11 @@ void loop() {
 }
 
 void writeSPI(unsigned char dataToWrite) {
-  // SS pin LOW (enable write)
-  PORTB &= 0xFB;
-
-  // Data will transfer when SPDR is written to
+  PORTB &= 0xFB; // enable SPI write
   SPDR = dataToWrite;
 
   // Wait until transfer is complete
-  while (!(SPSR & (1 << 7)));
+  while (!(SPSR & (1 << SPIF)));
 
-  // SS pin HIGH (disable write)
-  PORTB |= 0x04;
+  PORTB |= 0x04; // disable SPI write
 }
