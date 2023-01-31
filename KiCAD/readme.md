@@ -5,6 +5,9 @@
 - 16-segment display PCB
 
 # How to install:
+1. Download ZIP file
+2. Unzip the file
+3. 
 
 ## Last update:
 2023-01-31
