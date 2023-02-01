@@ -7,7 +7,14 @@
 # How to install:
 1. Download ZIP file
 2. Unzip the file
-3. 
+3. Open KiCad
+4. Click on Symbol Editor
+5. Go to file -> add library...
+6. Navigate to the unzipped file, click on open
+7. When you create a schematic file, you will be able to access the new symbols, which are listed in the **Pasquale** library
+
+# Request a part:
+Contact Dr. P!
 
 ## Last update:
 2023-01-31
