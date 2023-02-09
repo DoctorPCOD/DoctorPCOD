@@ -19,7 +19,7 @@ The hardware consisted of a pushbutton connected to pin `A5`. The pushbutton was
 
 This code was provided to us to use by Dr. P. First, the code establishes the address locations for the `RESET` and `PINCHANGE1` interrupt routines. This is important so the code knows where to go when `PINCHANGE1` is triggerred by the pushbutton. 
 
-The setup configures each I/O pin. The pins connected to the DIP switch have their corresponding `PORTx` register locations written HIGH to enable the internal pull-ups. The pins connected to the LEDs are configured as output pins using `DDRx`. Finally, the setup configures the `PCICR` and `PCMSK1` registers to configure the pin-change interrupt. 
+The setup configures each I/O pin. The pins connected to the DIP switch have their corresponding `PORTx` register locations written HIGH to enable the internal pull-ups. The pins connected to the LEDs are configured as output pins using `DDRx`. (Note that the pushbutton does not require configuring because it is an input device and has an external pull-down, so there is no need to enable an internal pull-up.) Finally, the setup configures the `PCICR` and `PCMSK1` registers to configure the pin-change interrupt. 
 
 The text of the `PINCHANGE1` interrupt service routine reads data from `PIND` (DIP switch) and inverts (because the internal pull-ups cause the DIP switch to be active-LOW) and stores in GP register `r16` and `r17`. The data from `r16` is masked and written onto `PORTB`, where six of the LEDs are located. The data from `r17` is shifted right six times and written onto `PORTC` where the two most-significant LEDs are located. Finally, `RETI` is used to return from interrupt once all of this has been completed.
 
