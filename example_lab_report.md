@@ -27,6 +27,8 @@ Note that the loop function causes an infinite loop where "nothing" happens. All
 
 # Circuit Diagrams
 
+(https://github.com/DoctorPCOD/DoctorPCOD/blob/main/example_lab_schematic.png)
+
 # Challenges
 
 We initally weren't sure how to get the code to load onto the Arduino using Atmel Studio. We had to re-read the instructions online to remind ourselves how to configure the ports, and where to put the double quotes. In circuit IV, we had difficulty determining when there was an overflow in the sum register. My lab partner and I had to consider what binary (hex) value would lead to an overflow, and then create comparison logic using assembly to find that condition. 
