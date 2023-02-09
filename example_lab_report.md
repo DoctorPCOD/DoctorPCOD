@@ -27,7 +27,7 @@ Note that the loop function causes an infinite loop where "nothing" happens. All
 
 # Circuit Diagrams
 
-(https://github.com/DoctorPCOD/DoctorPCOD/blob/main/example_lab_schematic.png)
+![Circuit Diagram](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/example_lab_schematic.png)
 
 # Challenges
 
