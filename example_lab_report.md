@@ -21,7 +21,7 @@ This code was provided to us to use by Dr. P. First, the code establishes the ad
 
 The setup configures each I/O pin. The pins connected to the DIP switch have their corresponding `PORTx` register locations written HIGH to enable the internal pull-ups. The pins connected to the LEDs are configured as output pins using `DDRx`. Finally, the setup configures the `PCICR` and `PCMSK1` registers to configure the pin-change interrupt. 
 
-The text of the `PINCHANGE1` interrupt service routine reads data from `PIND` (DIP switch) and inverts (because the internal pull-ups cause the DIP switch to be active-LOW) and stores in GP register `r16` and `r17`. The data from `r16` is masked and written onto `PORTB`, where six of the LEDs are located. The data from `r17` is shifted right six times and written onto `PORTC` where the two most-significant LEDs are located.
+The text of the `PINCHANGE1` interrupt service routine reads data from `PIND` (DIP switch) and inverts (because the internal pull-ups cause the DIP switch to be active-LOW) and stores in GP register `r16` and `r17`. The data from `r16` is masked and written onto `PORTB`, where six of the LEDs are located. The data from `r17` is shifted right six times and written onto `PORTC` where the two most-significant LEDs are located. Finally, `RETI` is used to return from interrupt once all of this has been completed.
 
 Note that the loop function causes an infinite loop where "nothing" happens. All of the functionality of the circuit takes place in the `PINCHANGE1` interrupt service routine.
 
