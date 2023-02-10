@@ -44,7 +44,7 @@ void loop()
   // Writes each segment encoding to PORTD with a half-second delay in between each numeral
   // Note the use of assignment operator (rather than bitwise) because we are knowingly changing *every* bit in port D
   for (unsigned char j = 0; j < n; j++) {
-    // selectively clear the segment pins here
+    // you need to insert a line of code here to selectively clear the segment pins
     PORTD |= numArray[j];
     _delay_ms(500);
   }
