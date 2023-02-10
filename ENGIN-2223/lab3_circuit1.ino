@@ -3,7 +3,7 @@
   Display digits 0-F on a (common-cathode or common-anode) 7-segment display
   By: Alyssa J. Pasquale, Ph.D.
   Written: June 5, 2017
-  Edited: November 17, 2021
+  Edited: February 10, 2023
   I/O Pins
   A0:
   A1:
@@ -44,7 +44,8 @@ void loop()
   // Writes each segment encoding to PORTD with a half-second delay in between each numeral
   // Note the use of assignment operator (rather than bitwise) because we are knowingly changing *every* bit in port D
   for (unsigned char j = 0; j < n; j++) {
-    PORTD = numArray[j];
+    // selectively clear the segment pins here
+    PORTD |= numArray[j];
     _delay_ms(500);
   }
 }
