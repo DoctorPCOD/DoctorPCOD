@@ -2,6 +2,7 @@
 - 74279 (S'R' Latch)
 - 27C1024 (EPROM 64k x 16)
 - Keypad / encoder PCB
+- Debounced pushbutton PCB
 - 16-segment display PCB
 
 # How to install:
@@ -16,5 +17,6 @@
 # Request a part:
 Contact Dr. P!
 
-## Last update:
-2023-01-31
+## Updates:
+2023-03-18: added debounced pushbutton PCB
+2023-01-31: created library
