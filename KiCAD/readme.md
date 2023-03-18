@@ -18,5 +18,5 @@
 Contact Dr. P!
 
 ## Updates:
-2023-03-18: added debounced pushbutton PCB
-2023-01-31: created library
+- 2023-03-18: added debounced pushbutton PCB
+- 2023-01-31: created library
