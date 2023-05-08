@@ -54,6 +54,6 @@
   - [Circuit 3](https://classroom.github.com/a/WFBu7xdQ)
 
 # Smart Car GitHub Links
-- Barrier Demo
-- Line Demo
-- Final Demo
+- [Barrier Demo](https://classroom.github.com/a/fbKU8o77)
+- [Line Demo](https://classroom.github.com/a/GzD6qULr)
+- [Final Demo](https://classroom.github.com/a/6lcpidx1)
