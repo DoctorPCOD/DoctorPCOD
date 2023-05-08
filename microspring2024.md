@@ -14,44 +14,44 @@
   - [Circuit 2](https://classroom.github.com/a/Eq1uBxGZ)
 
 # Lab GitHub Links
-- Lab 1 (Circuit 3)
+- [Lab 1 (Circuit 3)](https://classroom.github.com/a/3OLrUIuZ)
 - Lab 2
-  - Circuit 1b
-  - Circuit 2
-  - Circuit 3
+  - [Circuit 1b](https://classroom.github.com/a/U2r147As)
+  - [Circuit 2](https://classroom.github.com/a/QL540zsW)
+  - [Circuit 3](https://classroom.github.com/a/apgNvTCX)
 - Lab 3
-  - Circuit 2
-  - Circuit 3
+  - [Circuit 2](https://classroom.github.com/a/xI8aCTAr)
+  - [Circuit 3](https://classroom.github.com/a/-E2kKwh3)
 - Lab 4
-  - Circuit 1
-  - Circuit 2
-  - Circuit 3
+  - [Circuit 1](https://classroom.github.com/a/kttwLpYg)
+  - [Circuit 2](https://classroom.github.com/a/3runLT_L)
+  - [Circuit 3](https://classroom.github.com/a/D3ysU0wK)
 - Lab 5
-  - Circuit 2
-  - Circuit 3
+  - [Circuit 2](https://classroom.github.com/a/dD6_oz2t)
+  - [Circuit 3](https://classroom.github.com/a/Wo2TLKJb)
 - Lab 6
-  - Circuit 1
-  - Circuit 2
+  - [Circuit 1](https://classroom.github.com/a/dUZQsiwX)
+  - [Circuit 2](https://classroom.github.com/a/JnxAar6I)
 - Lab 7
-  - Circuit 1
-  - Circuit 2
-  - Circuit 3
+  - [Circuit 1](https://classroom.github.com/a/IxDV1zFZ)
+  - [Circuit 2](https://classroom.github.com/a/GDSywRPG)
+  - [Circuit 3](https://classroom.github.com/a/CW7xFnbK)
 - Lab 8
-  - Circuit 2
-  - Circuit 3
+  - [Circuit 2](https://classroom.github.com/a/RNUw4pa0)
+  - [Circuit 3](https://classroom.github.com/a/fea7peY9)
 - Lab 9
-  - Circuit 2
-  - Circuit 3
+  - [Circuit 2](https://classroom.github.com/a/kcjZE4so)
+  - [Circuit 3](https://classroom.github.com/a/emiCez6H)
 - Lab 11
-  - Circuit 1
-  - Circuit 2
+  - [Circuit 1](https://classroom.github.com/a/y4bekgZU)
+  - [Circuit 2](https://classroom.github.com/a/_48R-kvQ)
 - Lab 12
-  - Circuit 1
-  - Circuit 2
-  - Circuit 3
+  - [Circuit 1](https://classroom.github.com/a/2HzyQDGF)
+  - [Circuit 2](https://classroom.github.com/a/eNIr_UuH)
+  - [Circuit 3](https://classroom.github.com/a/EZ494LbT)
 - Lab 13
-  - Circuit 2
-  - Circuit 3
+  - [Circuit 2](https://classroom.github.com/a/Rx-ynFhq)
+  - [Circuit 3](https://classroom.github.com/a/WFBu7xdQ)
 
 # Smart Car GitHub Links
 - Barrier Demo
