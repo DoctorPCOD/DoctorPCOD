@@ -1,17 +1,17 @@
 # Activity GitHub Links
 - [Activity 2](https://classroom.github.com/a/GXaak9Wu)
-- Activity 5
+- [Activity 5](https://classroom.github.com/a/CyieluVY)
 - Activity 6
-  - Circuit 1
-  - Circuit 2
-- Activity 10 (Question 6)
-- Activity 11
+  - [Circuit 1](https://classroom.github.com/a/IrstQLHO)
+  - [Circuit 2](https://classroom.github.com/a/0nklBw5k)
+- [Activity 10 (Question 6)](https://classroom.github.com/a/J9Gh5ERc)
+- [Activity 11](https://classroom.github.com/a/m_ZxL_0a)
 - Activity 13
-  - Daisy-Chained Secondary
-  - Independent Secondary
+  - [Daisy-Chained Secondary](https://classroom.github.com/a/ZyY0HsRW)
+  - [Independent Secondary](https://classroom.github.com/a/zk7DBMfI)
 - Activity 15
-  - Circuit 1
-  - Circuit 2
+  - [Circuit 1](https://classroom.github.com/a/VxIxsjy3)
+  - [Circuit 2](https://classroom.github.com/a/Eq1uBxGZ)
 
 # Lab GitHub Links
 - Lab 1 (Circuit 3)
