@@ -1,0 +1,523 @@
+%%%%%%%%%% HEADER & FOOTER %%%%%%%%%%
+\renewcommand{\labNumber}{9}
+\renewcommand{\labName}{Inductors and RL Circuits}
+
+%%%%%%%%% PRE-LAB %%%%%%%%%
+\preLab
+
+\begin{enumerate}
+
+
+\item Read lab Circuit~1. You will be asked to build an RL circuit with a time constant of $\approx$500~$\mu$s. Use equation~\ref{eq:lab9tau} to assist you in your calculations.
+\begin{enumerate}
+	\item Calculate the value of $L$ required to obtain this response.
+	\vspace*{\stretch{1}}
+	
+	\item Draw a circuit diagram of how you will obtain this inductance using choke inductors that are 100~mH and 50~mH.
+	\vspace*{\stretch{1}}	
+\end{enumerate}
+
+\item In the lab homework, you will be asked to calculate an equation for lab Circuit~1 based on your measured parameters. Derive an equation (in symbolic form) for $i(t)$ based on $v(0)$, $\tau$, and any measured resistor values.
+\vspace*{\stretch{1}}	
+
+
+
+\clearpage
+
+
+\item Read lab Circuit~2 and Circuit~3. 
+\begin{enumerate}
+	\item Will the presence of an iron core in lab Circuit~3 increase or decrease the inductance of the solenoid?
+	\vspace*{\stretch{1}}
+	
+	\item When the iron core is present in the solenoid, what should happen (qualitatively) to the value of $\tau$?
+	\vspace*{\stretch{1}}
+	
+	\item Derive an equation (in symbolic form) for $\tau$ based on $L$, $R_L$, and $R$.
+	\vspace*{\stretch{1}}
+\end{enumerate}
+
+\clearpage
+
+\item Read lab Circuit~4. You will be asked to build an RL circuit with a time constant of $\approx$1~ms. Use equation~\ref{eq:lab9tau} to assist you in your calculations.
+\begin{enumerate}
+	\item Calculate the value of $L$ required to obtain this response.
+	\vspace*{\stretch{1}}
+
+	\item Draw a circuit diagram of how you will obtain this inductance using choke inductors that are 100~mH and 50~mH.
+	\vspace*{\stretch{1}}
+
+	\item Draw a sketch of the expected voltage output when the switch closes. (The time constant does not need to be perfect, but draw the expected initial value of the voltage and the expected final value of the voltage, and either an increasing or decreasing exponential, depending on the circuit.)
+	\vspace*{\stretch{1}}
+\end{enumerate}
+
+\item In the lab homework, you will be asked to calculate an equation for lab Circuit~4 based on your measured parameters. Derive an equation (in symbolic form) for $i(t)$ based on $v(0)$, $v(\infty)$, $\tau$, and any measured resistor values.
+\vspace*{\stretch{1}}	
+
+
+\end{enumerate}
+\cleardoublepage
+
+%%%%%%%%% IN-LAB %%%%%%%%%
+\begin{center}
+	\section*{Lab \labNumber: \labName}
+\end{center}
+In this lab, we will learn about inductors, which in addition to resistors and capacitors are important passive electric components.
+\vspace{0.25cm}
+
+\begin{equipment}
+
+For lab resources and information, go to the following URL or scan the QR code.
+\href{https://doctor-pasquale.com/circuit-analysis-lab-9}{doctor-pasquale.com/circuit-analysis-lab-9}
+\tcblower
+\includegraphics[width=\textwidth]{qr/lab9.png}
+\end{equipment}
+
+
+
+%%%%%%%%%%%%%%%%
+\subsection{Inductors}
+Inductors are coils of wire that induce a magnetic field. While a capacitor can store and release energy in the form of an electric field, an inductor can store and release energy in the form of a magnetic field. This ability to store magnetic energy is known as inductance, which has a symbol of $L$ and units of henrys (H). 
+
+\subsubsection{Inductors in Series \& Parallel}
+
+As described and derived in the Circuit Analysis textbook, connecting inductors in series causes the equivalent inductance of a circuit to increase, following equation~\ref{eq:lab9indseries}.
+\begin{gather}
+	L_{EQ} = \sum_i L_i
+	\label{eq:lab9indseries}
+\end{gather}
+
+When inductors are connected in parallel, the result is that the equivalent inductance of a circuit decreases, following equation~\ref{eq:lab9indparallel}.
+\begin{gather}
+	\frac{1}{L_{EQ}} = \sum_i \frac{1}{L_i}
+	\label{eq:lab9indparallel}
+\end{gather}
+
+
+Note that these relationships are the same as the series and parallel resistance relationships! As with resistors, it is possible that an inductive circuit may consist of a combination of series and parallel elements.
+
+\subsubsection{Voltage-Current Relationship}
+Inductors have a relationship between voltage and current that is similar to that of a capacitor, and greatly different from that of a resistor. Calculus is required to obtain a full understanding of the I-V properties. The voltage drop over an inductor is defined by equation~\ref{eq:lab9voltageinductor}.
+\begin{gather}
+	v(t) = L\frac{di(t)}{dt}
+	\label{eq:lab9voltageinductor}
+\end{gather}
+
+\subsubsection{Parasitic Effects}
+
+Because an inductor is formed from many turns of wire, and wire is made of an imperfect conductor, inductors contain a parasitic resistance, which cannot always be ignored in analyzing and designing circuits. The model of a real inductor therefore consists of an inductor in series with a resistor. Parasitic resistance can be measured with an ohmmeter.
+
+%%%%%%%%%%%%%%%%
+\subsection{RL Circuit Discharging Transient Response}
+If an inductor has a stored magnetic field, and is connected in parallel with a resistor, current will flow through the circuit until it decreases to zero. The discharging response is defined by equation~\ref{eq:lab9discharging}, where $i(0)$ is the initial current flow through the inductor, and $\tau$ is the RL time constant defined by equation~\ref{eq:lab9tau}.
+\begin{gather}
+	i(t) = i(0^+)~\textrm{e}^{-t/\tau}~u(t) + i(0^-)~u(-t)
+	\label{eq:lab9discharging}
+\end{gather}
+
+The RL time constant, $\tau$, is defined by equation~\ref{eq:lab9tau}, where $R$ is the equivalent resistance seen by the inductor, and $L$ is the equivalent inductance. The RL time constant defines the amount of time it takes for the current has decayed to 36.79\% of its original value.
+\begin{gather}
+	\tau = \frac{L}{R}
+	\label{eq:lab9tau}
+\end{gather}
+
+\subsection{Using a Toggle Switch}
+
+A toggle switch will be used in a few of the circuits in this lab. A toggle switch has three terminals. Therefore, one of the toggle switch connections (labeled A in figures~\ref{fig:lab9toggle1} and~\ref{fig:lab9toggle2}) will not be connected to any part of the circuit.
+
+\subsubsection{Closing Switch}
+
+To create a closing switch, start with the toggle switch between terminals A and B. (A will be disconnected from the circuit.) When the switch is moved, it will complete the connection between terminals B and C, closing the switch. This is shown in figure~\ref{fig:lab9toggle1}.
+
+\begin{figure}[!ht]
+	\begin{circuitikz}[font=\sffamily]
+		\draw[]	(0,0) node[left] {B} to [spst, o-o]	(2,0) node[right] {C};
+		\fill[white]	(0,-1.5) rectangle (0.1,-0.9);
+	\end{circuitikz}
+	\hspace{1cm}
+	\begin{circuitikz}[font=\sffamily]
+		\draw[fill=black]		(0,0) rectangle		(2,0.75);
+		\draw[fill=black]		(0.5,0.75) rectangle	(1,1.2);
+		\node[align=left, anchor=west] at (1.25,1) {$\rightarrow$};
+		\draw[]	(0.25,0) --++ (down:1) node[below] {A};
+		\draw[]	(1.00,0) --++ (down:1) node[below] {B};
+		\draw[]	(1.75,0) --++ (down:1) node[below] {C};
+	\end{circuitikz}
+	\caption{Closing a toggle switch, as described by a circuit diagram (left) and the actual toggle switch (right).}
+	\label{fig:lab9toggle1}
+\end{figure}
+
+
+\subsubsection{Opening Switch}
+
+To create an opening switch, start with the toggle switch between terminals B and C. (A will be disconnected from the circuit.) When the switch is moved, it will disconnect the two terminals from each other, opening the switch. This is shown in figure~\ref{fig:lab9toggle2}.
+
+\begin{figure}[!ht]
+	\begin{circuitikz}[font=\sffamily]
+		\draw[]	(0,0) node[left] {B} to [ospst, o-o]	(2,0) node[right] {C};
+		\fill[white]	(0,-1.5) rectangle (0.1,-0.9);
+	\end{circuitikz}
+	\hspace{1cm}
+	\begin{circuitikz}[font=\sffamily]
+		\draw[fill=black]		(0,0) rectangle		(2,0.75);
+		\draw[fill=black]		(1,0.75) rectangle	(1.5,1.2);
+		\node[align=right, anchor=east] at (0.75,1) {$\leftarrow$};
+		\draw[]	(0.25,0) --++ (down:1) node[below] {A};
+		\draw[]	(1.00,0) --++ (down:1) node[below] {B};
+		\draw[]	(1.75,0) --++ (down:1) node[below] {C};
+	\end{circuitikz}
+	\caption{Opening a toggle switch, as described by a circuit diagram (left) and the actual toggle switch (right).}
+	\label{fig:lab9toggle2}
+\end{figure}
+
+\clearpage
+
+
+
+\newCircuit~In the pre-lab, you determined the inductor values necessary to build an RL circuit with a time constant equal to $\approx$500~$\mu$s. Measure the actual value of the inductance and record it in table~\ref{tab:lab9table1} as $L_{REAL}$. 
+
+Use an ohmmeter to measure the parasitic resistance of the inductor and record it in table~\ref{tab:lab9table1} as $R_L$. (The parasitic resistance of the inductor is not explicitly shown on the circuit diagram!) The value of resistor $R_1$ below should be equal to $400~\Omega - R_L$. Record the \textbf{measured} value of this resistor in table~\ref{tab:lab9table1}. Measure the value of the 50~$\Omega$ resistor, and record it in table~\ref{tab:lab9table1}, to assist in homework calculations.
+
+\begin{table}[!ht]
+	\niceTable
+	\begin{tabular} {L{2.5cm} | L{2.5cm} }
+		\textbf{Parameter} 	& \textbf{Value}	\\
+		\hline
+		Lreal				&			\\
+		\hline
+		RL				&			\\
+		\hline
+		R1				&			\\
+		\hline
+		R50				&			\\
+		\hline
+	\end{tabular}
+	\caption{Circuit 1 data table.}
+	\label{tab:lab9table1}
+\end{table}
+
+
+Build the circuit, as shown in figure~\ref{fig:lab9circuit1diagram}, and display the output on the oscilloscope. (A resistor is used to measure voltage because there are no current probes for the oscilloscope. Instead of measuring current directly, we are measuring it indirectly.)
+
+\begin{figure}[!ht]
+	\begin{circuitikz}[font=\sffamily]
+		\draw[]	(0,3) to [V, l_=2~V]						(0,0);
+		\draw[]	(0,3) to [R, l^=10~$\Omega$]				(2.5,3);
+		\draw[]	(2.5,3) to [R, l_=10~$\Omega$, *-*]			(2.5,0);
+		\draw[]	(2.5,3) to [R, l^=10~$\Omega$]				(5,3);
+		\draw[]	(5,3) to [ospst]							(7,3);
+		\draw[]	(7,3) to [L, l_=L, *-]						(7,1.5);
+		\draw[]	(7,1.5) to [R, l_=R1, v^>=v(t), -*]			(7,0);
+		\draw[]	(7,3) to [short]							(9.5,3);
+		\draw[]	(9.5,3) to [R, l_=50~$\Omega$]				(9.5,0);
+		\draw[]	(0,0) to [short]							(9.5,0);
+	\end{circuitikz}
+	\caption{Lab 9 circuit 1 diagram.}
+	\label{fig:lab9circuit1diagram}
+\end{figure}
+
+Record output values $v(0^+)$, $v(\tau)$, $v(\infty)$, and $\tau$ in table~\ref{tab:lab9table1output}. Use equation~\ref{eq:lab9discharging} to calculate $v(\tau)$. 
+
+\begin{table}[!ht]
+	\niceTable
+	\begin{tabular} {L{2.5cm} | L{2.5cm} }
+		\textbf{Parameter} 	& \textbf{Value}	\\
+		\hline
+		v(0+)				&			\\
+		\hline
+		v($\tau$)			&			\\
+		\hline
+		v($\infty$)			&			\\
+		\hline
+		$\tau$			&			\\
+		\hline
+	\end{tabular}
+	\caption{Circuit 1 output values.}
+	\label{tab:lab9table1output}
+\end{table}
+
+Use a toggle switch and set the oscilloscope to trigger on a single falling edge. Place one cursor at $v(0)$ and the other at $v(\tau)$. You should see that the time between these two cursors is approximately 500~$\mu$s. If not, check your circuit diagram and double check your component values with your instructor before proceeding. When you have achieved the correct output response, demonstrate to your instructor to receive a stamp.
+
+\vspace*{\stretch{1}}	
+\stampHere
+\clearpage
+
+%%%%%%%%%%%%%%%%
+\subsection{RL Circuit Charging Transient Response}
+The charging transient response of an RL circuit refers to how the output changes in response to an abrupt increase in voltage or current. The equation that describes the charging transient response of an RL circuit is defined by equation~\ref{eq:lab9charging} (assuming no initial current flow through the inductor), where $i(\infty)$ is the steady-state current flowing through the inductor, and $\tau$ is defined by equation~\ref{eq:lab9tau}. In the case of a charging RL circuit, $\tau$ defines the amount of time it takes for the current to reach 63.21\% of its final value.
+\begin{gather}
+	i(t) = i(\infty)~\left[1-\textrm{e}^{-t/\tau}\right]~u(t)
+	\label{eq:lab9charging}
+\end{gather}
+
+\lineSep
+
+
+\newCircuit~Use the function generator to create a square wave with a frequency of approximately 10~Hz as shown in figure~\ref{fig:lab9circuit2}. Because current cannot be measured directly on the oscilloscope, the voltage over a resistor will be measured instead. Ohm's law can be used to calculate the current through the inductor.
+
+\begin{figure}[!ht]
+	\begin{circuitikz}[font=\sffamily]
+		\draw[]	(0,2.5) to [sqV, l_=0--5~V]					(0,0);
+		\draw[]	(0,2.5) to [L, l^=L, i^>=i(t)]					(2.5,2.5);
+		\draw[]	(2.5,2.5) to [R, l_=1~k$\Omega$, v^>=v(t)]	(2.5,0);
+		\draw[]	(0,0) to [short]							(2.5,0);
+	\end{circuitikz}
+	\caption{Lab 9 circuit 2 diagram. Use the very large solenoid as the inductor.}
+	\label{fig:lab9circuit2}
+\end{figure}
+
+Build the circuit using a 1~k$\Omega$ resistor (over which you will measure the output voltage) and one of the very large solenoids. Measure the actual value of the resistor using an ohmmeter. Measure the parasitic resistance of the solenoid and record both values in table~\ref{tab:lab9data2}. 
+
+\begin{table}[!ht]
+	\niceTable
+	\begin{tabular} {L{2.5cm} | L{2.5cm} }
+		\textbf{Parameter} 	& \textbf{Value}	\\
+		\hline
+		R1k				&			\\
+		\hline
+		RL				&			\\
+		\hline
+	\end{tabular}
+	\caption{Circuit 2 data table.}
+	\label{tab:lab9data2}
+\end{table}
+
+Use equation~\ref{eq:lab9charging} to calculate the value of $v(\tau)$. Trigger the oscilloscope on a rising edge and place a cursor at $v(0)$ and at $v(\tau)$. The time difference between these two cursors is equal to the time constant $\tau$. Record all of these values in table~\ref{tab:lab9data2output}.
+
+\begin{table}[!ht]
+	\niceTable
+	\begin{tabular} {L{2.5cm} | L{2.5cm} }
+		\textbf{Parameter} 	& \textbf{Value}	\\
+		\hline
+%		v(0+)				&			\\
+%		\hline
+		v($\tau$)			&			\\
+		\hline
+		v($\infty$)			&			\\
+		\hline
+		$\tau$			&			\\
+		\hline
+	\end{tabular}
+	\caption{Circuit 2 output values.}
+	\label{tab:lab9data2output}
+\end{table}
+
+When you have finished recording data, demonstrate your results to your instructor to receive a stamp.
+
+\vspace*{\stretch{1}}
+\stampHere
+\clearpage
+
+
+\newCircuit~Repeat the above experiment, but this time with \textbf{one} iron core inserted entirely into the solenoid. Otherwise: the circuit diagram remains exactly the same! Use equation~\ref{eq:lab9charging} to calculate the value of $v(\tau)$. Trigger the oscilloscope on a rising edge and place a cursor at $v(0)$ and at $v(\tau)$. The time difference between these two cursors is equal to the time constant $\tau$. Record these values in table~\ref{tab:lab9data3output}.
+
+\begin{table}[!ht]
+	\niceTable
+	\begin{tabular} {L{2.5cm} | L{2.5cm} }
+		\textbf{Parameter} 	& \textbf{Value}	\\
+%		\hline
+%		v(0+)				&			\\
+		\hline
+		v($\tau$)			&			\\
+		\hline
+		v($\infty$)			&			\\
+		\hline
+		$\tau$			&			\\
+		\hline
+	\end{tabular}
+	\caption{Circuit 3 output values.}
+	\label{tab:lab9data3output}
+\end{table}
+
+When you have finished recording data, demonstrate your results to your instructor to receive a stamp.
+
+\stampHere
+\lineSep
+
+
+\subsection{RL Circuit General Transient Response}
+
+In general, an RL circuit may have an initial value $i(0)$ and a final value $i(\infty)$ that are not both zero (not a fully discharging circuit, nor a charging from zero circuit). This is called the general RL transient response and is the most general form of the transient. (In other words, this analysis and equation can be used all the time, rather than in specific situations as with the discharging or charging cases.) The current flowing through the inductor is defined by equation~\ref{eq:lab9general}, where $i(0)$ is the initial current flow through the inductor, $i(\infty)$ is the steady-state current flow through the inductor, and $\tau$ is defined by equation~\ref{eq:lab9tau}.
+\begin{gather}
+	i(t) = \left[i(\infty) + (i(0^+) - i(\infty)) \textrm{e}^{-t/\tau}\right]~u(t) + i(0^-)~u(-t)
+	\label{eq:lab9general}
+\end{gather}
+
+In the general case, $\tau$ describes the amount of time it takes the current to reach a value given by equation~\ref{eq:lab9itau}.
+\begin{gather}
+	i(\tau) = 0.6321i(\infty) + 0.3679i(0^+).
+	\label{eq:lab9itau}
+\end{gather}
+\clearpage
+
+
+\newCircuit~In the pre-lab, you determined the inductor values necessary to build an RL circuit with a time constant equal to 1~ms. Measure the actual value of your inductor, and record it in table~\ref{tab:lab9table4} as $L_{REAL}$. 
+
+Use an ohmmeter to measure the resistance of the inductor and record it as $R_L$. (The parasitic resistance of the inductor is not explicitly shown on the circuit diagram!) The value of resistor $R_1$ below should be equal to $100~\Omega - R_L$. Record the \textbf{measured} value of this resistor in table~\ref{tab:lab9table4}. To assist with your calculations in the lab homework, you will also measure the actual values of the 47~$\Omega$ and 18~$\Omega$ resistors.
+
+\begin{table}[!ht]
+	\niceTable
+	\begin{tabular} {L{2.5cm} | L{2.5cm} }
+		\textbf{Parameter} 	& \textbf{Value}	\\
+		\hline
+		Lreal				&			\\
+		\hline
+		RL				&			\\
+		\hline
+		R1				&			\\
+		\hline
+		R47				&			\\
+		\hline
+		R18				&			\\
+		\hline
+	\end{tabular}
+	\caption{Circuit 4 data table.}
+	\label{tab:lab9table4}
+\end{table}
+
+
+Build the circuit shown in figure~\ref{fig:lab9circuit4} and display the output on the oscilloscope. 
+
+\begin{figure}[!ht]
+	\begin{circuitikz}[font=\sffamily]
+		\draw[]	(0,3) to [V, l_=4~V]					(0,0);
+		\draw[]	(0,3) to [R, l^=47~$\Omega$]			(2.5,3);
+		\draw[]	(2.5,3) to [L, l_=L, *-]					(2.5,1.5);
+		\draw[]	(2.5,1.5) to [R, l_=R1, v^>=v(t), -*]		(2.5,0);
+		\draw[]	(2.5,3) to [spst]						(5,3);
+		\draw[]	(5,3) to [R, l_=18~$\Omega$]			(5,0);
+		\draw[]	(0,0) to [short]						(5,0);
+	\end{circuitikz}
+	\caption{Lab 9 circuit 4 diagram.}
+	\label{fig:lab9circuit4}
+\end{figure}
+
+Record $v(0^+)$, $v(\infty)$, $v(\tau)$, and $\tau$ in table~\ref{tab:lab9table4output}. Use equation~\ref{eq:lab9itau} to calculate $v(\tau)$. When the circuit has the correct time constant (1~ms), demonstrate the output waveform to your instructor to receive a stamp.
+
+\begin{table}[!ht]
+	\niceTable
+	\begin{tabular} {L{2.5cm} | L{2.5cm} }
+		\textbf{Parameter} 	& \textbf{Value}	\\
+		\hline
+		v(0+)				&			\\
+		\hline
+		v($\tau$)			&			\\
+		\hline
+		v($\infty$)			&			\\
+		\hline
+		$\tau$			&			\\
+		\hline
+	\end{tabular}
+	\caption{Circuit 4 output values.}
+	\label{tab:lab9table4output}
+\end{table}
+
+\vspace*{\stretch{1}}
+\stampHere
+\cleardoublepage
+%%%%%
+
+
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%% HOMEWORK %%%%%%%%%
+\labHomework
+
+\begin{enumerate}
+
+\item Based on your measurements in Circuit~1, and the symbolic equation you derived in question~2 of the pre-lab, derive an equation for $i(t)$ for your circuit. Use a calculator to format your equation in the form given in equation~\ref{eq:lab9discharging}, do not leave terms in fractional form. (Assuming you used the oscilloscope correctly in lab, you can use your measured value of $\tau$ from table~\ref{tab:lab9table1output}. Otherwise, you can calculate it from your passive component values.)
+\vspace*{\stretch{1}}
+
+
+\item The following questions pertain to lab Circuits~2 and 3. You will also need to refer to equation~\ref{eq:lab9tau}, as well as the equation that you derived in pre-lab question~3~(c).
+
+\begin{enumerate}
+	\item Calculate the value of the inductance of the solenoid without the iron core. Be sure to account for the parasitic resistance in your calculation!
+	\vspace*{\stretch{1}}
+
+	\item Calculate the value of the inductance of the solenoid with the iron core. Be sure to account for the parasitic resistance in your calculation!
+	\vspace*{\stretch{1}}
+\end{enumerate}
+
+\item Based on your measurements in Circuit~4, and the symbolic equation you derived in question~5 of the pre-lab, derive an equation for $i(t)$ for your circuit. Use a calculator to format your equation in the form given in equation~\ref{eq:lab9general}, do not leave terms in fractional form. (Assuming you used the oscilloscope correctly in lab, you can use your measured value of $\tau$ from table~\ref{tab:lab9table4output}. Otherwise, you can calculate it from your passive component values.)
+\vspace*{\stretch{1}}
+
+
+
+\clearpage
+
+\item Use your measurements of inductance and parasitic resistance in Circuits~1 and~4 to answer the following questions based on figure~\ref{fig:lab9hwcktdiagram}.
+
+\begin{figure}[!ht]
+	\begin{circuitikz}[font=\sffamily]
+		\draw[]	(0,0) to [I, l^=Is]					(0,2.5);
+		\draw[]	(0,2.5) to [ospst]				(2.5,2.5);
+		\draw[]	(2.5,2.5) to [L, l_=L, *-*, i^=i(t)]		(2.5,0);
+		\draw[]	(2.5,2.5) to [short]				(5,2.5);
+		\draw[]	(5,2.5) to [R, l_=R]				(5,0);
+		\draw[]	(0,0) to [short]					(5,0);
+	\end{circuitikz}
+	\caption{Lab 9 homework circuit diagram.}
+	\label{fig:lab9hwcktdiagram}
+\end{figure}
+
+\begin{enumerate}
+	\item How is $\tau$ affected by the parasitic resistance of the inductor? Does this cause the circuit to discharge faster or slower than an \say{ideal} circuit?
+	\vspace*{\stretch{1}}
+	
+	\item Let's say you need to modify the circuit in figure~\ref{fig:lab9hwcktdiagram} so that its time constant is as close to ideal as possible. You cannot change the solenoid, and you cannot change the resistor $R$ that's in parallel with it. What modification(s) can you make to the circuit that reduce(s) the effect of the parasitic resistance to get the time constant as close to ideal as possible?
+	\vspace*{\stretch{1}}
+\end{enumerate} 
+
+
+
+
+\end{enumerate}
+\cleardoublepage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
