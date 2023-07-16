@@ -5,16 +5,17 @@ Sometimes, in lab, you are provided with code to use to learn from, or as a temp
 2. (Optional) use CONTROL-T (command-T on Mac) to get nice clean auto-formatting
 3. Ensure that the Arduino is plugged in to the computer or laptop via USB
 4. Ensure that the Arduino IDE is using the correct board information
-   a. In the menu, select tools
-   b. Select boards
-   c. Select Arduino Uno
-5. Ensure that the Arduino IDE has the correct port for uploading code (see screenshot) -- select whichever port says Arduino Uno
-
-![screenshot showing how to select the correct port in Arduino IDE](https://doctor-pasquale.com/wp-content/uploads/2021/11/selecting-correct-port.png)
-
+    1. In the menu, select tools
+    2. Select boards
+    3. Select Arduino Uno
+5. Ensure that the Arduino IDE has the correct port for uploading code
+    1. In the menu, select tools
+    2. Select port
+    3. Select whichever port says Arduino Uno
 6. If unsure if the code will work, select Verify (checkmark icon or CONTROL-R)
-7. Before uploading code to the board, ensure that nothing is connected to pin `D0` and pin `D1`
-8. If you're sure that the code will work, select Upload (arrow icon or CONTROL-U)
+7. Ensure that your code is properly indented and formatted by using CONTROL-T
+8. Before uploading code to the board, ensure that nothing is connected to pin `D0` and pin `D1`
+9. If you're sure that the code will work, select Upload (arrow icon or CONTROL-U)
 
 # Checking program memory usage in Atmel/Microchip Studio
 ![screenshot showing how to check program memory usage in Atmel Studio](https://doctor-pasquale.com/wp-content/uploads/2022/06/Assembly-Program-Memory-Usage.png)
