@@ -1,4 +1,4 @@
-Following is an example lab report that I wrote for Lab 17. This should hopefully give you an example of how detailed to be when writing a lab report for ENGIN-2223. Note that it does not include text or schematics for every circuit, just one.
+Following is an example lab report that I wrote for Lab 17. This should hopefully give you an example of how detailed to be when writing a lab report for ENGIN-2223. Note that it does not include text or schematics for every circuit, just one. (Also note that the schematic is incorrect, as the LEDs do not all connect to ground -- oops!)
 
 # Introduction
 In this lab, the focus was learning to perform arthmetic operations on numbers that are more than 8 bits using AVR assembly. Specifically, we focused on addition. 
