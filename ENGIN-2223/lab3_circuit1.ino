@@ -35,7 +35,7 @@ void setup()
 
 void loop()
 {
-  // Define a constant value equal to the number of values in the array. Const must be used with array indexes. It will be covered in lab 4
+  // Define a constant value equal to the number of values in the array. Const must be used with array indexes. It will be covered in activity 4
   const unsigned char n = 16;
   // Define an array with display values for each numeral from 0-F
   // This data will come from Activity 4
