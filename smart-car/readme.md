@@ -1,17 +1,19 @@
 # Project Schedule
 
-Note the long gap between the plan and first demonstration. This is because we need to learn PWM before you can control the motor speed, which doesn't occur until midway through the semester. This is an ideal time to start gathering initial data from the Smart Car regarding the line sensors and whiskers (or ultrasonic sensors) and considering the overall plan of attack for the project.
+These dates are subject to change in case of school closings, global panedmics, or other unforeseen circumstances.
 
 | Description                                      | Week Due         | Points |
 | :------------------------------------------------| :----------------| :------|
 | Form design project groups                       | 2                |        |
 | Design plan                                      | 4                | 20     |
-| Barrier detection subsystem demonstration        | 10               | 20     |
+| Barrier detection subsystem demonstration        | 10[^1]           | 20     |
 | Barrier detection subsystem report               | 11               | 20     |
 | Line detection and speed subsystem demonstration | 12               | 20     |
 | Line detection and speed subsystem report        | 13               | 20     |
 | Smart Car invitational (final demonstrations)    | 15               | 100    |
 | Final project report                             | 16 (finals week) | 100    |
+
+[^1]: Note the long gap between the plan and first demonstration. This is because we need to learn PWM before you can control the motor speed, which doesn't occur until midway through the semester. This is an ideal time to start gathering initial data from the Smart Car regarding the line sensors and whiskers (or ultrasonic sensors) and considering the overall plan of attack for the project.
 
 # General Requirements
 
@@ -24,11 +26,11 @@ Note the long gap between the plan and first demonstration. This is because we n
 # Schematics
 
 Schematics must be created electronically. Following are suggestions of software you can use to create these. Use **schematics** view, not breadboard view! Be sure that all passive components (resistors, capacitors, etc.) are labeled.
-- [KiCad](https://www.kicad.org)[^1]
+- [KiCad](https://www.kicad.org)[^2]
 - [Eagle](https://www.autodesk.com/products/eagle/free-download)
 - Other software upon request, please ask me before using something else.
 
-[^1]: Refer to my [KiCad library](https://github.com/DoctorPCOD/DoctorPCOD/tree/main/KiCAD) for parts and other KiCad information.
+[^2]: Refer to my [KiCad library](https://github.com/DoctorPCOD/DoctorPCOD/tree/main/KiCAD) for parts and other KiCad information.
 
 All schematics should be easy to read without criss-crossed wires. Examples of good and bad schematics are shown below.
 
