@@ -44,6 +44,18 @@ All schematics should be easy to read without criss-crossed wires. Examples of g
 
 <img src="https://raw.githubusercontent.com/DoctorPCOD/DoctorPCOD/main/smart-car/good_schematic.png" alt="Example of a good schematic." width="400">
 
+# Code
+
+Each individual student must join the GitHub team to receive individual credit for the code portion of each report. When uploading code to GitHub for your smart car, do not upload multiple files for each subsystem. Remember that the point of GitHub is that it keeps track of changes, so you should keep the file name exactly the same, and just upload updated work as needed. For the barrier detection and line following subsystems, I want to see only **one** piece of code for each demonstration.
+
+For the final demonstration: The final code upload to GitHub can consist of no more than 4 individual pieces of code, labeled:
+- Line Following
+- Maze Demo
+- Enhancement 1
+- Enhancement 2
+
+Any excess code should not be uploaded. **I do not want to have to guess which file to grade in any of your reports.**
+
 # Rubrics
 
 ## Design Plan Rubric
