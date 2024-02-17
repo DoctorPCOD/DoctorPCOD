@@ -24,24 +24,27 @@ Note the long gap between the plan and first demonstration. This is because we n
 # Schematics
 
 Schematics must be created electronically. Following are suggestions of software you can use to create these. Use **schematics** view, not breadboard view! Be sure that all passive components (resistors, capacitors, etc.) are labeled.
-- [KiCad](https://www.kicad.org) (Refer to my [KiCad library](https://github.com/DoctorPCOD/DoctorPCOD/tree/main/KiCAD) for parts and other KiCad information.)
+- [KiCad](https://www.kicad.org)[^1]
 - [Eagle](https://www.autodesk.com/products/eagle/free-download)
 - Other software upon request, please ask me before using something else.
+[^1]: Refer to my [KiCad library](https://github.com/DoctorPCOD/DoctorPCOD/tree/main/KiCAD) for parts and other KiCad information.
 
 All schematics should be easy to read without criss-crossed wires. Examples of good and bad schematics are shown below.
 
 ## Bad Schematic :-(
 
-<img src="https://raw.githubusercontent.com/DoctorPCOD/DoctorPCOD/main/smart-car/bad_schematic.png" alt="Example of a bad schematic including cross-crossed wires." width="600">
+<img src="https://raw.githubusercontent.com/DoctorPCOD/DoctorPCOD/main/smart-car/bad_schematic.png" alt="Example of a bad schematic including cross-crossed wires." width="400">
 
 ## Good Schematic :-)
 
-![good schematic](https://raw.githubusercontent.com/DoctorPCOD/DoctorPCOD/main/smart-car/good_schematic.png)
+<img src="https://raw.githubusercontent.com/DoctorPCOD/DoctorPCOD/main/smart-car/good_schematic.png" alt="Example of a good schematic." width="400">
 
 # Rubrics
 
 ## Design Plan
 
-| Section | Description | Points |
-|---------|-------------|--------|
-
+| Section       | Description                                                 | Points |
+|---------------|-------------------------------------------------------------|--------|
+| Title Page    | Includes the report title, team name, and all member names. | 1      |
+| Introduction  | Describes what you will discuss in the report.              | 1      |
+| Block Diagram | Block diagram of all components used in your design, with arrows between them representing how each component communicates with the others. | 2 |
