@@ -54,3 +54,22 @@ All schematics should be easy to read without criss-crossed wires. Examples of g
 | Design Plan: Line Following    | Describe the functionality of the line following subsystem. List all of the hardware components that you will need, and indicate if it is [included in your kit or not](https://github.com/DoctorPCOD/DoctorPCOD/blob/00c3be4459fa94c144db6620eb977ca3518ce958/smart-car/kit_contents.md). Include information that you think you will need to know before you can get your project running. (eg: how will you know if the IR sensors are over tape or background?) Explain your plan for accessing the components and obtaining any values that you may need. | 5 |
 | Challenges                     | Describe any anticipated challenges with your design project, and how they may be addressed. | 1 |
 | Conclusion                     | Briefly describe the most notable things that were discussed in the report. | 1 |
+
+## Barrier Detection Demonstration
+
+-  The car will move forward autonomously in a small L-shaped maze. It will enter on one side and exit on the other side, making a right-hand turn. The car must be able to accomplish this in less than 10 seconds.
+-  The car will then travel through the L-shaped maze in the opposite direction, making a left-hand turn. The car must be able to accomplish this in less than 10 seconds.
+-  Half credit will be awarded if the car travels through the maze in either direction between 10 and 20 seconds.
+-  One quarter credit will be awarded if the car travels through the maze in either direction between 20 and 30 seconds.
+-  Two LEDs will be mounted somewhere on your car. One will light if there was a barrier to the right, and the other will light if there was a barrier to the left.
+
+### Due Date and Points
+
+All students in a group must be present to receive credit for a demonstration. You can demonstrate this any time up to and including the deadline of the last class day of the week given in the schedule above for full credit, and up to and including the last class day of the following week for half credit. No credit is possible after the late deadline, although you will still be responsible for making this subsystem work before the semester's end.
+
+| Demonstration                                                                                   | Points |
+| :-----------------------------------------------------------------------------------------------| :------|
+| Accomplished both left-hand and right-hand turns through the maze (within time limitation).     | 20     |
+| Accomplished only left-hand turn or only right-hand turn through maze (within time limitation). | 10     |
+
+The subsystem report will be due the last class day of the week given in the schedule above, regardless of when the demonstration was made. If your demo was late, your report will still be expected on time.
