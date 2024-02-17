@@ -44,8 +44,13 @@ All schematics should be easy to read without criss-crossed wires. Examples of g
 
 ## Design Plan
 
-| Section       | Description                                                 | Points |
-|---------------|-------------------------------------------------------------|--------|
-| Title Page    | Includes the report title, team name, and all member names. | 1      |
-| Introduction  | Describes what you will discuss in the report.              | 1      |
-| Block Diagram | Block diagram of all components used in your design, with arrows between them representing how each component communicates with the others. | 2 |
+| Section                        | Description                                                        | Points |
+| :------------------------------| :------------------------------------------------------------------| :------|
+| Title Page                     | Includes the report title, team name, and all member names.        | 1      |
+| Introduction                   | Describes what you will discuss in the report.                     | 1      |
+| Block Diagram                  | Block diagram of all components used in your design, with arrows between them representing how each component communicates with the others. | 2 |
+| Subsystem Flowcharts           | For each subsystem (barrier detection and line following) include a high-level flowchart of how you believe the it will work at this point. (You will add to this as you continue working on your project.) | 4 |
+| Design Plan: Barrier Detection | Describe the functionality of the barrier detection subsystem. List all of the hardware components that you will need, and indicate if it is included in your kit or not. Include information that you think you will need to know before you can get your project running. (eg: how will you know on which side a barrier has been detected?) Explain your plan for accessing the components and obtaining any values that you may need. | 5 |
+| Design Plan: Line Following    | Describe the functionality of the line following subsystem. List all of the hardware components that you will need, and indicate if it is included in your kit or not. Include information that you think you will need to know before you can get your project running. (eg: how will you know if the IR sensors are over tape or background?) Explain your plan for accessing the components and obtaining any values that you may need. | 5 |
+| Challenges                     | Describe any anticipated challenges with your design project, and how they may be addressed. | 1 |
+| Conclusion                     | Briefly describe the most notable things that were discussed in the report. | 1 |
