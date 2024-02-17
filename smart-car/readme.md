@@ -69,7 +69,7 @@ All schematics should be easy to read without criss-crossed wires. Examples of g
 
 ### Due Date and Points
 
-All students in a group must be present to receive individual credit for a demonstration. You can demonstrate this any time up to and including the deadline of the last class day of the week given in the schedule above for full credit, and up to and including the last class day of the following week for half credit. No credit is possible after the late deadline, although you will still be responsible for making this subsystem work before the semester's end.
+Each student in a group must be present to receive individual credit for a demonstration. You can demonstrate this any time up to and including the deadline of the last class day of the week given in the schedule above for full credit, and up to and including the last class day of the following week for half credit. No credit is possible after the late deadline, although you will still be responsible for making this subsystem work before the semester's end.
 
 | Demonstration                                                                                   | Points |
 | :-----------------------------------------------------------------------------------------------| :------|
@@ -90,7 +90,7 @@ The subsystem report will be due the last class day of the week given in the sch
 
 ### Due Date and Points
 
-All students in a group must be present to receive individual credit for a demonstration. You can demonstrate this any time up to and including the deadline of the last class day of the week given in the schedule above for full credit, and up to and including the last class day of the following week for half credit. No credit is possible after the late deadline, although you will still be responsible for making this subsystem work before the semester's end.
+Each student in a group must be present to receive individual credit for a demonstration. You can demonstrate this any time up to and including the deadline of the last class day of the week given in the schedule above for full credit, and up to and including the last class day of the following week for half credit. No credit is possible after the late deadline, although you will still be responsible for making this subsystem work before the semester's end.
 
 | Demonstration                                   | Points |
 | :-----------------------------------------------| :------|
@@ -117,7 +117,7 @@ The subsystem report will be due the last class day of the week given in the sch
 
 ## Smart Car Invitational (Final Demonstrations)
 
-Due to timing (this takes place during the last week of the semester), there will be no option for a late demonstration. Therefore, failure to complete the final demonstrations by the conclusion of the last week of classes means that you will receive a 0 for that portion of the demonstration. (Your team is welcome to make arrangements for early testing if that is necessary.) All students in a group must be present to receive individual credit for a demonstration.
+Due to timing (this takes place during the last week of the semester), there will be no option for a late demonstration. Therefore, failure to complete the final demonstrations by the conclusion of the last week of classes means that you will receive a 0 for that portion of the demonstration. (Your team is welcome to make arrangements for early testing if that is necessary.) Each student in a group must be present to receive individual credit for a demonstration.
 
 ### Maze Demonstration
 
