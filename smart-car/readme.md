@@ -54,7 +54,7 @@ For the final demonstration: The final code upload to GitHub can consist of no m
 - Enhancement 1
 - Enhancement 2
 
-Any excess code should not be uploaded. **I do not want to have to guess which file to grade in any of your reports.**
+**I do not want to have to guess which file to grade in any of your reports.**
 
 [^4]: The exception may be external library code, if relevant. Have a discussion with me if you're not sure.
 
