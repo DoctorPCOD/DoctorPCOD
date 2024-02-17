@@ -42,7 +42,7 @@ All schematics should be easy to read without criss-crossed wires. Examples of g
 
 # Rubrics
 
-## Design Plan
+## Design Plan Rubric
 
 | Section                        | Description                                                        | Points |
 | :------------------------------| :------------------------------------------------------------------| :------|
@@ -93,3 +93,20 @@ All students in a group must be present to receive credit for a demonstration. Y
 | Tests 1--3 within time limitations.             | 20     |
 | Two out of three tests within time limitations. | 13     |
 | One out of three tests within time limitations. | 6      |
+
+The subsystem report will be due the last class day of the week given in the schedule above, regardless of when the demonstration was made. If your demo was late, your report will still be expected on time.
+
+## Subsystem Report Rubric
+
+| Section              | Description                                                                                           | Points |
+| :--------------------| :-----------------------------------------------------------------------------------------------------| :------|
+| Title Page           | Includes the report title, team name, and all member names.                                           | 1      |
+| Introduction         | Describes the subsystem and what you will discuss in the report.                                      | 1      |
+| Flowchart            | Flowchart of the full operation of the subsystem.                                                     | 2      |
+| I/O Pins Used        | List all of the microcontroller pins that you've used and a description of what they're connected to. | 2      |
+| Hardware Description | Describes ALL of the hardware components, include schematics, and explain what they are used for, and what pins they connect to on the microcontroller. | 3 |
+| Software Description | Describes ALL subroutines, external functions, libraries, or other notable components to your software. Cites from where any external code was obtained. | 3 |
+| Functionality        | Describes how the hardware and software interact to carry out the subsystem functions. Written in paragraph form, not as bullet points. | 2 |
+| Challenges           | What challenges were encountered when creating this subsystem? Are there any unsolved problems? If so, how do you plan to solve them before the full system must be functioning? | 2 |
+| Conclusion           | Briefly describe the most notable things that were discussed in the report.                           | 1 |
+| Code (GitHub)        | Upload all of your well-documented code to your team's GitHub repository. Each student must join the team to receive individual credit. | 3 |
