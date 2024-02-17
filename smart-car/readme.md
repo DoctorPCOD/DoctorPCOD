@@ -67,7 +67,7 @@ All schematics should be easy to read without criss-crossed wires. Examples of g
 
 ### Due Date and Points
 
-All students in a group must be present to receive credit for a demonstration. You can demonstrate this any time up to and including the deadline of the last class day of the week given in the schedule above for full credit, and up to and including the last class day of the following week for half credit. No credit is possible after the late deadline, although you will still be responsible for making this subsystem work before the semester's end.
+All students in a group must be present to receive individual credit for a demonstration. You can demonstrate this any time up to and including the deadline of the last class day of the week given in the schedule above for full credit, and up to and including the last class day of the following week for half credit. No credit is possible after the late deadline, although you will still be responsible for making this subsystem work before the semester's end.
 
 | Demonstration                                                                                   | Points |
 | :-----------------------------------------------------------------------------------------------| :------|
@@ -88,9 +88,9 @@ The subsystem report will be due the last class day of the week given in the sch
 
 ### Due Date and Points
 
-All students in a group must be present to receive credit for a demonstration. You can demonstrate this any time up to and including the deadline of the last class day of the week given in the schedule above for full credit, and up to and including the last class day of the following week for half credit. No credit is possible after the late deadline, although you will still be responsible for making this subsystem work before the semester's end.
+All students in a group must be present to receive individual credit for a demonstration. You can demonstrate this any time up to and including the deadline of the last class day of the week given in the schedule above for full credit, and up to and including the last class day of the following week for half credit. No credit is possible after the late deadline, although you will still be responsible for making this subsystem work before the semester's end.
 
-| Demonstration                                                                                   | Points |
+| Demonstration                                   | Points |
 | :-----------------------------------------------| :------|
 | Tests 1--3 within time limitations.             | 20     |
 | Two out of three tests within time limitations. | 13     |
@@ -112,3 +112,67 @@ The subsystem report will be due the last class day of the week given in the sch
 | Challenges           | What challenges were encountered when creating this subsystem? Are there any unsolved problems? If so, how do you plan to solve them before the full system must be functioning? | 2 |
 | Conclusion           | Briefly describe the most notable things that were discussed in the report.                           | 1 |
 | Code (GitHub)        | Upload all of your well-documented code to your team's GitHub repository. Each student must join the team to receive individual credit. | 3 |
+
+## Smart Car Invitational (Final Demonstrations)
+
+Due to timing (this takes place during the last week of the semester), there will be no option for a late demonstration. Therefore, failure to complete the final demonstrations by the conclusion of the last week of classes means that you will receive a 0 for that portion of the demonstration. (Your team is welcome to make arrangements for early testing if that is necessary.) All students in a group must be present to receive individual credit for a demonstration.
+
+### Maze Demonstration
+
+The maze will be created out of the same material used in the barrier detection subsystem demo. You will not know what the maze looks like until the last week of classes.
+
+- The smart car will autonomously navigate through a maze (i.e. you cannot touch it while it is moving or that attempt will be disqualified). It will enter through one of the openings, and exit through the other one. It does not have to autonomously stop at the end.
+
+| Time to Complete                 | Points |
+| :--------------------------------| :------|
+| Complete maze within 18 seconds. | 30     |
+| Complete maze within 36 seconds. | 20     |
+| Complete maze within 60 seconds. | 10     |
+
+### Line-Following Demonstration
+
+The maze will be created out of the same material used in the line-following subsystem demo. You will not know what the final track looks like until the last week of classes.
+
+- The smart car must be able to autonomously navigate (i.e. you cannot touch it while it is moving or that attempt will be disqualified) a track consisting of tape on a solid background.
+- The smart car must be able to stop with the line sensors no more than 1 cm past the end of the track. (As measured from the line sensors.)
+
+| Time to Complete                  | Points |
+| :---------------------------------| :------|
+| Less than or equal to 15 seconds. | 30     |
+| Less than or equal to 20 seconds. | 20     |
+| Less than or equal to 30 seconds. | 10     |
+| Greater than 30 seconds.          | 5      |
+
+### Enhancements
+
+Enhancements are worth 20 points each. The smart car must have **at least** two enhancements. The enhancements may be demonstrated at any time up to the last class day of the semester (before final exams). Any sensor-based enhancements must be properly calibrated. (I.E. a speedometer that gives a qualitative value for speed is not a valid enhancement.) Relevant circuit diagrams and software code must be submitted during the last week of the semester in order to receive credit for the corresponding enhancement.
+
+#### Enhancement Ideas
+
+This list of enhancement ideas is by no means exhaustive. Be creative in coming up with something new! Use your imagination... the sky's the limit!
+
+- Speedometer and/or odometer using 7-segment display or LCD screen
+- Use of magnetometer to have the Smart Car follow a magnet
+- Execution of a 3-point turn at the end of the track
+- Remote steering of the car using IR or Bluetooth
+
+## Final Report Rubric
+
+| Section              | Description                                                                                           | Points |
+| :--------------------| :-----------------------------------------------------------------------------------------------------| :------|
+| Title Page           | Includes the report title, team name, and all member names.                                           | 2      |
+| Introduction         | Describes the design project and what you will discuss in the report.                                 | 3      |
+| Block Diagram        | Block diagram of all smart car components and how they communicate with each other.                   | 5      |
+| Flowchart            | Flowchart of the full operation of the smart car.                                                     | 5      |
+| I/O Pins Used        | List all of the microcontroller pins that you've used and a description of what they're connected to. (If you have separate lists for each demonstration, then you may break this into sections.) | 2 |
+| Hardware Description | Describes **all** of the hardware components, include circuit diagrams, and explain what they are used for, and what pins they connect to on the microcontroller. (Very large circuit diagrams may be included in an appendix and referenced here.) | 10 |
+| Software Description | Describes **all** subroutines, external functions, libraries, or other notable components to your software. Cites from where any external code was obtained. Explain the basis of any and all constants or other parameters used in your software code. (E.G. How did you obtain the track threshold value?) | 10 |
+| Peripherals          | Explain any peripherals used (ADC, TCNT, etc.), what hardware they're used with (if applicable), and explain frequencies, modes of operation, etc. There is no need to give exact register configuration values. | 5 |
+| Functionality        | Describes how the hardware and software interact to carry out the design project functions. Explain whether or not you successfully completed the maze and/or track requirements, and how much time it took to complete each of these demos. | 5 |
+| Design Changes       | Describes what changes were made after the barrier detection demonstration and before the final maze demonstration, and the changes that were made after the line detection demonstration and before the final line following demonstration. How and why were these changes made? | 5 |
+| Feedback Control     | Comment on the use of P, PI, or PID control in your project (how and in what subsystems was it used?). Explain the parameters used and how they were determined. Describe how the use of feedback control improved the functionality of your project. | 10 |
+| Enhancement 1        | Describe the first enhancement, including a schematic and an explanation of all software code used.   | 10      |
+| Enhancement 2        | Describe the second enhancement, including a schematic and an explanation of all software code used.  | 10      |
+| Challenges           | What challenges were encountered throughout the design process? Are there any unsolved problems? If so, how would you have done things differently to avoid them? | 5 |
+| Conclusion           | Briefly describe the most notable things that were discussed in the report.                           | 5       |
+| Code (GitHub)        | Upload all of your well-documented code to your team's GitHub repository. Each student must join the team to receive individual credit. | 10 |
