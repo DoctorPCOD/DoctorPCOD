@@ -27,6 +27,7 @@ Schematics must be created electronically. Following are suggestions of software
 - [KiCad](https://www.kicad.org)[^1]
 - [Eagle](https://www.autodesk.com/products/eagle/free-download)
 - Other software upon request, please ask me before using something else.
+
 [^1]: Refer to my [KiCad library](https://github.com/DoctorPCOD/DoctorPCOD/tree/main/KiCAD) for parts and other KiCad information.
 
 All schematics should be easy to read without criss-crossed wires. Examples of good and bad schematics are shown below.
