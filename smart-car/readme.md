@@ -94,7 +94,7 @@ All students in a group must be present to receive individual credit for a demon
 
 | Demonstration                                   | Points |
 | :-----------------------------------------------| :------|
-| Tests 1--3 within time limitations.             | 20     |
+| Tests 1-3 within time limitations.              | 20     |
 | Two out of three tests within time limitations. | 13     |
 | One out of three tests within time limitations. | 6      |
 
