@@ -12,7 +12,7 @@
 - Select the pages in your Gradescope submissions, otherwise I will deduct one point to pay for my manual labor of doing it myself!
   - [Video: How do do this using the Gradescope app](https://youtu.be/oQ3h4JCz3O4)
   - [Video: How to do this using gradescope.com](https://youtu.be/LT7-Cjfbgho)
-- Read an example lab report to understand how I like things formatted.
+- [Read an example lab report to understand how I like things formatted.](https://github.com/DoctorPCOD/DoctorPCOD/blob/248252262c75adcc898af8a386f8215a3e2e13b7/labs/example_lab_report.md)
 - In your hardware section **be specific about how pushbuttons, DIP switches, toggle switches, or other digital input devices requiring a pull-up/down resistor are wired!**
   - External pull-down or pull-up. Note that we DO NOT USE 220 ohm pull-downs anymore. The ATmega328P requires less current than the TTL chips in digital, hence we use 10k ohm pull-downs now.
   - Internal pull-up. I should see this reflected in your code with the setting of the pull-up in the associated PORTx register.
