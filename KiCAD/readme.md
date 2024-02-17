@@ -31,4 +31,4 @@ Contact Dr. P!
 
 If you search for display on the KiCad schematic editor, you'll see lots of options for displays. I don't need the exact part to be correct, just find a display that is MUX'd (has only 8 segment pins) and common cathode. See screenshot below for a good example.
 
-<img src="https://raw.githubusercontent.com/DoctorPCOD/DoctorPCOD/main/KiCAD/mux-display-kicad.png" alt="Screenshot of an appropriate MUX 7-semgnet display in KiCad." width=800>
+<img src="https://raw.githubusercontent.com/DoctorPCOD/DoctorPCOD/main/KiCAD/CC-mux-display-kicad.png" alt="Screenshot of an appropriate MUX 7-semgnet display in KiCad." width=800>
