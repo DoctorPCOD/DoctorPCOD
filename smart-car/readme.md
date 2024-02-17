@@ -3,7 +3,7 @@
 Note the long gap between the plan and first demonstration. This is because we need to learn PWM before you can control the motor speed, which doesn't occur until midway through the semester. This is an ideal time to start gathering initial data from the Smart Car regarding the line sensors and whiskers (or ultrasonic sensors) and considering the overall plan of attack for the project.
 
 | Description                                      | Week Due         | Points |
-|--------------------------------------------------|------------------|--------|
+| :------------------------------------------------| :----------------| :------|
 | Form design project groups                       | 2                |        |
 | Design plan                                      | 4                | 20     |
 | Barrier detection subsystem demonstration        | 10               | 20     |
@@ -32,11 +32,11 @@ Schematics must be created electronically. Following are suggestions of software
 
 All schematics should be easy to read without criss-crossed wires. Examples of good and bad schematics are shown below.
 
-## Bad Schematic :-(
+## Bad Schematic :disappointed:
 
 <img src="https://raw.githubusercontent.com/DoctorPCOD/DoctorPCOD/main/smart-car/bad_schematic.png" alt="Example of a bad schematic including cross-crossed wires." width="400">
 
-## Good Schematic :-)
+## Good Schematic :smiley:
 
 <img src="https://raw.githubusercontent.com/DoctorPCOD/DoctorPCOD/main/smart-car/good_schematic.png" alt="Example of a good schematic." width="400">
 
