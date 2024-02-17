@@ -48,7 +48,9 @@ Things TinkerCAD cannot do
 
 The ADC works, but you have to re-enable the ADC start conversion bit in `ADCSRA` after every conversion:
 
-`ISR(ADC_vect) {`
-`  result = ADC;`
-`  ADCSRA |= 0x40;`
-`}`
+```
+ISR(ADC_vect) {
+  result = ADC;
+  ADCSRA |= 0x40;
+}
+```
