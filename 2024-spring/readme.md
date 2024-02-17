@@ -18,7 +18,7 @@
 - In-lab
   - Starter code is available in my GitHub repository [DoctorPCOD/ENGIN-2223](https://github.com/DoctorPCOD/DoctorPCOD/tree/6f21da729cd6a4dab8427e037235eb086b933f8a/ENGIN-2223)
   - Upload your labs and variable sheets to [Gradescope](https://www.gradescope.com) prior to the conclusion of each lab session.
-  - Upload your code to GitHub. Links to each assignment are located in this repository.
+  - Upload your code to GitHub. [Links to each assignment are located in this repository.](https://github.com/DoctorPCOD/DoctorPCOD/blob/e4edeb304172acf5bd9781e13e47b4f6a79a00f6/2024-spring/github-submission-links.md)
   - Each student must join the GitHub team to receive individual credit for code.
 - Lab report
   - Upload lab reports and schematics to [Gradescope](https://www.gradescope.com).
@@ -43,7 +43,7 @@
 - You must be in attendance in lecture on time to receive credit for the activities
 - Any activity starter code will be available on [DoctorPCOD/ENGIN-2223](https://github.com/DoctorPCOD/DoctorPCOD/tree/6f21da729cd6a4dab8427e037235eb086b933f8a/ENGIN-2223)
 - Upload your activities and variable sheets to [Gradescope](https://www.gradescope.com) prior to each activity due date.
-- Upload your code to GitHub. Links to each assignment are located in this repository.
+- Upload your code to GitHub. [Links to each assignment are located in this repository.](https://github.com/DoctorPCOD/DoctorPCOD/blob/e4edeb304172acf5bd9781e13e47b4f6a79a00f6/2024-spring/github-submission-links.md)
 - Each student must join the GitHub team to receive individual credit for code.
 
 # More Resources
