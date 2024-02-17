@@ -73,3 +73,23 @@ All students in a group must be present to receive credit for a demonstration. Y
 | Accomplished only left-hand turn or only right-hand turn through maze (within time limitation). | 10     |
 
 The subsystem report will be due the last class day of the week given in the schedule above, regardless of when the demonstration was made. If your demo was late, your report will still be expected on time.
+
+## Line Detection and Speed Subsystem Demonstration
+
+- The car will follow a (roughly) 2 m long track (possibly consisting of 1 m of brown electrical tape followed by 1 m of black tape, possibly consisting of 2 m of the same color tape) both on a solid white background.
+- The car must autonomously follow the tape and stop on its own with the line sensors no more than 1 cm past the end of the track. (As measured from the line sensors.)
+- The following three tests need to be performed:
+  - The car must travel along the entire length of the track in less than or equal to 8 seconds.
+	- The car must travel along the entire length of the track in greater than or equal to 13 seconds.
+  - The car must travel along the first half of track in less than or equal to 4 seconds, followed immediately by following the second half of track in greater than or equal to 6.5 seconds.
+- Half credit will be awarded if the Smart Car travels the fast segments between `t` and `2t`, or if the Smart Car travels the slow segments between `t/2` and `t`.
+
+### Due Date and Points
+
+All students in a group must be present to receive credit for a demonstration. You can demonstrate this any time up to and including the deadline of the last class day of the week given in the schedule above for full credit, and up to and including the last class day of the following week for half credit. No credit is possible after the late deadline, although you will still be responsible for making this subsystem work before the semester's end.
+
+| Demonstration                                                                                   | Points |
+| :-----------------------------------------------| :------|
+| Tests 1--3 within time limitations.             | 20     |
+| Two out of three tests within time limitations. | 13     |
+| One out of three tests within time limitations. | 6      |
