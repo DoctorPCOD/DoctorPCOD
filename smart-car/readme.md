@@ -15,7 +15,7 @@ Note the long gap between the plan and first demonstration. This is because we n
 
 # General Requirements
 
-- No hand-drawn schematics will be allowed. Read \hyperref[schematics]{schematics details} for more information, as well as examples of good and bad schematic diagrams.
+- No hand-drawn schematics will be allowed.
 - Use [draw.io](https://app.diagrams.net) (or an equivalent website or software) to create all block diagrams and flowcharts. Flowcharts must go into very specific detail; use the flowcharts given to you in lab as a guideline for the level of complexity that is expected.
 - All reports must be written using word processing software (such as Microsoft Word), and must be written in paragraph form with complete sentences. (The Writing, Reading, Speech Assistance (WRSA) Center at COD's Learning Commons is a great resource if you are not comfortable with report writing. Keep in mind that technical writing is an important aspect of being an engineer, whether or not you believe it to be true at this stage in your career.)
 - All reports must contain headings for each section that correspond to the sections required in the rubrics.
@@ -32,7 +32,7 @@ All schematics should be easy to read without criss-crossed wires. Examples of g
 
 ## Bad Schematic :-(
 
-![bad schematic including cross-crossed wires](https://raw.githubusercontent.com/DoctorPCOD/DoctorPCOD/main/smart-car/bad_schematic.png)
+<img src="https://raw.githubusercontent.com/DoctorPCOD/DoctorPCOD/main/smart-car/bad_schematic.png" alt="Example of a bad schematic including cross-crossed wires." width="600">
 
 ## Good Schematic :-)
 
