@@ -1,6 +1,6 @@
 # Project Schedule
 
-These dates are subject to change in case of school closings, global panedmics, or other unforeseen circumstances.
+These dates are subject to change in case of school closings, global pandemics, or other unforeseen circumstances.
 
 | Description                                      | Week Due         | Points |
 | :------------------------------------------------| :----------------| :------|
