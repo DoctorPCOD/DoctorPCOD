@@ -64,3 +64,5 @@ There is no drop-in compatible part for the MUX 7-segment display. However, I cr
 ## Line Sensors
 
 There is no drop-in compatible part for the line-following sensors. However, you can use three photoresistors connected as we do in lab 4 on three different ADC pins and use that to test how well your code can collect data between the three different sensors. When you go into simulation mode, there will be a slider that allows you to change the light level for the photoresistor (see screenshot below).
+
+<img src="https://raw.githubusercontent.com/DoctorPCOD/DoctorPCOD/main/labs/tinkercad-photoresistor-simulation.png" alt="Screenshot of Arduino Uno connected to a photoresistor to an ADC pin, highlighting the slider that changes the simulated light level." width=800>
