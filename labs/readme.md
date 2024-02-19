@@ -60,3 +60,7 @@ ISR(ADC_vect) {
 There is no drop-in compatible part for the MUX 7-segment display. However, I created [a template that you can use](https://www.tinkercad.com/things/lTxUvYVEqcu-mux-7-segment-display) where I simply connected each of the four sets of 7 segment anodes together to a current-limiting resistor. You would connect these as you would the segment anode pins. Then you'll need to connect each individual cathode.[^*]
 
 [^*]: Note as of 2024-02-19, I literally just made this without really testing it, so if there are issues you find, please let me know so I can correct them!
+
+## Line Sensors
+
+There is no drop-in compatible part for the line-following sensors. However, you can use three photoresistors connected as we do in lab 4 on three different ADC pins and use that to test how well your code can collect data between the three different sensors. When you go into simulation mode, there will be a slider that allows you to change the light level for the photoresistor (see screenshot below).
