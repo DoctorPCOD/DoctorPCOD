@@ -44,9 +44,9 @@ Things TinkerCAD cannot do
 - Input capture unit
 - USART in SPI mode (USART does work in asynchronous mode)
  
-## ADC in TinkerCAD
+## ADC
 
-The ADC works, but you have to re-enable the ADC start conversion bit in `ADCSRA` after every conversion:
+The ADC works in TinkerCAD, but you have to re-enable the ADC start conversion bit in `ADCSRA` after every conversion:
 
 ```
 ISR(ADC_vect) {
@@ -54,3 +54,9 @@ ISR(ADC_vect) {
   ADCSRA |= 0x40;
 }
 ```
+
+## MUX 7-Segment Display
+
+There is no drop-in compatible part for the MUX 7-segment display. However, I created [a template that you can use](https://www.tinkercad.com/things/lTxUvYVEqcu-mux-7-segment-display) where I simply connected each of the four sets of 7 segment anodes together to a current-limiting resistor. You would connect these as you would the segment anode pins. Then you'll need to connect each individual cathode.[^*]
+
+[^*]: Note as of 2024-02-19, I literally just made this without really testing it, so if there are issues you find, please let me know so I can correct them!
