@@ -33,6 +33,28 @@
  
 <img src="https://i0.wp.com/doctor-pasquale.com/wp-content/uploads/2022/12/debounced-button-schematic.png">
 
+# Using the Serial Monitor
+
+Note that if you have completed the USART lab, I will expect you to use C code (instead of "cheater functions") to write to the serial monitor.
+
+Also note that the serial monitor, because it uses the USART, will modify pins `D1` (transmit) and `D0` (receive). This can affect your hardware if, for example, you have a 7-segment display connected to pins `D7` through `D1`!
+
+```
+void setup() {
+  Serial.begin(9600); // this piece of cheater code initializes the serial monitor and sets the baud rate (note the use of uppercase S in Serial!)
+}
+
+void loop() {
+  unsigned char varName = 108;
+  Serial.print(varName); // this will print the variable value in base 10 on the serial monitor
+  Serial.print(varName,BIN); // this will print the variable value in binary
+  Serial.print(varName,HEX); // this will print the variable value in hexadecimal
+  Serial.println(varName); // use this when you want a line break after printing the variable
+}
+```
+
+To open up the serial monitor, to go tools > serial monitor in the Arduino IDE.
+
 # TinkerCAD
 
 While [TinkerCAD](https://www.tinkercad.com) is admittedly quite slow, it is possible to write code in [TinkerCAD](https://www.tinkercad.com) for many of our circuits and simulate multiple hardware options. This can be nice if you're struggling with writing code and need more practice and don't have access to a lot of hardware.
