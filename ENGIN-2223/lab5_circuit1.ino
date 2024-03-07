@@ -58,13 +58,13 @@ void loop()
   char aBuffer[3];
   itoa(a, aBuffer, 10);
   lcd_puts(aBuffer);
-  lcd_puts("+");
+  lcd_putc('+');
 
   // convert b to a string, can only be 3 characters (0-11 and terminal character), then display
   char bBuffer[3];
   itoa(b, bBuffer, 10);
   lcd_puts(bBuffer);
-  lcd_puts("=");
+  lcd_putc('=');
 
   unsigned char c = a + b;
 
