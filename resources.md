@@ -64,4 +64,17 @@ Here is a list of resources related to ENGIN-2223.
 
 ## General Resources
 
+- [Falsehoods that programmers believe in](https://github.com/kdeldycke/awesome-falsehood) A compendium of many incorrect or problematic assumptions programmers make, and how they can cause software to behave unpredictably or poorly.
+- [Glossary of Electrical Engineering Terms](https://www.analog.com/en/resources/glossary.html) Definitions of many frequently used EE terms.
+- [How to Read a Schematic](https://learn.sparkfun.com/tutorials/how-to-read-a-schematic) In case you aren’t sure what all of the circuit symbols mean, here is a handy guide explaining the most common circuit symbols.
+- [Sine Lookup Table](https://daycounter.com/Calculators/Sine-Generator-Calculator.phtml) If you’ve ever wanted to generate a sine wave using digital values, use this to create a lookup table of numbers. Using the ATmega328P, you’ll need to build an external DAC (such as an R-2R ladder[^5]) connected to several digital pins.
+
+[^5]: To learn how to build an R-2R ladder, refer to the [Circuit Analysis Lab Manual](https://doctor-pasquale.com/wp-content/uploads/2023/05/ENGIN-2210-Lab-Manual.pdf).
+
 ## Recommended Books and Textbooks
+- _The Atmel AVR Microcontroller: MEGA and XMEGA in Assembly and C_ by Han-Way Huang
+- _Atmel AVR Microcontroller Primer: Programming and Interfacing_ by Steven F. Barrett, Daniel J. Pack
+- _AVR Microcontroller and Embedded Systems: Using Assembly and C_ by Muhammad Ali Mazidi, Janice Mazidi
+- _Digital Logic & Microprocessor Design with Interfacing_ by Enoch O. Hwang
+- _Introduction to Embedded Systems: Using ANSI C and the Arduino Development Environment_ by David Russell
+- _Make: AVR Programming: Learning to Write Software for Hardware_ by Elliot Williams
