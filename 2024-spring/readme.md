@@ -54,5 +54,6 @@
 
 # More Resources
 
+- [Useful links such as data sheets and pinout diagrams](../resources.md) here on GitHub
 - [My YouTube Channel Microcontrollers Playlist](https://www.youtube.com/playlist?list=PLo9WFV9pBhDtbcmTBeia_KIwWqLGu44GF)
 - [doctor-pasquale.com Microcontrollers Website](https://doctor-pasquale.com/engin-2223/)
