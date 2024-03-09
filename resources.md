@@ -25,3 +25,43 @@ Here is a list of resources related to ENGIN-2223.
 - [Eagle](https://www.autodesk.com/products/eagle/free-download) Eagle is another great tool that can be used to create PCBs and also has a schematic editor. This should be your go-to if you want to create a printed circuit board from your design.
 - [TinkerCAD](https://www.tinkercad.com/) TinkerCAD is an online simulation tool that allows you to simulate digital logic chips as well as do some software coding with the Arduino Uno. Information about TinkerCAD and its limitations is included in [DoctorPCOD/labs](labs) here on GitHub.
 - [draw.io](https://app.diagrams.net) A nice app for creating flowcharts or block diagrams.
+
+## Binary Codes
+
+- [ASCII Code](https://www.ascii-code.com) A full table of ASCII code values in decimal, binary, octal and hexadecimal.
+
+## CPU Clock
+
+- [Choosing a Microcontroller Clock](https://www.allaboutcircuits.com/technical-articles/choosing-the-right-oscillator-for-your-microcontroller/) An explanation of different types of oscillators and how to choose the right clock for your microcontroller project.
+
+## Memory
+
+- [NAND and NOR Flash](https://www.embedded.com/flash-101-nand-flash-vs-nor-flash/) The differences between NAND and NOR flash memory.
+
+## Measurement Tools
+
+- [How to Use an Oscilloscope](https://www.sparkfuneducation.com/how-to/how-to-use-an-oscilloscope.html) If using a ‘scope intimidates you, check out this reference that breaks it down into simple steps.
+- [Oscilloscope Video (YouTube)](https://www.youtube.com/watch?v=hrw1PiU-Uow) I made a video on using the oscilloscope for circuit analysis students. It will walk you through the basics.
+- [Oscilloscope Triggering (YouTube)](https://www.youtube.com/watch?v=RJG-hE7xms8) I made a video on triggering the oscilloscope, which is particularly useful if the dancing sinusoids are driving you crazy.
+
+## Debugging
+
+- [A Feynman approach to debugging](https://www.embedded.com/a-feynman-approach-to-debugging/) This article from embedded.com presents a debugging scenario that may be familiar to microcontrollers students.
+- 📘 _If I Only Changed the Software, Why Is the Phone on Fire?_ by Lisa Simone – Along the same lines as the above example, this book is non-fiction but written in a story-like manner following software developers who have to debug and fix embedded systems projects. Some of the examples should be familiar to you if you’ve ever used a timer/counter ISR or unsigned char variables!
+
+## C Resources
+
+- [Guide to Software Commenting](https://www.ganssle.com/commenting.htm) Helpful advice on how to comment your software code.
+
+## Assembly Resources
+
+- [Microchip Studio](https://www.microchip.com/en-us/tools-resources/develop/microchip-studio) This is the definitive IDE for use with AVR microcontrollers. You can code in C and AVR assembly using this IDE. This would be our go-to IDE if it were easier to upload code onto the Arduino from this program. However, this IDE is required when writing AVR assembly. The IDE is free and highly recommended if you plan to write assembly code at home, or want to program for non-Arduino microcontrollers.
+- [AVR Delay Loop Calculator](http://darcy.rsgc.on.ca/ACES/TEI4M/AVRdelay.html) Want to create a delay in your AVR assembly code and don’t know how? Put in your microcontroller clock frequency and desired delay time and this handy tool will spit out the necessary code to achieve that delay.[^3]
+- [View Arduino IDE Code in Assembly](http://rcarduino.blogspot.com/2012/09/how-to-view-arduino-assembly.html) If you’re interested in how the Arduino IDE translates your C code to Assembly, follow these steps to look at the output. You’ll see that the Arduino IDE severely bloats your code with a lot of unnecessary instructions that you can eliminate by writing Assembly directly.[^4]
+
+[^3]: Make sure the general purpose registers used in creating your delay aren't registers that you're otherwise using in your assembly code, otherwise, bad things may happen! Note that `LDI` instructions require GP Registers `r16` through `r31` as per the instruction set manual.
+[^4]: If you need another reason to switch to Microchip Studio, Microchip Studio does this much easier and automatically when you write C code for an AVR microcontroller. Microchip Studios also has no code bloat!
+
+## General Resources
+
+## Recommended Books and Textbooks
