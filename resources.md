@@ -18,3 +18,10 @@ Here is a list of resources related to ENGIN-2223.
 - [Cheater Functions Explained](http://garretlab.web.fc2.com/en/arduino/inside/index.html) This website explains the C code behind all of the Arduino “cheater functions” (that you are definitely not allowed to use in class). See how much bloat is included in these functions that we eliminate by using C.
 
 [^2]: Note that there are two microcontrollers on the Arduino Uno R3. The ATmega328P is the MCU that you program. The ATmega16U2 is a microcontroller included to facilitate code transfer to the ATmega328P over USB.
+
+## Simulation, Schematics and Flowchart Tools
+
+- [KiCad](https://www.kicad.org) My personal favorite schematic tool. Supplement with [my library of KiCad parts](KiCAD) for components you can't get in the basic library.
+- [Eagle](https://www.autodesk.com/products/eagle/free-download) Eagle is another great tool that can be used to create PCBs and also has a schematic editor. This should be your go-to if you want to create a printed circuit board from your design.
+- [TinkerCAD](https://www.tinkercad.com/) TinkerCAD is an online simulation tool that allows you to simulate digital logic chips as well as do some software coding with the Arduino Uno. Information about TinkerCAD and its limitations is included in [DoctorPCOD/labs](labs) here on GitHub.
+- [draw.io](https://app.diagrams.net) A nice app for creating flowcharts or block diagrams.
