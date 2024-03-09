@@ -22,9 +22,9 @@
   - I recommend getting a copy printed using the [COD Library's Print on Demand service](https://library.cod.edu/pod). It is quick and costs only a few dollars!
 - [The doctor-pasquale.com ENGIN-2223 website](https://doctor-pasquale.com/engin-2223/) has additional resources for each lab, as well as the [inventory of parts](https://doctor-pasquale.com/inventory/) and other potentially useful information.
 - In-lab
-  - Starter code is available in my GitHub repository [DoctorPCOD/ENGIN-2223](https://github.com/DoctorPCOD/DoctorPCOD/tree/6f21da729cd6a4dab8427e037235eb086b933f8a/ENGIN-2223)
+  - Starter code is available in my GitHub repository [DoctorPCOD/ENGIN-2223](../ENGIN-2223)
   - Upload your labs and variable sheets to [Gradescope](https://www.gradescope.com) prior to the conclusion of each lab session.
-  - Upload your code to GitHub. [Links to each assignment are located in this repository.](https://github.com/DoctorPCOD/DoctorPCOD/blob/e4edeb304172acf5bd9781e13e47b4f6a79a00f6/2024-spring/github-submission-links.md)
+  - Upload your code to GitHub. [Links to each assignment are located in this repository.](github-submission-links.md)
   - Each student must join the GitHub team to receive individual credit for code.
 - Lab report
   - Upload lab reports and schematics to [Gradescope](https://www.gradescope.com).
@@ -40,16 +40,16 @@
 
 # Design Project
 
-- Information about the design project is available at [DoctorPCOD/smart-car](https://github.com/DoctorPCOD/DoctorPCOD/tree/6f21da729cd6a4dab8427e037235eb086b933f8a/smart-car)
+- Information about the design project is available at [DoctorPCOD/smart-car](../smart-car)
 
 # Activities
 
 - There will be regular activities that occur during lectures
 - These activities are designed to help you learn topics in a hands-on way
 - You must be in attendance in lecture on time to receive credit for the activities
-- Any activity starter code will be available on [DoctorPCOD/ENGIN-2223](https://github.com/DoctorPCOD/DoctorPCOD/tree/6f21da729cd6a4dab8427e037235eb086b933f8a/ENGIN-2223)
+- Any activity starter code will be available on [DoctorPCOD/ENGIN-2223](../ENGIN-2223)
 - Upload your activities and variable sheets to [Gradescope](https://www.gradescope.com) prior to each activity due date.
-- Upload your code to GitHub. [Links to each assignment are located in this repository.](https://github.com/DoctorPCOD/DoctorPCOD/blob/e4edeb304172acf5bd9781e13e47b4f6a79a00f6/2024-spring/github-submission-links.md)
+- Upload your code to GitHub. [Links to each assignment are located in this repository.](github-submission-links.md)
 - Each student must join the GitHub team to receive individual credit for code.
 
 # More Resources
