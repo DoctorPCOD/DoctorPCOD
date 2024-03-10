@@ -34,6 +34,10 @@ Here is a list of resources related to ENGIN-2223.
 
 - [Choosing a Microcontroller Clock](https://www.allaboutcircuits.com/technical-articles/choosing-the-right-oscillator-for-your-microcontroller/) An explanation of different types of oscillators and how to choose the right clock for your microcontroller project.
 
+## Timer/Counter
+
+- 🎥 [Input Capture Unit YouTube Video](https://youtu.be/eXE-8X38AHs) A video I made about the input capture unit. At the end it discusses the HC-SR04 ultrasonic sensor.
+
 ## Memory
 
 - [NAND and NOR Flash](https://www.embedded.com/flash-101-nand-flash-vs-nor-flash/) The differences between NAND and NOR flash memory.
