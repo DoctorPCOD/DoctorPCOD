@@ -67,16 +67,23 @@ Following are resources for each of the microcontrollers labs. Each page contain
 
 Note: Labs 14-17 were written for the duration of the spring 2020 semester in which we were required to work off-campus. They may not be required work in a typical semester.
 
-## Lab 1: Introduction to Arduino Uno & ATmega328P
+## Lab 1: Introduction to Arduino Uno and ATmega328P
 - Code
   - [Circuit 1: Blinking an LED](../ENGIN-2223/lab1_circuit1.ino)
 - Textbook
   - Chapter 10
   - Section 18.4
 - Infographic
-  - [Resistor Color Codes](../infographics/Resistor%20color%20codes.pdf)
+  - [Resistor color codes](../infographics/Resistor%20color%20codes.pdf)
 
-## Lab 2
+## Lab 2: Digital and Analog Input Devices
+- Code
+  - [Circuit Ia: Pushbutton input with external pull-down resistor](../ENGIN-2223/lab2_circuit1.ino)
+- Textbook
+  - Chapter 10
+  - Section 11.5
+- Infographic
+  - [Potentiometer and variable resistor wiring](../infographics/Pot%20vs%20Variable%20Resistor.pdf)
 
 ## Lab 3
 
