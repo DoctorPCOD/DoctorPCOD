@@ -1,7 +1,6 @@
 # Lab Information
 
 - [Lab manual [PDF]](https://doctor-pasquale.com/wp-content/uploads/2023/05/ENGIN-2223-Lab-Manual.pdf)
-- [doctor-pasquale.com Microcontrollers Webpage](https://doctor-pasquale.com/engin-2223/) contains suggested resources for each lab, as needed
 
 # Starter Code
 
