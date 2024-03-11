@@ -116,26 +116,27 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
 - Videos
   - [How does the WDT circuit (circuit 3) work and why?](https://youtu.be/JgnG2JJMU9Q)
 
-## Lab 6
-- Code
+## Lab 6: Timer/Counters and Timed Interrupts
 - Textbook
-- Infographics
-- Websites
-- Videos
+  - Chapter 14
 
-## Lab 7
-- Code
+## Lab 7: Pulse-Width Modulation and Motors
 - Textbook
-- Infographics
-- Websites
-- Videos
+  - Section 14.4
 
-## Lab 8
+## Lab 8: Proportional and Integral Control
 - Code
+  - [Circuit 1 workbook](../ENGIN-2223/lab8_workbook.xlsx)
 - Textbook
-- Infographics
-- Websites
-- Videos
+  - Chapter 17
+
+Here is how to write data to the serial plotter. The `\t` delimiter is a tab that differentiates between the two pieces of data being plotted.
+
+```
+Serial.print(pV);
+Serial.print('\t');
+Serial.println(sP);
+```
 
 ## Lab 9
 - Code
