@@ -153,7 +153,6 @@ Serial.println(sP);
   - [AVR fuse calculator](https://www.engbedded.com/fusecalc/)
   - [Arduino boards.txt file](https://github.com/arduino/ArduinoCore-avr/blob/master/boards.txt) includes fuse details of the Arduino programmed ATmega328P
   - [How to use AVR fuses](http://www.crash-bang.com/programme-avr-fuse/)
-  - [All you need to know about AVR fuses](https://embedds.com/all-you-need-to-know-about-avr-fuses/)
 
 ### Clarification
 Here are some details to make the circuits more clear.
