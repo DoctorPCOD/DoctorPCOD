@@ -138,12 +138,13 @@ Serial.print('\t');
 Serial.println(sP);
 ```
 
-## Lab 9
+## Lab 9: SPI: Serial Peripheral Interface
 - Code
+  - [Circuit I: SPI control of 7-segment display](../ENGIN-2223/lab9_circuit1.ino)
 - Textbook
-- Infographics
+  - Section 15.5
 - Websites
-- Videos
+  - [This article from Boston University](https://www.bu.edu/articles/2020/striking-out-racist-terminology-in-engineering/) discusses the racism used in many electrical engineering concepts, which is why the terminology used in this lab differs from the terminology used in official AVR documentation and many other websites. This lab, and the lab appendix, have been rewritten to use the terms primary and secondary when referring to SPI devices.
 
 ## Lab 10
 - Code
