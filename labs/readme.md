@@ -61,6 +61,53 @@ void loop() {
 
 To open up the serial monitor, to go tools > serial monitor in the Arduino IDE.
 
+# Resources
+
+Following are resources for each of the microcontrollers labs. Each page contains a link to the lab manual, a list of related equipment videos, helpful links, any known errata, and other tools that will help you to be successful when doing the labs.
+
+Note: Labs 14-17 were written for the duration of the spring 2020 semester in which we were required to work off-campus. They may not be required work in a typical semester.
+
+## Lab 1: Introduction to Arduino Uno & ATmega328P
+- Code
+  - [Circuit 1: Blinking an LED](../ENGIN-2223/lab1_circuit1.ino)
+- Textbook
+  - Chapter 10
+  - Section 18.4
+- Infographic
+  - [Resistor Color Codes](../infographics/Resistor%20color%20codes.pdf)
+
+## Lab 2
+
+## Lab 3
+
+## Lab 4
+
+## Lab 5
+
+## Lab 6
+
+## Lab 7
+
+## Lab 8
+
+## Lab 9
+
+## Lab 10
+
+## Lab 11
+
+## Lab 12
+
+## Lab 13
+
+## Lab 14
+
+## Lab 15
+
+## Lab 16
+
+## Lab 17
+
 # TinkerCAD
 
 While [TinkerCAD](https://www.tinkercad.com) is admittedly quite slow, it is possible to write code in [TinkerCAD](https://www.tinkercad.com) for many of our circuits and simulate multiple hardware options. This can be nice if you're struggling with writing code and need more practice and don't have access to a lot of hardware.
