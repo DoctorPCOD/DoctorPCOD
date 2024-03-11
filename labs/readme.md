@@ -87,7 +87,7 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
 
 ## Lab 3: Displays
 - Code
-  - [Circuit I: Single 7-segment display](../ENGIN-2223/lab3_circuit1.ino
+  - [Circuit I: Single 7-segment display](../ENGIN-2223/lab3_circuit1.ino)
   - [hd44780_settings.h](../ENGIN-2223/hd44780_settings.h)
   - [hd44780.h](../ENGIN-2223/hd44780.h)
   - [hd44780.cpp](../ENGIN-2223/hd44780.cpp)
