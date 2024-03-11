@@ -102,33 +102,103 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
 - Videos
   - [Current-limiting resistors](https://youtu.be/EN3FPsV-pFg)
 
-## Lab 4
+## Lab 4: Sensors and Sensor Calibration
+- Textbook
+  - Chapter 12
+  - Section 18.2
 
-## Lab 5
+## Lab 5: External Interrupts
+- Code
+  - [Circuit I: Keypad adder](../ENGIN-2223/lab5_circuit1.ino)
+- Textbook
+  - Chapter 13
+  - Section 14.5
+- Videos
+  - [How does the WDT circuit (circuit 3) work and why?](https://youtu.be/JgnG2JJMU9Q)
 
 ## Lab 6
+- Code
+- Textbook
+- Infographics
+- Websites
+- Videos
 
 ## Lab 7
+- Code
+- Textbook
+- Infographics
+- Websites
+- Videos
 
 ## Lab 8
+- Code
+- Textbook
+- Infographics
+- Websites
+- Videos
 
 ## Lab 9
+- Code
+- Textbook
+- Infographics
+- Websites
+- Videos
 
 ## Lab 10
+- Code
+- Textbook
+- Infographics
+- Websites
+- Videos
 
 ## Lab 11
+- Code
+- Textbook
+- Infographics
+- Websites
+- Videos
 
 ## Lab 12
+- Code
+- Textbook
+- Infographics
+- Websites
+- Videos
 
 ## Lab 13
+- Code
+- Textbook
+- Infographics
+- Websites
+- Videos
 
 ## Lab 14
+- Code
+- Textbook
+- Infographics
+- Websites
+- Videos
 
 ## Lab 15
+- Code
+- Textbook
+- Infographics
+- Websites
+- Videos
 
 ## Lab 16
+- Code
+- Textbook
+- Infographics
+- Websites
+- Videos
 
 ## Lab 17
+- Code
+- Textbook
+- Infographics
+- Websites
+- Videos
 
 # TinkerCAD
 
