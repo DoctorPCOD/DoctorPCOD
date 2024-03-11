@@ -206,19 +206,24 @@ In May 2022, here are the values Dr. P got without spending a ton of time optimi
 - Videos
   - [Circuit 2 demo](https://youtu.be/xMfgy89AevU)
 
-## Lab 16
+## Lab 16: Interrupts and WDT in Assembly
 - Code
+  - [Circuit 1: Pushbutton LED toggle with interrupts](../ENGIN-2223/lab16_circuit1.asm)
 - Textbook
-- Infographics
-- Websites
+  - Chapter 6
+  - Chapter 7
+  - Chapter 19
 - Videos
+  - [Circuit 4 demonstration](https://youtu.be/iWqjtBQRcCk)
 
-## Lab 17
+## Lab 17: Greater Than 8-Bit Math in Assembly
 - Code
+  - [Circuit 1: Display DIP switch value on LEDs with pin change interrupt](../ENGIN-2223/lab17_circuit1.asm)
+  - [Binary to BCD conversion with thousands place](../ENGIN-2223/bcd_thousands_place.asm)
 - Textbook
-- Infographics
-- Websites
-- Videos
+  - Chapter 6
+  - Chapter 7
+  - Chapter 19
 
 # TinkerCAD
 
