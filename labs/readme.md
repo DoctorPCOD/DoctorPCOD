@@ -73,7 +73,7 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
 - Textbook
   - Chapter 10
   - Section 18.4
-- Infographic
+- Infographics
   - [Resistor color codes](../infographics/Resistor%20color%20codes.pdf)
 
 ## Lab 2: Digital and Analog Input Devices
@@ -82,10 +82,25 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
 - Textbook
   - Chapter 10
   - Section 11.5
-- Infographic
+- Infographics
   - [Potentiometer and variable resistor wiring](../infographics/Pot%20vs%20Variable%20Resistor.pdf)
 
-## Lab 3
+## Lab 3: Displays
+- Code
+  - [Circuit I: Single 7-segment display](../ENGIN-2223/lab3_circuit1.ino
+  - [hd44780_settings.h](../ENGIN-2223/hd44780_settings.h)
+  - [hd44780.h](../ENGIN-2223/hd44780.h)
+  - [hd44780.cpp](../ENGIN-2223/hd44780.cpp)
+- Textbook
+  - Section 18.3
+  - Section 18.6
+  - Section 18.8
+- Infographics
+  - [Using current-limiting resistors with segmented displays and RGB LEDs](../infographics/Current-Limiting%20Resistors.pdf)
+- Websites
+  - [ASCII code](https://www.ascii-code.com/)
+- Videos
+  - [Current-limiting resistors](https://youtu.be/EN3FPsV-pFg)
 
 ## Lab 4
 
