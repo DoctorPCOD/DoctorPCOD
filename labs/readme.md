@@ -146,12 +146,30 @@ Serial.println(sP);
 - Websites
   - [This article from Boston University](https://www.bu.edu/articles/2020/striking-out-racist-terminology-in-engineering/) discusses the racism used in many electrical engineering concepts, which is why the terminology used in this lab differs from the terminology used in official AVR documentation and many other websites. This lab, and the lab appendix, have been rewritten to use the terms primary and secondary when referring to SPI devices.
 
-## Lab 10
-- Code
+## Lab 10: Power Consumption and ATmega328P without Arduino
 - Textbook
-- Infographics
+  - Chapter 9
 - Websites
-- Videos
+  - [AVR fuse calculator](https://www.engbedded.com/fusecalc/)
+  - [Arduino boards.txt file](https://github.com/arduino/ArduinoCore-avr/blob/master/boards.txt) includes fuse details of the Arduino programmed ATmega328P
+  - [How to use AVR fuses](http://www.crash-bang.com/programme-avr-fuse/)
+  - [All you need to know about AVR fuses](https://embedds.com/all-you-need-to-know-about-avr-fuses/)
+
+### Clarification
+Here are some details to make the circuits more clear.
+- Dr. P needs to see that your LED is visibly ON in all three circuits.
+- Vcc must be the same for both LED ON and LED OFF scenarios. (Don’t use a smaller Vcc with the LED off. Assume you are writing code for a circuit where you cannot just change Vcc all the time.)
+- Circuit 1 must have a Vcc of 5 V for both LED on and LED off. This is a baseline, you want to know where you started from.
+- Circuit 2 and 3 can have a Vcc down to 2.7 V, but only if the LED is visibly ON. (In circuit 2, the LED must be visibly ON with the USB cable disconnected from the Arduino Uno.)
+
+### Dr. P's Power Data
+In May 2022, here are the values Dr. P got without spending a ton of time optimizing. (You can do better!)
+
+| Circuit | LED ON   | LED OFF |
+|---------|----------|---------|
+| 1       | 213 mW   | 166 mW  |
+| 2       | 125.4 mW | 98.6 mW |
+| 3       | 2.6 mW   | 2.3 mW  |
 
 ## Lab 11
 - Code
