@@ -170,25 +170,27 @@ In May 2022, here are the values Dr. P got without spending a ton of time optimi
 | 2       | 125.4 mW | 98.6 mW |
 | 3       | 2.6 mW   | 2.3 mW  |
 
-## Lab 11
-- Code
+## Lab 11: Transmitting and Receiving a Secret Message
 - Textbook
-- Infographics
-- Websites
-- Videos
+  - Section 15.5
 
-## Lab 12
-- Code
+## Lab 12: Ultrasonic Sensor
 - Textbook
-- Infographics
-- Websites
+  - Section 14.2
 - Videos
+  - [Input capture unit](https://youtu.be/eXE-8X38AHs)
 
-## Lab 13
+## Lab 13: Introduction to Assembly
 - Code
+  - [Circuit I: Pushbutton and LED](../ENGIN-2223/lab13_circuit1.asm)
 - Textbook
-- Infographics
+  - Chapter 7
+  - Chapter 19
 - Websites
+  - [AVR Instruction Set Manual, PDF](http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-0856-AVR-Instruction-Set-Manual.pdf)
+  - [Microchip Studio](https://www.microchip.com/en-us/tools-resources/develop/microchip-studio)
+  - [How to program Arduino from Microchip Studio](https://www.arnabkumardas.com/platforms/atmel/how-to-flash-or-program-arduino-from-atmel-studio/) this works for both Atmel Studio and Microchip Studio
+  - [AVR delay loop calculator](http://darcy.rsgc.on.ca/ACES/TEI4M/AVRdelay.html)
 - Videos
 
 ## Lab 14
