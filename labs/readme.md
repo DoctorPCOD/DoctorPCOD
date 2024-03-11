@@ -191,21 +191,20 @@ In May 2022, here are the values Dr. P got without spending a ton of time optimi
   - [Microchip Studio](https://www.microchip.com/en-us/tools-resources/develop/microchip-studio)
   - [How to program Arduino from Microchip Studio](https://www.arnabkumardas.com/platforms/atmel/how-to-flash-or-program-arduino-from-atmel-studio/) this works for both Atmel Studio and Microchip Studio
   - [AVR delay loop calculator](http://darcy.rsgc.on.ca/ACES/TEI4M/AVRdelay.html)
-- Videos
 
-## Lab 14
-- Code
+## Lab 14: USART: Universal Synchronous/Asynchronous Receiver/Transmitter
 - Textbook
-- Infographics
-- Websites
-- Videos
+  - Section 15.4
 
-## Lab 15
+## Lab 15: Pointers and ADC in Assembly
 - Code
+  - [Binary to BCD conversion](../ENGIN-2223/binary-bcd.asm)
 - Textbook
-- Infographics
-- Websites
+  - Chapter 6
+  - Chapter 7
+  - Chapter 19
 - Videos
+  - [Circuit 2 demo](https://youtu.be/xMfgy89AevU)
 
 ## Lab 16
 - Code
