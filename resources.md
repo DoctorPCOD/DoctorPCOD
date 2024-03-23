@@ -30,6 +30,12 @@ Here is a list of resources related to ENGIN-2223.
 
 - [ASCII Code](https://www.ascii-code.com) A full table of ASCII code values in decimal, binary, octal and hexadecimal.
 
+## ADC
+
+- 🎥 Coming Soon: A video with a warning about using the ADC if you have to change the input channel in ADMUX.
+- [Understanding ADC Parameters, PDF](https://ww1.microchip.com/downloads/en/Appnotes/atmel-8456-8-and-32-bit-avr-microcontrollers-avr127-understanding-adc-parameters_application-note.pdf) This application note from Microchip goes over the basic concepts of the ADC used in AVR 8-bit microcontrollers, and in particular delves into ADC error in a bit of detail.
+- [ADC of megaAVR in Single-Ended Mode, PDF](https://ww1.microchip.com/downloads/en/Appnotes/AN2538-ADC-of-megaAVR-in-SingleEnded-Mode-00002538A.pdf) This application note from Microchip explains the single-ended successive-approximation register ADC used on the megaAVR microcontrollers.
+
 ## CPU Clock
 
 - [Choosing a Microcontroller Clock](https://www.allaboutcircuits.com/technical-articles/choosing-the-right-oscillator-for-your-microcontroller/) An explanation of different types of oscillators and how to choose the right clock for your microcontroller project.
