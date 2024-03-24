@@ -35,7 +35,7 @@
 # Exams
 
 - There will be one practical exam and one final exam
-- Practical exam: TBD (usually one week after the SPI lab)
+- Practical exam: Wednesday, April 10
 - Final exam: Wednesday, May 15
 
 # Design Project
