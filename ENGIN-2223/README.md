@@ -2,7 +2,7 @@ Sometimes, in lab, you are provided with code to use to learn from, or as a temp
 
 # Uploading code to Arduino using Arduino IDE
 1. Write your code in Arduino IDE
-2. (Optional) use CONTROL-T (command-T on Mac) to get nice clean auto-formatting
+2. Use CONTROL-T (command-T on Mac) to get nice clean auto-formatting
 3. Ensure that the Arduino is plugged in to the computer or laptop via USB
 4. Ensure that the Arduino IDE is using the correct board information
     1. In the menu, select tools
