@@ -37,15 +37,14 @@ void setup()
 
 void loop()
 {
-  //Set PORTD bit 7, causing pin D7 to have a value of HIGH
-  //if using compound operators, replace the following line with PORTD |= 0x80;
-  PORTD = PORTD | 0x80;
+  // Set PORTD bit 7, causing pin D7 to have a value of HIGH
+  // use a compound operator for better readability
+  PORTD |= 0x80;
   //wait for 1000 ms
   _delay_ms(1000);
 
-  //Clear PORTD bit 7, causing pin D7 to have a value of LOW
-  //if using compound operators, replace the following line with PORTD &= 0x7F;
-  PORTD = PORTD & 0x7F;
+  // Clear PORTD bit 7, causing pin D7 to have a value of LOW
+  PORTD &= 0x7F;
   //wait for 1000 ms
   _delay_ms(1000);
 }
