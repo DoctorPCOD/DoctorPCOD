@@ -63,6 +63,7 @@ Here is a list of resources related to ENGIN-2223.
 ## C Resources
 
 - [Guide to Software Commenting](https://www.ganssle.com/commenting.htm) Helpful advice on how to comment your software code.
+- [Functions: Introduction to C Programming](https://www.cs.uic.edu/~jbell/CourseNotes/C_Programming/Functions.html) A comprehensive guide to writing functions in C.
 
 ## Assembly Resources
 
