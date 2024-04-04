@@ -29,6 +29,7 @@ Here is a list of resources related to ENGIN-2223.
 ## Binary Codes
 
 - [ASCII Code](https://www.ascii-code.com) A full table of ASCII code values in decimal, binary, octal and hexadecimal.
+- [HD44780 Character Codes](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/labs/HD44780_character_codes.pdf) A table of the character codes used in the hd44780 library. (It's similar to ASCII for the 7-bit values, and then completely different for the 8-bit values.)
 
 ## ADC
 
