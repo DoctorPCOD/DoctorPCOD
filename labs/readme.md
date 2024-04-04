@@ -97,7 +97,7 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
 - Infographics
   - [Using current-limiting resistors with segmented displays and RGB LEDs](../infographics/Current-Limiting%20Resistors.pdf)
 - Websites
-  - [ASCII code](https://www.ascii-code.com/)
+  - [HD44780 character codes](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/labs/HD44780_character_codes.pdf) This document has the character codes used on the LCD screen. (It's similar to, but not the same as, ASCII.)
 - Videos
   - [Current-limiting resistors](https://youtu.be/EN3FPsV-pFg)
 
