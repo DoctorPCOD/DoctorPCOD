@@ -33,7 +33,7 @@ Here is a list of resources related to ENGIN-2223.
 
 ## ADC
 
-- 🎥 Coming Soon: A video with a warning about using the ADC if you have to change the input channel in ADMUX.
+- 🎥 [Chaning ADMUX](https://youtu.be/nEmeM64WUjs) A video I made with a warning about using the ADC if you have to change the input channel in ADMUX.
 - [Understanding ADC Parameters](https://ww1.microchip.com/downloads/en/Appnotes/atmel-8456-8-and-32-bit-avr-microcontrollers-avr127-understanding-adc-parameters_application-note.pdf) This application note from Microchip goes over the basic concepts of the ADC used in AVR 8-bit microcontrollers, and in particular delves into ADC error in a bit of detail.
 - [ADC of megaAVR in Single-Ended Mode](https://ww1.microchip.com/downloads/en/Appnotes/AN2538-ADC-of-megaAVR-in-SingleEnded-Mode-00002538A.pdf) This application note from Microchip explains the single-ended successive-approximation register ADC used on the megaAVR microcontrollers.
 
