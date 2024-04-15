@@ -98,7 +98,7 @@ The subsystem report will be due the last class day of the week given in the sch
 - The car must autonomously follow the tape and stop on its own with the line sensors no more than 1 cm past the end of the track. (As measured from the line sensors.)
 - The following three tests need to be performed:
   - The car must travel along the entire length of the track in less than or equal to 8 seconds.
-	- The car must travel along the entire length of the track in greater than or equal to 13 seconds.
+  - The car must travel along the entire length of the track in greater than or equal to 13 seconds.
   - The car must travel along the first half of track in less than or equal to 4 seconds, followed immediately by following the second half of track in greater than or equal to 6.5 seconds.
 - Half credit will be awarded if the Smart Car travels the fast segments between `t` and `2t`, or if the Smart Car travels the slow segments between `t/2` and `t`.
 
