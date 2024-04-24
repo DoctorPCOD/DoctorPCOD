@@ -2,11 +2,14 @@
 
 ## Symbols Included
 - 74279 (S'R' Latch)
+- 74C922 (Keypad Encoder)
 - 27C1024 (EPROM 64k x 16)
 - Keypad / encoder PCB
 - Debounced pushbutton PCB
 - 0-99 BCD display PCB
 - 16-segment display PCB
+- RGB LED matrix PCB
+- 16-key keypad
 
 ## How to Install
 1. Download ZIP file
@@ -21,6 +24,7 @@
 Contact Dr. P!
 
 ### Library Updates
+- 2024-04-24: added 74C922, 16-key keypad, and RGB LED matrix display
 - 2023-06-13: added 0-99 BCD display PCB
 - 2023-03-18: added debounced pushbutton PCB
 - 2023-01-31: created library
