@@ -154,8 +154,8 @@ The maze will be created out of the same material used in the line-following sub
 
 | Time to Complete                  | Points |
 | :---------------------------------| :------|
-| Less than or equal to 15 seconds. | 30     |
-| Less than or equal to 20 seconds. | 20     |
+| Less than or equal to 20 seconds. | 30     |
+| Less than or equal to 25 seconds. | 20     |
 | Less than or equal to 30 seconds. | 10     |
 | Greater than 30 seconds.          | 5      |
 
