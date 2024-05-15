@@ -91,3 +91,13 @@ Here is a list of resources related to ENGIN-2223.
 - _Digital Logic & Microprocessor Design with Interfacing_ by Enoch O. Hwang
 - _Introduction to Embedded Systems: Using ANSI C and the Arduino Development Environment_ by David Russell
 - _Make: AVR Programming: Learning to Write Software for Hardware_ by Elliot Williams
+
+# Advice from Former Students
+
+I give my students surveys every semester and ask them to give advice to future microcontrollers students. This is what they have to say.
+
+> Pace yourself. There is a lot to be done outside of lab, and unlike digital, it can be mostly done with a computer and compiler. Prepare ahead of time, and keep your lab manual/appendixes on hand.
+
+> Utilize the drop-in labs to practice your coding skills on the Arduino. START YOUR LAB REPORTS EARLY!
+
+> Don’t be afraid to ask questions. Put in the effort.
