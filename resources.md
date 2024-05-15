@@ -101,3 +101,17 @@ I give my students surveys every semester and ask them to give advice to future 
 > Utilize the drop-in labs to practice your coding skills on the Arduino. START YOUR LAB REPORTS EARLY!
 
 > Don’t be afraid to ask questions. Put in the effort.
+
+> Buying an Arduino or a clone at the start of the semester would be a great investment.
+
+> Just practice as much as you can and start lab reports when the information is fresh in your mind.
+
+> Go to as many drop ins as you can.
+
+> Don't be late to class.
+
+> Learn from your mistakes on labs and reports. Make sure you have a solid foundation of coding knowledge or you will suffer (I did not suffer but saw a student or 2 in particular that did).
+
+> Don't watch other people code! Its more beneficial, even if you write the same thing, to have a version that you practiced on yourself!
+
+> In general, try to work ahead. Doing lab reports the night before sucks, at least start on them early. Take pictures of lab circuits and comment your code correctly so you don't mess up circuit diagrams or other parts of the report. Also, work on the smart car as soon as you can, and if you are looking for a challenge, work ahead and try using ultrasonic sensors. If you can ensure you don't have other classes after lectures/during office hours, that will allow you to spend more time working on stuff.
