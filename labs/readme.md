@@ -153,6 +153,12 @@ Serial.println(sP);
   - [Arduino boards.txt file](https://github.com/arduino/ArduinoCore-avr/blob/master/boards.txt) includes fuse details of the Arduino programmed ATmega328P
   - [How to use AVR fuses](http://www.crash-bang.com/programme-avr-fuse/)
 
+### Fuse Bytes
+- Use the Config tab in the Xgpro programming software to configure the fuse bytes (see screenshot below)
+- Under "Others" in the bottom right wil be the HEX value of each byte, which is useful for comparing to a fuse byte calculator
+
+![screen shot of Xgpro software in the Config tab](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/labs/xgpro-config.png?raw=true)
+
 ### Clarification
 Here are some details to make the circuits more clear.
 - Dr. P needs to see that your LED is visibly ON in all three circuits.
