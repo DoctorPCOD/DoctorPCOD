@@ -148,6 +148,7 @@ Serial.println(sP);
 ## Lab 10: Power Consumption and ATmega328P without Arduino
 - Textbook
   - Chapter 9
+  - Chapter 16
 - Websites
   - [AVR fuse calculator](https://www.engbedded.com/fusecalc/)
   - [Arduino boards.txt file](https://github.com/arduino/ArduinoCore-avr/blob/master/boards.txt) includes fuse details of the Arduino programmed ATmega328P
@@ -162,18 +163,18 @@ Serial.println(sP);
 ### Clarification
 Here are some details to make the circuits more clear.
 - Dr. P needs to see that your LED is visibly ON in all three circuits.
-- Vcc must be the same for both LED ON and LED OFF scenarios. (Don’t use a smaller Vcc with the LED off. Assume you are writing code for a circuit where you cannot just change Vcc all the time.)
-- Circuit 1 must have a Vcc of 5 V for both LED on and LED off. This is a baseline, you want to know where you started from.
-- Circuit 2 and 3 can have a Vcc down to 2.7 V, but only if the LED is visibly ON. (In circuit 2, the LED must be visibly ON with the USB cable disconnected from the Arduino Uno.)
+- External interrupts triggered by a pushbutton must always work (be sure this doesn't stop functioning if you decrease VCC).
+- Circuit 1 must have a VCC of 5 V. This is a baseline: you want to know where you started from.
+- Circuit 2 and 3 can have a VCC down to 2.7 V, but only if the LED is visibly ON and external interrupts still work. (In circuit 2, the LED must be visibly ON with the USB cable disconnected from the Arduino Uno.)
 
 ### Dr. P's Power Data
-In May 2022, here are the values Dr. P got without spending a ton of time optimizing. (You can do better!)
+In May 2024, here are the values Dr. P got after doing some power optimization. The constraints were the same as lab: the LED was visibly ON when enabled, and the pushbutton was always able to trigger an interrupt.
 
-| Circuit | LED ON   | LED OFF |
-|---------|----------|---------|
-| 1       | 213 mW   | 166 mW  |
-| 2       | 125.4 mW | 98.6 mW |
-| 3       | 2.6 mW   | 2.3 mW  |
+| Circuit | LED ON   | LED OFF  |
+|---------|----------|----------|
+| 1       | 297.5 mW | 292.5 mW |
+| 2       | 95.7 mW  | 78.9 mW  |
+| 3       | 18.2 mW  | 17.5 mW  |
 
 ## Lab 11: Transmitting and Receiving a Secret Message
 - Textbook
