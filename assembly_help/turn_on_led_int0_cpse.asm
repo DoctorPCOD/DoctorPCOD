@@ -31,6 +31,9 @@ loop:
 
 
 EXT_INT0:
+	; even though the loop is empty, it's good practice to save SREG
+	IN r15, SREG
+
 	; start by turning off the LED
 	CBI PORTB, 0
 
@@ -44,5 +47,8 @@ EXT_INT0:
 	; compare r16 and r17, skip next instruction if they are equal
 	CPSE r16, r17
 	SBI PORTB, 0
+
+	; restore SREG
+	OUT SREG, r15
 
 	RETI
