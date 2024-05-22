@@ -1,0 +1,9 @@
+Assembly can be tricky to get a handle on. I've decided to compile together some code to show the myriad ways that things can be done using assembly.
+
+# Turning ON/OFF an LED based on the status of a pushbutton
+- [Using polling and `CPI` (compare immediate) instructions, this is the code given to you for Lab 13 Circuit I](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/ENGIN-2223/lab13_circuit1.asm)
+- Using polling and `SBIC` (skip if bit in I/O register is cleared)
+- Using `INT0` and `CPI`
+- Using `INT0` and `SBIC`
+- Using `PCINTx` and `CPI`
+- Using `PCINTx` and `SBIC`
