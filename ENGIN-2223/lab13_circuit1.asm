@@ -1,38 +1,38 @@
 ;
-; THIS CODE WILL TURN AN LED ON IF A PUSHBUTTON IS PRESSED
-;  OR TURN THE LED OFF IF THE PUSHBUTTON IS NOT PRESSED
-; PUSHBUTTON PIN D7
-; LED PIN D8
+; This code will turn on an LED if a pushbutton is pressed
+; (alternatively, it will turn the LED off if the button is not pressed)
+; 
 ; WRITTEN: 11/15/2017 10:28:58 AM
-; EDITED:  05/23/2022
+; EDITED:  05/22/2024
 ; AUTHOR : Alyssa J. Pasquale, Ph.D.
 ;
+; I/O pins
+; D8: LED
+; D7: pushbutton (external pull-down)
 
-; setup subroutine starts here
-; CONFIGURE PORTB BIT 0 (PIN D8) AS OUTPUT
-SBI DDRB, 0
+; any non-repeating tasks should occur outside of the loop
+SBI DDRB, 0	; configure D8 as an output pin
 
 ; loop subroutine starts here
 loop:
-; INPUT DATA FROM PIND REGISTER
-IN r16, PIND
-; MASK DATA FROM PIND REGISTER
-ANDI r16, 0x80
+	; start by turning the LED off
+	CBI PORTB, 0
 
-; COMPARE REGISTER 16 TO 0x80
-CPI r16, 0x80
-; IF R16 >= 0x80, TURN ON THE LED
-BRSH turn_on_led
+	; input data from the PIND register
+	IN r16, PIND
+	; mask data from the PIND register
+	ANDI r16, 0x80
 
-; OTHERWISE, TURN OFF THE LED
-turn_off_led:
-CBI PORTB, 0
-; JUMP TO THE START OF THE LOOP
-JMP loop
+	; compare to 0x80 (if it is equal to 0x80, then the pushbutton is pressed)
+	CPI r16, 0x80
+	; if r16 = 0x80, turn on the LED
+	BREQ turn_on_led	; if r16 = 0x80, the code will branch to the turn_on_led address location
 
-; THIS IS THE TURN ON LED CODE
+	; otherwise, we can jump back to the start of the loop
+	JMP loop
+
 turn_on_led:
-SBI PORTB, 0
+	SBI PORTB, 0
 
-; TELL THE CODE TO REPEAT AGAIN FROM THE BEGINNING OF loop
-JMP loop
+	; now that the LED is on, go back to the start of the loop
+	JMP loop
