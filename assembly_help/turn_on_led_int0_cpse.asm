@@ -37,7 +37,7 @@ EXT_INT0:
 	; start by turning off the LED
 	CBI PORTB, 0
 
-	; load data from PIND
+	; load data from PIND and mask
 	IN r16, PIND
 	ANDI r16, 0x04
 
