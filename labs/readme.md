@@ -173,8 +173,9 @@ In May 2024, here are the values Dr. P got after doing some power optimization. 
 | Circuit | LED ON   | LED OFF  |
 |---------|----------|----------|
 | 1       | 297.5 mW | 292.5 mW |
-| 2       | 95.7 mW  | 78.9 mW  |
-| 3       | 18.2 mW  | 17.5 mW  |
+| 2       | 295.0 mW | 220.0 mW |
+| 3       | 95.7 mW  | 78.9 mW  |
+| 4       | 18.2 mW  | 17.5 mW  |
 
 ## Lab 11: Transmitting and Receiving a Secret Message
 - Textbook
