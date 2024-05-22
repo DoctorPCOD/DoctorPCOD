@@ -3,7 +3,7 @@
 ; this method uses SBIC (skip if bit in I/O register is cleared)
 ;
 ; WRITTEN: 05/22/2024 18:17:31
-; AUTHOR : Alyssa
+; AUTHOR : Alyssa J. Pasquale, Ph.D.
 ;
 ; I/O pins
 ; D8: LED
