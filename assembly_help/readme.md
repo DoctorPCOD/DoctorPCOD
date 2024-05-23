@@ -1,5 +1,7 @@
 Assembly can be tricky to get a handle on. I've decided to compile together some code to show the myriad ways that things can be done using assembly.
 
+If you can think of anything else that would be a helpful resource without giving away how to do a lab circuit, please make a request by e-mailing me!
+
 # Turning ON/OFF an LED based on the status of a pushbutton
 - [Using polling and `CPI` (compare immediate)](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/ENGIN-2223/lab13_circuit1.asm), this is the code given to you for Lab 13 Circuit I
 - [Using polling and `CPSE` (compare, skip if equal)](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/assembly_help/turn_on_led_polling_CPSE.asm)
