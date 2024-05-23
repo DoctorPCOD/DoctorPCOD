@@ -156,7 +156,7 @@ Serial.println(sP);
 
 ### Fuse Bytes
 - Use the Config tab in the Xgpro programming software to configure the fuse bytes (see screenshot below)
-- Under "Others" in the bottom right wil be the HEX value of each byte, which is useful for comparing to a fuse byte calculator
+- Under "Others" in the bottom right will be the HEX value of each byte, which is useful for comparing to a fuse byte calculator
 
 ![screen shot of Xgpro software in the Config tab](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/labs/xgpro-config.png?raw=true)
 
