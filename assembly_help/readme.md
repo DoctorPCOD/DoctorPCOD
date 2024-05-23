@@ -13,4 +13,4 @@ Assembly can be tricky to get a handle on. I've decided to compile together some
 - [Using `CBI` and `SBI` and a `CALL` to a delay function](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/assembly_help/toggle_led_cbi_sbi_call.asm)
 - [Using exclusive OR and a `CALL` to a delay function](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/assembly_help/toggle_led_eor_call.asm)
 - [Using exclusive OR and a timed interrupt](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/assembly_help/toggle_led_eor_ctc_interrupt.asm)
-- Using the output compare pin on a timer/counter in CTC mode
+- [Using the output compare pin on a timer/counter in CTC mode](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/assembly_help/toggle_led_oc1a.asm)
