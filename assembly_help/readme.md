@@ -10,7 +10,7 @@ Assembly can be tricky to get a handle on. I've decided to compile together some
 - [Using `PCINT1` and `SBIS` and internal pull-up](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/assembly_help/turn_on_led_pcint1_sbis.asm), otherwise the code is virtually identical to that given above using `INT0`
 
 # Toggling an LED ON/OFF at regular intervals
-- Using `CBI` and `SBI` and a `CALL` to a delay function
+- [Using `CBI` and `SBI` and a `CALL` to a delay function](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/assembly_help/toggle_led_cbi_sbi_call.asm)
 - Using exclusive OR and a `CALL` to a delay function
 - Using `CBI` and `SBI` and a timed interrupt
 - Using exclusive OR and a timed interrupt
