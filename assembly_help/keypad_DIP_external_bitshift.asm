@@ -6,7 +6,7 @@
 ; Author : Alyssa J. Pasquale, Ph.D.
 ;
 ; I/O pins
-; D11: DIP MSB	external pull-downs
+; D11: DIP MSB	; either a DIP with external pull-downs or a keypad
 ; D10: DIP
 ; D9:  DIP
 ; D8:  DIP LSB
