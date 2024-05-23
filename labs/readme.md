@@ -190,6 +190,7 @@ In May 2024, here are the values Dr. P got after doing some power optimization. 
 ## Lab 13: Introduction to Assembly
 - Code
   - [Circuit I: Pushbutton and LED](../ENGIN-2223/lab13_circuit1.asm)
+  - [DrPCOD/assembly_help](https://github.com/DoctorPCOD/DoctorPCOD/tree/main/assembly_help)
 - Textbook
   - Chapter 7
   - Chapter 19
@@ -206,6 +207,7 @@ In May 2024, here are the values Dr. P got after doing some power optimization. 
 ## Lab 15: Pointers and ADC in Assembly
 - Code
   - [Binary to BCD conversion](../ENGIN-2223/binary-bcd.asm)
+  - [DrPCOD/assembly_help](https://github.com/DoctorPCOD/DoctorPCOD/tree/main/assembly_help)
 - Textbook
   - Chapter 6
   - Chapter 7
@@ -216,6 +218,7 @@ In May 2024, here are the values Dr. P got after doing some power optimization. 
 ## Lab 16: Interrupts and WDT in Assembly
 - Code
   - [Circuit 1: Pushbutton LED toggle with interrupts](../ENGIN-2223/lab16_circuit1.asm)
+  - [DrPCOD/assembly_help](https://github.com/DoctorPCOD/DoctorPCOD/tree/main/assembly_help)
 - Textbook
   - Chapter 6
   - Chapter 7
@@ -227,6 +230,7 @@ In May 2024, here are the values Dr. P got after doing some power optimization. 
 - Code
   - [Circuit 1: Display DIP switch value on LEDs with pin change interrupt](../ENGIN-2223/lab17_circuit1.asm)
   - [Binary to BCD conversion with thousands place](../ENGIN-2223/bcd_thousands_place.asm)
+  - [DrPCOD/assembly_help](https://github.com/DoctorPCOD/DoctorPCOD/tree/main/assembly_help)
 - Textbook
   - Chapter 6
   - Chapter 7
