@@ -1,6 +1,7 @@
 ;
-; this code sends data from a DIP switch or keypad to a 7-segment display PCB (BCD to 7-segment)
-; it uses a bitshift operation
+; this code sends data from a DIP switch with internal pull-ups to a BCD to 7-segment display PCB
+; any value greater than 9 will blank the display out
+; bitshift operations are used to move the data from port b into the correct position to output onto port d
 ;
 ; Created: 05/22/2024 20:41
 ; Author : Alyssa J. Pasquale, Ph.D.
