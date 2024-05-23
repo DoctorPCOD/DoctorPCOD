@@ -20,5 +20,5 @@ Assembly can be tricky to get a handle on. I've decided to compile together some
 - [Using the BCD to 7-segment decoder PCB, internal pull-ups, and bitshift operations](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/assembly_help/DIP_internal_bitshift.asm), because this uses internal pull-ups, it only works for a DIP switch, not a keypad
 - [Using the BCD to 7-segment decoder PCB, DIP with external pull-downs or a keypad, and `SWAP`](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/assembly_help/keypad_DIP_external_swap.asm)
 - [Using the BCD to 7-segment decoder PCB, DIP with external pull-downs or a keypad, and bitshift operations](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/assembly_help/keypad_DIP_external_bitshift.asm)
-- Using SPI and the `X` pointer register
+- [Using SPI and the `X` pointer register](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/assembly_help/keypad_DIP_SPI.asm)
 - Using a common-cathode 7-segment display
