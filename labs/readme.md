@@ -164,8 +164,9 @@ Serial.println(sP);
 Here are some details to make the circuits more clear.
 - Dr. P needs to see that your LED is visibly ON in all three circuits.
 - External interrupts triggered by a pushbutton must always work (be sure this doesn't stop functioning if you decrease VCC).
-- Circuit 1 must have a VCC of 5 V. This is a baseline: you want to know where you started from.
-- Circuit 2 and 3 can have a VCC down to 2.7 V, but only if the LED is visibly ON and external interrupts still work. (In circuit 2, the LED must be visibly ON with the USB cable disconnected from the Arduino Uno.)
+- Circuit 1 is a baseline to determine where you've started from. Do no optimizations at all on this circuit.
+- Circuits 1 and 2 must have a VCC of 5 V.
+- Circuits 3 and 4 can have a VCC down to 2.7 V, but **only** if the LED is visibly ON **and** external interrupts still work. (In circuit 3, the LED must be visibly ON with the USB cable disconnected from the Arduino Uno.)
 
 ### Dr. P's Power Data
 In May 2024, here are the values Dr. P got after doing some power optimization. The constraints were the same as lab: the LED was visibly ON when enabled, and the pushbutton was always able to trigger an interrupt.
