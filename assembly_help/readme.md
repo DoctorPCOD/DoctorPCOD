@@ -14,3 +14,11 @@ Assembly can be tricky to get a handle on. I've decided to compile together some
 - [Using exclusive OR and a `CALL` to a delay function](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/assembly_help/toggle_led_eor_call.asm)
 - [Using exclusive OR and a timed interrupt](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/assembly_help/toggle_led_eor_ctc_interrupt.asm)
 - [Using the output compare pin on a timer/counter in CTC mode](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/assembly_help/toggle_led_oc1a.asm)
+
+# Writing data from a keypad or DIP switch to a 7-segment display
+- Using the BCD to 7-segment decoder PCB, internal pull-ups, and `SWAP`
+- Using the BCD to 7-segment decoder PCB, internal pull-ups, and bitshift operations
+- Using the BCD to 7-segment decoder PCB, external pull-downs, and `SWAP`
+- Using the BCD to 7-segment decoder PCB, external pull-downs, and bitshift operations
+- Using SPI and the `X` pointer register
+- Using a common-cathode 7-segment display
