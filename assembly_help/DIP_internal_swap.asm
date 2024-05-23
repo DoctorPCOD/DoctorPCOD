@@ -1,6 +1,7 @@
 ;
 ; this code sends data from a DIP switch with internal pull-ups to a BCD to 7-segment display PCB
 ; any value greater than 9 will blank the display out
+; due to the location of the DIP on the least significant nibble of port b and the display on the most significant nibble of port d, we can use SWAP
 ;
 ; Created: 05/22/2024 20:12:20
 ; Author : Alyssa J. Pasquale, Ph.D.
