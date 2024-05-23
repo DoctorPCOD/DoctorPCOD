@@ -5,6 +5,6 @@ Assembly can be tricky to get a handle on. I've decided to compile together some
 - [Using polling and `CPSE` (compare, skip if equal)](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/assembly_help/turn_on_led_polling_CPSE.asm)
 - [Using polling and `SBIC` (skip if bit in I/O register is cleared)](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/assembly_help/turn_on_led_polling_SBIC.asm)
 - [Using `INT0` and `CPSE`](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/assembly_help/turn_on_led_int0_cpse.asm)
-- Using `INT0` and `SBIC`
+- [Using `INT0` and `SBIC`](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/assembly_help/turn_on_led_int0_sbic.asm)
 - Using `PCINTx` and `CPSE`
 - Using `PCINTx` and `SBIC`
