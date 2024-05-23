@@ -13,4 +13,4 @@ Assembly can be tricky to get a handle on. I've decided to compile together some
 - [Using `CBI` and `SBI` and a `CALL` to a delay function](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/assembly_help/toggle_led_cbi_sbi_call.asm)
 - [Using exclusive OR and a `CALL` to a delay function](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/assembly_help/toggle_led_eor_call.asm)
 - Using exclusive OR and a timed interrupt
-- Using the `T` flag in `SREG` and the `COM` pins on a timed interrupt
+- Using the output compare pin on a timed interrupt
