@@ -1,11 +1,12 @@
 ;
-; keypad-segmentpcb-internal.asm
+; this code sends data from a DIP switch with internal pull-ups to a BCD to 7-segment display PCB
+; any value greater than 9 will blank the display out
 ;
 ; Created: 05/22/2024 20:12:20
-; Author : Alyssa
+; Author : Alyssa J. Pasquale, Ph.D.
 ;
 ; I/O pins
-; D11: DIP MSB
+; D11: DIP MSB ; internal pull-ups!
 ; D10: DIP
 ; D9:  DIP
 ; D8:  DIP LSB
