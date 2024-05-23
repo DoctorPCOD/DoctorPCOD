@@ -24,15 +24,15 @@ loop:
 	JMP loop
 
 delay250:
-    ldi  r18, 21
-    ldi  r19, 75
-    ldi  r20, 191
-L1: dec  r20
-    brne L1
-    dec  r19
-    brne L1
-    dec  r18
-    brne L1
-    nop
+	ldi  r18, 21
+	ldi  r19, 75
+	ldi  r20, 191
+L1:     dec  r20
+	brne L1
+	dec  r19
+	brne L1
+	dec  r18
+	brne L1
+	nop
 
-	RET
+  	RET
