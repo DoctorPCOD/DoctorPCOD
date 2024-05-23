@@ -1,12 +1,12 @@
 ;
-; this code sends data from a DIP switch or keypad to a 7-segment display PCB (BCD to 7-segment)
-; it uses a bitshift operation
+; this code sends data from a DIP switch with external pull-downs OR a keypad to a BCD to 7-segment display PCB
+; any value greater than 9 will blank the display out
 ;
 ; Created: 05/22/2024 20:41
 ; Author : Alyssa J. Pasquale, Ph.D.
 ;
 ; I/O pins
-; D11: DIP MSB	external pull-downs
+; D11: DIP MSB	; DIP with external pull-downs or a keypad
 ; D10: DIP
 ; D9:  DIP
 ; D8:  DIP LSB
