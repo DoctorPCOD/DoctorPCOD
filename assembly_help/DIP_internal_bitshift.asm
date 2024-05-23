@@ -7,7 +7,7 @@
 ; Author : Alyssa J. Pasquale, Ph.D.
 ;
 ; I/O pins
-; D11: DIP MSB
+; D11: DIP MSB	; internal pull-ups!
 ; D10: DIP
 ; D9:  DIP
 ; D8:  DIP LSB
