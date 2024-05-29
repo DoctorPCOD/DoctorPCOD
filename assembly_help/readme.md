@@ -23,5 +23,5 @@ If you can think of anything else that would be a helpful resource without givin
 - [Using the BCD to 7-segment decoder PCB, DIP with external pull-downs or a keypad, and `SWAP`](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/assembly_help/keypad_DIP_external_swap.asm)
 - [Using the BCD to 7-segment decoder PCB, DIP with external pull-downs or a keypad, and bitshift operations](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/assembly_help/keypad_DIP_external_bitshift.asm)
 - [Using SPI and the `X` pointer register](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/assembly_help/keypad_DIP_SPI.asm)
-- [Using a common-cathode 7-segment display](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/assembly_help/keypad_common_cathode_display.asm)
-- [Using a common-anode 7-segment display](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/assembly_help/keypad_common_anode_display.asm)
+- [Using a common-cathode 7-segment display using `X` pointer register](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/assembly_help/keypad_common_cathode_display.asm)
+- [Using a common-anode 7-segment display using `X` pointer register](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/assembly_help/keypad_common_anode_display.asm)
