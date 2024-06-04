@@ -13,6 +13,7 @@ Here is a list of resources related to ENGIN-2223.
 
 ## Arduino
 
+- [Arduino Uno R3 Datasheet](https://docs.arduino.cc/resources/datasheets/A000066-datasheet.pdf) This datasheet gives information specific to the Arduino Uno.
 - [Arduino Uno R3 Schematic](https://www.arduino.cc/en/uploads/Main/Arduino_Uno_Rev3-schematic.pdf) A complete pin-by-pin look at the Arduino Uno[^2] and how it interfaces with the ATmega328P microcontroller.
 - [Arduino Board Pin Reference](https://docs.arduino.cc/tutorials/uno-rev3/intro-to-board/) Explains all of the pins on the Arduino Uno board.
 - [Cheater Functions Explained](http://garretlab.web.fc2.com/en/arduino/inside/index.html) This website explains the C code behind all of the Arduino “cheater functions” (that you are definitely not allowed to use in class). See how much bloat is included in these functions that we eliminate by using C.
