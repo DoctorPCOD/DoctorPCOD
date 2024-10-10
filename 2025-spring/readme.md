@@ -24,7 +24,7 @@
 - [The doctor-pasquale.com ENGIN-2223 website](https://doctor-pasquale.com/engin-2223/) has additional resources for each lab, as well as the [inventory of parts](https://doctor-pasquale.com/inventory/) and other potentially useful information.
 - In-lab
   - Starter code is available in my GitHub repository [DoctorPCOD/ENGIN-2223](../ENGIN-2223)
-  - Upload your labs and variable sheets to [Gradescope](https://www.gradescope.com) prior to the conclusion of each lab session.
+  - Upload your labs and variable sheets to *platform TBD* prior to the conclusion of each lab session.
   - Upload your code to GitHub. [Links to each assignment are located in this repository.](github-submission-links.md)
   - Each student must join the GitHub team to receive individual credit for code.
 - Lab report
