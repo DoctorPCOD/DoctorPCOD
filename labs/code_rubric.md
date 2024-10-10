@@ -112,7 +112,7 @@ The following issues will have to be taken on a case-by-case basis. Hopefully th
 - Checking for a value based on a variable instead of probing a pin or configuration register
 - Incorrect or conflicting keywords
   - Not using `volatile` correctly
-- Two variables with the same name if both are local
+- Two variables with the same name if both are local and in different functions
 - Incorrect array size
   - Character buffer in integer/long to string conversion
 
