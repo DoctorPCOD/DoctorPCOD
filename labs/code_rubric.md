@@ -215,17 +215,20 @@ Any circuits with data memory listed as "variable" is dependent on the number of
 
 ### Activities
 
-Activity 2		518	9	5
-Activity 5		1468	85*depends N	6
-Activity 6	Circuit 1	502	9	3
-Activity 6	Circuit 2	522	9	3
-Activity 10	Circuit 1	--	--	2 – no code
-Activity 10	Circuit 2			5
-Activity 11				7.5
-Activity 13	Circuit 1	816	21	3
-Activity 13	Circuit 2	790	21	3
-Activity 15	Circuit 1			3
-Activity 15	Circuit 2			3
+Apparently I haven't recorded my data for activities 10, 11, and 15 as of October 2024.
+
+| Activity | Circuit | Program (B) | Data (B) |
+|----------|---------|-------------|----------|
+| 2		     |         | 518         | 9        |
+| 5        |         | 1468        | variable |
+| 6        | 1       | 502         | 9        |
+|          | 2       | 522         | 9        |
+| 10       | 2       | ??          | ??       |
+| 11       | ??      | ??          | ??       |
+| 13       | 1       | 816         | 21       |
+|          | 2       | 790         | 21       |
+| 15       | 1       | ??          | ??       |
+|          | 2       | ??          | ??       |
 
 
 [1] Note that even our shortest code uses at least 400 bytes of memory. The Arduino IDE comes with a lot of inherent code bloat. This is a tradeoff we make to use the simple upload over USB to the Arduino prototyping platform. If you want to eliminate bloat, consider using a "real" IDE such as Microchip Studio.
