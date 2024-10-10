@@ -178,7 +178,7 @@ Any circuits with data memory listed as "variable" is dependent on the number of
 
 | Lab | Circuit | Program (B) | Data (B) |
 |-----|---------|-------------|----------|
-| 1   | 1       | 488[^1]     | 9[^2]    |
+| 1   | 1       | 488 [^1]    | 9 [^2]   |
 |     | 2       | 472         | 9        |
 |     | 3       | 562         | 9        |
 | 2   | 1a      | 458         | 9        |
@@ -199,10 +199,10 @@ Any circuits with data memory listed as "variable" is dependent on the number of
 | 7   | 1       | 510         | 9        |
 |     | 2       | 624         | 9        |
 |     | 3       | 624         | 9        |
-| 8   | 2       | 1924[^3]    |	191      |
-|     | 3       | 2046[^3]    |	232      |
+| 8   | 2       | 1924 [^3]   |	191      |
+|     | 3       | 2046 [^3]   |	232      |
 | 9   | 1       | 600         | 20       |
-|     | 2       | 1678[^3]    | 189      |
+|     | 2       | 1678 [^3]   | 189      |
 |     | 3 P     | 1278        | 16       |
 |     | 3 S     | 1324        | 16       |
 | 10  | 2       | 552         | 10       |
