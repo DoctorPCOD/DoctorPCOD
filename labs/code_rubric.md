@@ -31,6 +31,34 @@ The number of issues with the highest level of severity is what determines the s
 |       | 7+ low severity issues OR       |
 |       | 5+ qualitative issues           |
 
-## Major Issues
+## Dealbreakers
+No credit is awarded if there's a dealbreaker.
 
-##
+- Anything that kills the code (e.g.: compiler error)
+- No CTRL-T (improper indenting)
+- No stamp
+- Use of cheater functions
+
+## Code Header Needs
+- Description
+  - All team member names
+  - Date
+  - Lab and circuit number
+  - Description of the circuit
+- List of I/O pins
+  - Must be included
+  - Must include all I/O pins used
+  - Anything hard wired to a signal (e.g.: GND) must be listed
+
+
+## High Severity Issues
+**Definition:** The code may stop functioning as expected under "normal" operating conditions.
+
+
+## Medium Severity Issues
+**Definition:** There may be specific instances where the code may not work as expected.
+
+## Low Severity Issues
+**Definition:** The code will use too much program or data memory. The code will take longer than needed to execute.
+
+## Qualitative Issues
