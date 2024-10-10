@@ -94,7 +94,9 @@ The following issues will have to be taken on a case-by-case basis. Hopefully th
   - `if`/`else if` not using mutually exclusive conditions
 - Incorrect or conflicting keywords
   - Not using `static` correctly
-- Two variables with the same name if one is global
+- Two variables with the same name
+  - If one is global and the other is local
+  - If both are local to the same function (i.e.: overwriting a variable)
 
 ## Medium Severity Issues
 **Definition:** There may be specific instances where the code may not work as expected.
@@ -112,7 +114,8 @@ The following issues will have to be taken on a case-by-case basis. Hopefully th
 - Checking for a value based on a variable instead of probing a pin or configuration register
 - Incorrect or conflicting keywords
   - Not using `volatile` correctly
-- Two variables with the same name if both are local and in different functions
+- Two variables with the same name
+  - If both are local to different functions
 - Incorrect array size
   - Character buffer in integer/long to string conversion
 
