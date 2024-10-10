@@ -22,6 +22,9 @@
   - ⚠️ Be sure that the version says Spring 2025.
   - I recommend getting a copy printed using the [COD Library's Print on Demand service](https://library.cod.edu/pod). It is quick and costs only a few dollars!
 - [The doctor-pasquale.com ENGIN-2223 website](https://doctor-pasquale.com/engin-2223/) has additional resources for each lab, as well as the [inventory of parts](https://doctor-pasquale.com/inventory/) and other potentially useful information.
+- Pre-lab
+  - IYKYK
+  - Upload pre-lab to [MyOpenMath](https://www.myopenmath.com) before each lab starts.
 - In-lab
   - Starter code is available in my GitHub repository [DoctorPCOD/ENGIN-2223](../ENGIN-2223)
   - Upload your labs and variable sheets to [MyOpenMath](https://www.myopenmath.com) prior to the conclusion of each lab session.
