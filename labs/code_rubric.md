@@ -64,7 +64,7 @@ The following issues will have to be taken on a case-by-case basis. Hopefully th
 - General syntax errors
 - I/O issues
   - Not masking input data
-- Timing issues based on having something in a loop vs. an ISR (I need to see some bad code before I can make determinations on this. Maybe you can volunteer to write this?)
+- Timing issues based on having something in a loop vs. an ISR
 
 ## High Severity Issues
 **Definition:** The code may stop functioning as expected under "normal" operating conditions.
