@@ -169,8 +169,67 @@ Good vibes only. Here are some code vibe-killers. This is not an exhaustive list
 ## Best-Case Code
 These are the best-case values of program and data memory used in each lab and activity circuit, assuming I write the best possible code. Please feel free to prove that assumption incorrect by doing better than this!
 
+Any circuits with data memory listed as "variable" is dependent on the number of entries in an array.
+
+### Labs
+
 | Lab | Circuit | Program (B) | Data (B) |
 |-----|---------|-------------|----------|
-| 1   | 1       | 488         | 9        |
+| 1   | 1       | 488[^1]     | 9[^2]    |
 |     | 2       | 472         | 9        |
 |     | 3       | 562         | 9        |
+| 2   | 1a      | 458         | 9        |
+|     | 1b      | 460         | 9        |
+|     | 2       | 530         | 9        |
+|     | 3       | 512         | 9        |
+| 3   | 1       | 568         | 25       |
+|     | 2       | 1204        | 27       |
+|     | 3       | 824         | 21       |
+| 4   | 1       | 1468        | variable |
+|     | 2       | 1498        | variable |
+|     | 3       | 1550        | variable |
+| 5   | 1       | 1230        | 12       |
+|     | 2       | 1440        | 14       |
+|     | 3       | 540         | 9        |
+| 6   | 1       | 1542        | 36       |
+|     | 2       | 2422        | 33       |
+| 7   | 1       | 510         | 9        |
+|     | 2       | 624         | 9        |
+|     | 3       | 624         | 9        |
+| 8   | 2       | 1924[^3]    |	191      |
+|     | 3       | 2046[^3]    |	232      |
+| 9   | 1       | 600         | 20       |
+|     | 2       | 1678[^3]    | 189      |
+|     | 3 P     | 1278        | 16       |
+|     | 3 S     | 1324        | 16       |
+| 10  | 2       | 552         | 10       |
+|     | 3       | 586         | 10       |
+| 11  | 1       | 568         | 13       |
+|     | 2       | 1578 [^3]   |	188      |
+| 12  | 1       | 1500        | 26       |
+|     | 2       | 1714        | 47       |
+|     | 3       | 2348        | 30       |
+| 13  | 1       | 22          | 0        |
+|     | 2       | 34          | 0        |
+|     | 3       | 86          | 0        |
+
+### Activities
+
+Activity 2		518	9	5
+Activity 5		1468	85*depends N	6
+Activity 6	Circuit 1	502	9	3
+Activity 6	Circuit 2	522	9	3
+Activity 10	Circuit 1	--	--	2 – no code
+Activity 10	Circuit 2			5
+Activity 11				7.5
+Activity 13	Circuit 1	816	21	3
+Activity 13	Circuit 2	790	21	3
+Activity 15	Circuit 1			3
+Activity 15	Circuit 2			3
+
+
+[1] Note that even our shortest code uses at least 400 bytes of memory. The Arduino IDE comes with a lot of inherent code bloat. This is a tradeoff we make to use the simple upload over USB to the Arduino prototyping platform. If you want to eliminate bloat, consider using a "real" IDE such as Microchip Studio.
+
+[2] Note that the minimum data memory used in the Arduino IDE is 9 bytes. This is the amount of space the IDE gives to the stack. https://en.wikipedia.org/wiki/Stack_(abstract_data_type)
+
+[3] This code uses the serial monitor, which is a huge code bloater, both in terms of program and data memory.
