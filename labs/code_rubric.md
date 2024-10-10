@@ -234,8 +234,8 @@ Apparently I haven't recorded my data for activities 10, 11, and 15 as of Octobe
 |          | 2       | ??          | ??       |
 
 
-[1] Note that even our shortest code uses at least 400 bytes of memory. The Arduino IDE comes with a lot of inherent code bloat. This is a tradeoff we make to use the simple upload over USB to the Arduino prototyping platform. If you want to eliminate bloat, consider using a "real" IDE such as Microchip Studio.
+[^1]: Note that even our shortest code uses at least 400 bytes of memory. The Arduino IDE comes with a lot of inherent code bloat. This is a tradeoff we make to use the simple upload over USB to the Arduino prototyping platform. If you want to eliminate bloat, consider using a "real" IDE such as Microchip Studio.
 
-[2] Note that the minimum data memory used in the Arduino IDE is 9 bytes. This is the amount of space the IDE gives to the stack. https://en.wikipedia.org/wiki/Stack_(abstract_data_type)
+[^2]: Note that the minimum data memory used in the Arduino IDE is 9 bytes. This is the amount of space the IDE gives to the stack. https://en.wikipedia.org/wiki/Stack_(abstract_data_type)
 
-[3] This code uses the serial monitor, which is a huge code bloater, both in terms of program and data memory.
+[^3]: This code uses the serial monitor, which is a huge code bloater, both in terms of program and data memory.
