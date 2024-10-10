@@ -145,7 +145,7 @@ Good vibes only. Here are some code vibe-killers. This is not an exhaustive list
 - Hard to follow
   - No comments kill code that's hard to follow
 - Ugly
-  - `if (x) {some code; }` all on the same line (curly brackets are not needed)
+  - `if (x) {some code; }` all on the same line (curly brackets are not needed if `some code` is on the same line as the `if` statement)
   - `signed int a = whatever;` (no need to use the keyword `signed` which is by default)
   - Double spacing
 - Spaghetti 🍝 code
