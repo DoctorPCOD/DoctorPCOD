@@ -5,10 +5,14 @@ In spring 2025, I am piloting an "ungrading" approach to grading each lab circui
   2. Promote faster identification of major code issues.
   3. Provide students with a "flowchart" of debugging steps.
 
-## Currently Unanswered Questions
-As of October 2023, I haven't decided what impact heavy use of program or data memory will have on scores. Perhaps we'll decide as a class how to deal with this.
+For circuits where I provide the code, all credit will be awarded based on the presence of the stamp.
 
-This list may not be exhaustive and may be added to as the semester progresses.
+This rubric and all lists may not be exhaustive and may be added to as the semester progresses.
+
+## Currently Unanswered Questions
+As of October 2024, I haven't decided what impact heavy use of program or data memory will have on scores. Perhaps we'll decide as a class how to deal with this.
+
+Jump to the end of this file to get information on how much program and data memory used in the best code I could write as of October 2024.
 
 ## The Rubric
 The number of issues with the highest level of severity is what determines the score.
@@ -60,6 +64,7 @@ The following issues will have to be taken on a case-by-case basis. Hopefully th
 - General syntax errors
 - I/O issues
   - Not masking input data
+- Timing issues based on having something in a loop vs. an ISR (I need to see some bad code before I can make determinations on this. Maybe you can volunteer to write this?)
 
 ## High Severity Issues
 **Definition:** The code may stop functioning as expected under "normal" operating conditions.
@@ -132,3 +137,40 @@ The following issues will have to be taken on a case-by-case basis. Hopefully th
 - Code is in the `loop` function that should be in the `setup` function
 
 ## Qualitative Issues
+Good vibes only. Here are some code vibe-killers. This is not an exhaustive list and I will likely add to it as I read other people's (but definitely not your) code.
+
+- Hard to follow
+  - No comments kill code that's hard to follow
+- Ugly
+  - `if (x) {some code; }` all on the same line (curly brackets are not needed)
+  - `signed int a = whatever;` (no need to use the keyword `signed` which is by default)
+  - Double spacing
+- Spaghetti 🍝 code
+- Too much masking of interrupts
+  - I can't define too much but I know it when I see it
+- Variables that don't make sense
+  - Example: two global variables labeled `x` and `y` with no comments, making me wonder what they do. Then I have to read through hundreds of lines of code before I see them being used and, if I'm lucky, figure it out by context. (True story.)
+  - Using a new variable rather than just modifying an old one, when the old one doesn't need to be preserved (e.g.: `percent = ADC; newPercent = ADC / 100;`)
+- Copy/pasted code vs. external function or control flow
+- Bloat
+  - Assembly: doing two or more `SBI` instead of `LDI` and `OUT` (if assignment is appropriate) or `LDI`, `AND`, and `OUT`
+  - Assembly: using GP registers as storage instead of SRAM (this is OK until we have learned pointers)
+  - Too much stuff in an ISR
+  - A variable that isn't needed (e.g.: `a = VAR1 && VAR2` and then using `if(a)` instead of just `if (VAR1 && VAR2)`)
+  - Using an external interrupt on a particiular trigger condition, and then probing for that trigger condition
+- Hard-coding numbers instead of using a globally defined variable
+- Not using compound operators
+- Confusing / unclear / incorrect comments
+- Exessive delays
+- Use of binary or decimal instead of HEX with configuring registers
+- Not commenting out or deleting old code or tests
+  - In particular: serial monitor code
+ 
+## Best-Case Code
+These are the best-case values of program and data memory used in each lab and activity circuit, assuming I write the best possible code. Please feel free to prove that assumption incorrect by doing better than this!
+
+| Lab | Circuit | Program (B) | Data (B) |
+|-----|---------|-------------|----------|
+| 1   | 1       | 488         | 9        |
+|     | 2       | 472         | 9        |
+|     | 3       | 562         | 9        |
