@@ -124,7 +124,7 @@ The following issues will have to be taken on a case-by-case basis. Hopefully th
 
 - Wrong data type
   - Data type is too large (e.g.: `int` when it should be `char`) for a non-array variable
-  - Variable is signed when it should be unsigned (this is **low** severity if the variable cannot overflow)
+  - Variable is `signed` when it should be `unsigned` (this is **low** severity if the variable cannot overflow)
 - Incorrect register configuration of a peripheral
   - Using fast PWM with a motor
   - Enabling (but not using) the analog comparator
