@@ -23,19 +23,19 @@
   - [Circuit 2](https://classroom.github.com/a/NBsxGOEh)
   - [Circuit 3](https://classroom.github.com/a/hySA_QWt)
 - Lab 4
-  - [Circuit 1]()
-  - [Circuit 2]()
-  - [Circuit 3]()
+  - [Circuit 1](https://classroom.github.com/a/5ksylAHS)
+  - [Circuit 2](https://classroom.github.com/a/VrMlHvwR)
+  - [Circuit 3](https://classroom.github.com/a/NMUPb-uE)
 - Lab 5
-  - [Circuit 2]()
-  - [Circuit 3]()
+  - [Circuit 2](https://classroom.github.com/a/2iDVpBYF)
+  - [Circuit 3](https://classroom.github.com/a/2Bx631ut)
 - Lab 6
-  - [Circuit 1]()
-  - [Circuit 2]()
+  - [Circuit 1](https://classroom.github.com/a/CY4ItCxb)
+  - [Circuit 2](https://classroom.github.com/a/AhXU5zt5)
 - Lab 7
-  - [Circuit 1]()
-  - [Circuit 2]()
-  - [Circuit 3]()
+  - [Circuit 1](https://classroom.github.com/a/oc2R9GhY)
+  - [Circuit 2](https://classroom.github.com/a/v89fBnOY)
+  - [Circuit 3](https://classroom.github.com/a/UJJwV2R0)
 - Lab 8
   - [Circuit 2]()
   - [Circuit 3]()
