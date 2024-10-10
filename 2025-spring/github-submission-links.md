@@ -14,14 +14,14 @@
   - [Circuit 2](https://classroom.github.com/a/M0ssOVI1)
 
 # Lab GitHub Links
-- [Lab 1 (Circuit 3)]()
+- [Lab 1 (Circuit 3)](https://classroom.github.com/a/DVgyd7Gx)
 - Lab 2
-  - [Circuit 1b]()
-  - [Circuit 2]()
-  - [Circuit 3]()
+  - [Circuit 1b](https://classroom.github.com/a/3pWmj6Zo)
+  - [Circuit 2](https://classroom.github.com/a/qHe5Xh-Q)
+  - [Circuit 3](https://classroom.github.com/a/yRL6iTYJ)
 - Lab 3
-  - [Circuit 2]()
-  - [Circuit 3]()
+  - [Circuit 2](https://classroom.github.com/a/NBsxGOEh)
+  - [Circuit 3](https://classroom.github.com/a/hySA_QWt)
 - Lab 4
   - [Circuit 1]()
   - [Circuit 2]()
