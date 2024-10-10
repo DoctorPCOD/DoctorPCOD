@@ -37,21 +37,21 @@
   - [Circuit 2](https://classroom.github.com/a/v89fBnOY)
   - [Circuit 3](https://classroom.github.com/a/UJJwV2R0)
 - Lab 8
-  - [Circuit 2]()
-  - [Circuit 3]()
+  - [Circuit 2](https://classroom.github.com/a/Eg46dJhi)
+  - [Circuit 3](https://classroom.github.com/a/wktBzr_6)
 - Lab 9
-  - [Circuit 2]()
-  - [Circuit 3]()
+  - [Circuit 2](https://classroom.github.com/a/-1DfOysX)
+  - [Circuit 3](https://classroom.github.com/a/hsVX9LaW)
 - Lab 11
-  - [Circuit 1]()
-  - [Circuit 2]()
+  - [Circuit 1](https://classroom.github.com/a/HASaq5WN)
+  - [Circuit 2](https://classroom.github.com/a/QAoBWX_t)
 - Lab 12
-  - [Circuit 1]()
-  - [Circuit 2]()
-  - [Circuit 3]()
+  - [Circuit 1](https://classroom.github.com/a/dbbtEiM7)
+  - [Circuit 2](https://classroom.github.com/a/WxRAbixV)
+  - [Circuit 3](https://classroom.github.com/a/W_TDRYzB)
 - Lab 13
-  - [Circuit 2]()
-  - [Circuit 3]()
+  - [Circuit 2](https://classroom.github.com/a/UILz97-O)
+  - [Circuit 3](https://classroom.github.com/a/y6GAnEdi)
 
 
 # Smart Car GitHub Links
