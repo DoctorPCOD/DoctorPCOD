@@ -36,7 +36,7 @@
 # Exams
 
 - There will be one practical exam and one final exam
-- Practical exam: TBD
+- Practical exam: April 16 at 9:00 a.m.
 - Final exam: Wednesday, May 21 at 9:00 a.m.
 
 # Design Project
