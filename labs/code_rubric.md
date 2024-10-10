@@ -156,7 +156,7 @@ Good vibes only. Here are some code vibe-killers. This is not an exhaustive list
   - Using a new variable rather than just modifying an old one, when the old one doesn't need to be preserved (e.g.: `percent = ADC; newPercent = ADC / 100;`)
 - Copy/pasted code vs. external function or control flow
 - Bloat
-  - Assembly: doing two or more `SBI` instead of `LDI` and `OUT` (if assignment is appropriate) or `LDI`, `AND`, and `OUT`
+  - Assembly: doing two or more `SBI` instead of `LDI` and `OUT` (if assignment is appropriate) or three or more `SBI` instead of `LDI`, `AND`, and `OUT` (if assignment is not appropriate)
   - Assembly: using GP registers as storage instead of SRAM (this is OK until we have learned pointers)
   - Too much stuff in an ISR
   - A variable that isn't needed (e.g.: `a = VAR1 && VAR2` and then using `if(a)` instead of just `if (VAR1 && VAR2)`)
