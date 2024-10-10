@@ -24,11 +24,11 @@
 - [The doctor-pasquale.com ENGIN-2223 website](https://doctor-pasquale.com/engin-2223/) has additional resources for each lab, as well as the [inventory of parts](https://doctor-pasquale.com/inventory/) and other potentially useful information.
 - In-lab
   - Starter code is available in my GitHub repository [DoctorPCOD/ENGIN-2223](../ENGIN-2223)
-  - Upload your labs and variable sheets to *platform TBD* prior to the conclusion of each lab session.
+  - Upload your labs and variable sheets to [MyOpenMath](https://www.myopenmath.com) prior to the conclusion of each lab session.
   - Upload your code to GitHub. [Links to each assignment are located in this repository.](github-submission-links.md)
   - Each student must join the GitHub team to receive individual credit for code.
 - Lab report
-  - Upload lab reports and schematics to *platform TBD*
+  - Upload lab reports (including schematics) to [MyOpenMath](https://www.myopenmath.com)
   - Schematics must be generated in any of the approved schematic software platforms.
 
 [^1]: This file will be overwritten annually with the most recent version of the lab manual.
@@ -37,7 +37,7 @@
 
 - There will be one practical exam and one final exam
 - Practical exam: TBD
-- Final exam: TBD
+- Final exam: Wednesday, May 21 at 9:00 a.m.
 
 # Design Project
 
@@ -49,7 +49,7 @@
 - These activities are designed to help you learn topics in a hands-on way
 - You must be in attendance in lecture on time to receive credit for the activities
 - Any activity starter code will be available on [DoctorPCOD/ENGIN-2223](../ENGIN-2223)
-- Upload your activities and variable sheets to *platform TBD* prior to each activity due date.
+- Upload your activities and variable sheets to [MyOpenMath](https://www.myopenmath.com) prior to each activity due date.
 - Upload your code to GitHub. [Links to each assignment are located in this repository.](github-submission-links.md)
 - Each student must join the GitHub team to receive individual credit for code.
 
