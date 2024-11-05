@@ -16,7 +16,7 @@
 
 ## Reading Lab Feedback
 
-After I finish grading your lab and lab report, be sure to read all of the feedback that I leave! In Gradescope, click on each question to see if I left a comment (which is possible even if you received full credit).
+After I finish grading your lab and lab report, be sure to read all of the feedback that I leave! 
 
 It's possible to read the feedback on your code all in one place. This is a slightly tricky process to follow, so [I've made a YouTube video with a click-through of the process](https://youtu.be/eTR8f5genEE). (It's also possible to get to the feedback page by clicking on a link at the bottom of the comment e-mail that you'll get if you're subscribed.)
 
