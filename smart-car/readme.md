@@ -21,7 +21,7 @@ These dates are subject to change in case of school closings, global pandemics, 
 - Use [draw.io](https://app.diagrams.net) (or an equivalent website or software) to create all block diagrams and flowcharts. Flowcharts must go into very specific detail; use the flowcharts given to you in lab as a guideline for the level of complexity that is expected.
 - All reports must be written using word processing software (such as Microsoft Word), and must be written in paragraph form with complete sentences.[^2] 
 - All reports must contain headings for each section that correspond to the sections required in the rubrics.
-- All reports will be submitted as a PDF to Gradescope. Ensure that you select pages corresponding to each section. I have YouTube videos to explain how to do this using [the Gradescope app](https://youtu.be/oQ3h4JCz3O4) and [the Gradescope website](https://youtu.be/LT7-Cjfbgho).
+- All reports will be submitted as a PDF. Refer to the class syllabus for work submission information.
 
 [^2]: The Writing, Reading, Speech Assistance (WRSA) Center at COD's Learning Commons is a great resource if you are not comfortable with report writing. Keep in mind that technical writing is an important aspect of being an engineer, whether or not you believe it to be true at this stage in your career.
 
