@@ -20,6 +20,8 @@
   - You must have a copy of each lab prior to coming to lab.
   - ⚠️ Be sure that the version says Spring 2025.
   - I recommend getting a copy printed using the [COD Library's Print on Demand service](https://library.cod.edu/pod). It is quick and costs only a few dollars!
+    - Be sure that you have the appropriate amount of money in your SmartPrint account to expedite the printing process.
+    - Select the correct type of paper to print the pages, which is 20# white uncoated paper. If you don't do this, you won't see the actual amount of money the lab manual costs.
 - [The doctor-pasquale.com ENGIN-2223 website](https://doctor-pasquale.com/engin-2223/) has additional resources for each lab, as well as the [inventory of parts](https://doctor-pasquale.com/inventory/) and other potentially useful information.
 - Pre-lab
   - IYKYK
