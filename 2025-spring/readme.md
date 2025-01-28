@@ -2,11 +2,10 @@
 
 - The class syllabus is posted in this repository (and on Blackboard) and contains additional information about all of the topics outlined below
 
-# Office Hours (Tentative)
+# Office Hours (Final)
 
-- Every week day from 8:00 - 8:30 a.m. virtual (e-mail or Zoom by appointment)
-- Every week day from 8:30 - 9:00 a.m. in BIC 3F07 (our lab classroom)
-- Mondays and Fridays from 10:30 a.m. - 12:00 p.m. in BIC 3E01 (my office)
+- Every week day from 8:20 - 9:00 a.m. in BIC 3F07 (our lab classroom)
+- Mondays and Fridays from 10:15 - 11:50 a.m. in BIC 3E01 (my office) -- if I'm not in my office, then office hours have been moved to 3F07 (but you will likely be aware of this)
 
 # Lecture
 
