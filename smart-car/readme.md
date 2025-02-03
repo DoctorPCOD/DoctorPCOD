@@ -29,7 +29,6 @@ These dates are subject to change in case of school closings, global pandemics, 
 
 Schematics must be created electronically. Following are suggestions of software you can use to create these. Use **schematics** view, not breadboard view! Be sure that all passive components (resistors, capacitors, etc.) are labeled.
 - [KiCad](https://www.kicad.org)[^3]
-- [Eagle](https://www.autodesk.com/products/eagle/free-download)
 - Other software upon request, please ask me before using something else.
 
 [^3]: Refer to my [KiCad library](https://github.com/DoctorPCOD/DoctorPCOD/tree/main/KiCAD) for parts and other KiCad information.
