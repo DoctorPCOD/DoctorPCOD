@@ -29,7 +29,7 @@ The side view showcases the terminal block you can use to connect to a barrel ja
 
 ## Schematic
 
-<img src="https://raw.githubusercontent.com/DoctorPCOD/DoctorPCOD/main/smart-car/pcb_schematic.png" alt="Schematic of the power supply PCB." width="400">
+<img src="https://raw.githubusercontent.com/DoctorPCOD/DoctorPCOD/main/smart-car/pcb_schematic_view.png" alt="Schematic of the power supply PCB." width="400">
 
 ## Board View
 
