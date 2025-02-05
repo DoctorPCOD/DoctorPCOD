@@ -78,7 +78,7 @@ The following issues will have to be taken on a case-by-case basis. Hopefully th
   - Incorrect math
   - Issue with integer math (e.g.: order of operations)
   - Not using `L` with `char` and `int`
-  - Not using `LL` with long
+  - Not using `LL` with `long`
   - Taking the modulo of negative number (or variable that can be negative)
 - Failure to enable a peripheral the code assumes is enabled
 - Lack of an ISR when an ISR is enabled
