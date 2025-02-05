@@ -44,14 +44,17 @@ No credit is awarded if there's a dealbreaker.
 - No CTRL-T (improper indenting)
 - No stamp
 - Use of cheater functions
+- No code header
 
 ## Code Header Needs
+Issues with the code header will typically be qualitative. (For example, if your header has your team member names but no circuit description, I would consider that to be a qualitative issue.) If the code header is missing entirely, that's a dealbreaker.
+
 - Description
   - All team member names
   - Date
   - Lab and circuit number
   - Description of the circuit
-- List of I/O pins
+- List of I/O pins 
   - Must be included
   - Must include all I/O pins used
   - Anything hard wired to a signal (e.g.: GND) must be listed
