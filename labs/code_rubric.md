@@ -15,7 +15,7 @@ As of October 2024, I haven't decided what impact heavy use of program or data m
 Jump to the end of this file to get information on how much program and data memory used in the best code I could write as of October 2024.
 
 ## The Rubric
-The number of issues with the highest level of severity is what determines the score.
+The severity level with the largest number of issues will be the ultimate score determinant.
 
 | Score | Code Quality                    |
 |-------|---------------------------------|
