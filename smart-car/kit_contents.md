@@ -1,7 +1,5 @@
 # Smart Car Kit Contents
 
-Your Smart Car comes from the [SparkFun Inventor’s Kit](https://www.sparkfun.com/products/12649), but has been modified with slightly different parts. Notably, you will use an Arduino Uno rather than the Redbot Mainboard.
-
 Here are the parts included in your box:
 
 - Chassis
