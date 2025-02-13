@@ -21,6 +21,12 @@ This repository is for my ENGIN-2223 (Microcontrollers) class at COD. Have a loo
 - [Circuit Analysis (PDF)](https://doctor-pasquale.com/wp-content/uploads/2021/09/CircuitAnalysisBook.pdf)
 - [Conceptual Physics](https://cod.pressbooks.pub/physics1100/)
 
+# My Open Lab Manuals
+
+- [Digital Systems (PDF)](https://doctor-pasquale.com/wp-content/uploads/2024/05/Lab-Manual.pdf)
+- [Microcontrollers (PDF)](https://doctor-pasquale.com/wp-content/uploads/2023/05/ENGIN-2223-Lab-Manual.pdf)
+- [Circuit Analysis (PDF)](https://doctor-pasquale.com/wp-content/uploads/2023/05/ENGIN-2210-Lab-Manual.pdf)
+
 # Other Resources
 
 - [My YouTube Channel](http://youtube.com/c/DrPasqualeCOD)
