@@ -141,6 +141,7 @@ The following issues will have to be taken on a case-by-case basis. Hopefully th
 - Incorrect or conflicting keywords
   - Not using `const` correctly
 - Code is in the `loop` function that should be in the `setup` function
+- Using conditional logic such as `if (a == 1)` instead of `if (a)` (comparing Boolean variables to `TRUE` or `1`)
 
 ## Qualitative Issues
 Good vibes only. Here are some code vibe-killers. This is not an exhaustive list and I will likely add to it as I read other people's (but definitely not your) code.
