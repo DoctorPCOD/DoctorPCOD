@@ -82,7 +82,7 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
   - [Potentiometer and variable resistor wiring](../infographics/Pot%20vs%20Variable%20Resistor.pdf)
 
 ## Lab 3: Displays
-- Errata ⚠️
+- Spring 2025 lab manual errata ⚠️
   - Page 36 says `lcd_puts("Hello!"); // note the use of single quotes` and should say `lcd_puts("Hello!"); // note the use of double quotes`
 - Code
   - [Circuit I: Single 7-segment display](../ENGIN-2223/lab3_circuit1.ino)
