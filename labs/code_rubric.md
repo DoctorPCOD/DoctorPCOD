@@ -138,6 +138,7 @@ The following issues will have to be taken on a case-by-case basis. Hopefully th
   - Using repeated `if` with mutually exclusive conditions
   - Using an empty `if` and filled `else` instead of using negative logic
   - Using `if` and an empty `else`
+- Unnecessary nested control flow
 - Incorrect or conflicting keywords
   - Not using `const` correctly
 - Code is in the `loop` function that should be in the `setup` function
