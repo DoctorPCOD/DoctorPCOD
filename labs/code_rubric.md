@@ -65,8 +65,6 @@ The following issues will have to be taken on a case-by-case basis. Hopefully th
 - Incorrect register configuration of a peripheral
   - Incorrect prescaler
 - General syntax errors
-- I/O issues
-  - Not masking input data
 - Timing issues based on having something in a loop vs. an ISR
 
 ## High Severity Issues
@@ -89,7 +87,7 @@ The following issues will have to be taken on a case-by-case basis. Hopefully th
 - Missing variable increment (e.g.: `x++`)
 - Not accounting for zero-indexing of an array (allowing an array address to go out of bounds)
 - Wrong type of control flow
-- No use of `CLI`/`SEI` or saving `SREG` in an ISR (this may be **high** severity depending on context)
+- No use of `CLI`/`SEI` or saving `SREG` in an ISR (this may be **high** severity depending on context, likely high severity when absent around critical control flow or branching logic)
 - Not enabling internal pull-ups (if external pull-downs or pull-ups are not used)
 - Comparison logic issues
   - Assigning (`=`) instead of comparing (`==`)
@@ -100,6 +98,10 @@ The following issues will have to be taken on a case-by-case basis. Hopefully th
 - Two variables with the same name
   - If one is global and the other is local
   - If both are local to the same function (i.e.: overwriting a variable)
+- I/O issues
+  - Not masking input data
+- Incorrect array size
+  - Character buffer in integer/long to string conversion has too few elements
 
 ## Medium Severity Issues
 **Definition:** There may be specific instances where the code may not work as expected.
@@ -119,8 +121,6 @@ The following issues will have to be taken on a case-by-case basis. Hopefully th
   - Not using `volatile` correctly
 - Two variables with the same name
   - If both are local to different functions
-- Incorrect array size
-  - Character buffer in integer/long to string conversion
 
 ## Low Severity Issues
 **Definition:** The code will use too much program or data memory. The code will take longer than needed to execute.
@@ -143,12 +143,17 @@ The following issues will have to be taken on a case-by-case basis. Hopefully th
   - Not using `const` correctly
 - Code is in the `loop` function that should be in the `setup` function
 - Using conditional logic such as `if (a == 1)` instead of `if (a)` (comparing Boolean variables to `TRUE` or `1`)
+- Incorrect array size
+  - Character buffer in integer/long to string conversion has too many elements
+- Declaring array indexed elements before or after declaring the array, rather than declaring them at the same time as the array[^4]
 
 ## Qualitative Issues
 Good vibes only. Here are some code vibe-killers. This is not an exhaustive list and I will likely add to it as I read other people's (but definitely not your) code.
 
 - Hard to follow
   - No comments kill code that's hard to follow
+- Incorrect or conflicting keywords
+  - Using `static` on a global and/or `volatile` variable
 - Functions are given generic names that don't correspond to their functionality (for example, a function is called `external` or `externalFunction`)
 - Ugly
   - `if (x) {some code; }` all on the same line (curly brackets are not needed if `some code` is on the same line as the `if` statement)
@@ -245,3 +250,11 @@ Apparently I haven't recorded my data for activities 10, 11, and 15 as of Octobe
 [^2]: Note that the minimum data memory used in the Arduino IDE is 9 bytes. This is the amount of space the IDE gives to the stack. https://en.wikipedia.org/wiki/Stack_(abstract_data_type)
 
 [^3]: This code uses the serial monitor, which is a huge code bloater, both in terms of program and data memory.
+
+[^4]: An example of "bad" pseudocode would be:
+  `array[n] = {}; // empty array`
+  `array[0] = variableA / 10;`
+  `array[1] = variableB % 10;`
+  `array[2] = variableC + 10; // etc.`
+  An example of better pseudocode would be:
+  `array[n] = {variableA / 10, variableB % 10, variableC + 10};`
