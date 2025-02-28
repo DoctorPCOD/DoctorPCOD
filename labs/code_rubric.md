@@ -94,7 +94,7 @@ The following issues will have to be taken on a case-by-case basis. Hopefully th
 - `if`/`else if`/`else` issues
   - `if`/`else if` not using mutually exclusive conditions
 - Incorrect or conflicting keywords
-  - Not using `static` correctly
+  - Not using `static` on a local variable that requires this keyword
 - Two variables with the same name
   - If one is global and the other is local
   - If both are local to the same function (i.e.: overwriting a variable)
