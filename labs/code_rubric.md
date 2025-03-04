@@ -115,6 +115,7 @@ The following issues will have to be taken on a case-by-case basis. Hopefully th
 - Use of continuous polling instead of an interrupt (this will not be enforced until interrupts have been taught in class)
 - Incorrect use of bitwise AND to clear
 - No use of `CLI`/`SEI` or saving `SREG` in an ISR (this may be **medium** severity depending on context)
+- NO use of `CLI`/`SEI` when writing to or reading from a 16-bit register
 - Toggling a variable instead of setting or clearing a flag, register, or variable based on an actual value
 - Checking for a value based on a variable instead of probing a pin or configuration register
 - Incorrect or conflicting keywords
