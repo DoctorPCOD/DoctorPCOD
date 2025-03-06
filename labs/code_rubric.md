@@ -23,8 +23,7 @@ The severity level with the largest number of issues will be the ultimate score 
 |       | Up to 1 qualitative issue       |
 | 75%   | 1-2 low severity issues OR      |
 |       | Up to 2 qualitative issues      |
-| 50%   | No or inaccurate code header OR |
-|       | 1-2 medium severity issues OR   |
+| 50%   | 1-2 medium severity issues OR   |
 |       | 3-4 low severity issues OR      |
 |       | Up to 3 qualitative issues      |
 | 25%   | 1-2 high severity issues OR     |
