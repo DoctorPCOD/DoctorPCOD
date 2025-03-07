@@ -179,6 +179,7 @@ Good vibes only. Here are some code vibe-killers. This is not an exhaustive list
 - Use of binary or decimal instead of HEX with configuring registers
 - Not commenting out or deleting old code or tests
   - In particular: serial monitor code
+  - Leaving in the default Arduino IDE comments in the `setup` and `loop` functions
  
 ## Best-Case Code
 These are the best-case values of program and data memory used in each lab and activity circuit, assuming I write the best possible code. Please feel free to prove that assumption incorrect by doing better than this!
