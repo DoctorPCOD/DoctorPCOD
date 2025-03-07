@@ -148,6 +148,7 @@ The following issues will have to be taken on a case-by-case basis. Hopefully th
 - Incorrect array size
   - Character buffer in integer/long to string conversion has too many elements
 - Declaring array indexed elements before or after declaring the array, rather than declaring them at the same time as the array[^4]
+- Use of bitwise operators instead of assignment on registers that do not require bitwise operations (for example, most peripheral configuration registers as well as `DDRx`)
 
 ## Qualitative Issues
 Good vibes only. Here are some code vibe-killers. This is not an exhaustive list and I will likely add to it as I read other people's (but definitely not your) code.
