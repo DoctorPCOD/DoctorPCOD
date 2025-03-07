@@ -80,7 +80,9 @@ The following issues will have to be taken on a case-by-case basis. Hopefully th
   - Not using `L` with `char` and `int`
   - Not using `LL` with `long`
   - Taking the modulo of negative number (or variable that can be negative)
+  - Division by zero is allowed
 - Failure to enable a peripheral the code assumes is enabled
+- A function has a return type defined but no `return` statement (return type should be `void`)
 - Lack of an ISR when an ISR is enabled
 - Use of assignment instead of bitwise operators
 - Missing variable increment (e.g.: `x++`)
