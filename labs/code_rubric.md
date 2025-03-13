@@ -238,6 +238,7 @@ Apparently I haven't recorded my data for activities 10, 11, and 15 as of Octobe
 | Activity | Circuit | Program (B) | Data (B) |
 |----------|---------|-------------|----------|
 | 2		     |         | 518         | 9        |
+| 4        |         | 626         | 25       |
 | 5        |         | 1468        | variable |
 | 6        | 1       | 502         | 9        |
 |          | 2       | 522         | 9        |
