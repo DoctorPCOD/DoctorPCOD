@@ -149,6 +149,9 @@ The following issues will have to be taken on a case-by-case basis. Hopefully th
   - Character buffer in integer/long to string conversion has too many elements
 - Declaring array indexed elements before or after declaring the array, rather than declaring them at the same time as the array[^4]
 - Use of bitwise operators instead of assignment on registers that do not require bitwise operations (for example, most peripheral configuration registers as well as `DDRx`)
+- Non-optimal use of variables
+  - Using a new variable rather than just modifying an old one, when the old one doesn't need to be preserved (e.g.: `percent = ADC; newPercent = ADC / 100;`)
+
 
 ## Qualitative Issues
 Good vibes only. Here are some code vibe-killers. This is not an exhaustive list and I will likely add to it as I read other people's (but definitely not your) code.
@@ -167,7 +170,6 @@ Good vibes only. Here are some code vibe-killers. This is not an exhaustive list
   - I can't define too much but I know it when I see it
 - Variables that don't make sense
   - Example: two global variables labeled `x` and `y` with no comments, making me wonder what they do. Then I have to read through hundreds of lines of code before I see them being used and, if I'm lucky, figure it out by context. (True story.)
-  - Using a new variable rather than just modifying an old one, when the old one doesn't need to be preserved (e.g.: `percent = ADC; newPercent = ADC / 100;`)
 - Copy/pasted code vs. external function or control flow
 - Bloat
   - Assembly: doing two or more `SBI` instead of `LDI` and `OUT` (if assignment is appropriate) or three or more `SBI` instead of `LDI`, `AND`, and `OUT` (if assignment is not appropriate)
