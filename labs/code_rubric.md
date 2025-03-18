@@ -19,21 +19,21 @@ The severity level with the largest number of issues will be the ultimate score 
 
 | Score | Code Quality                    |
 |-------|---------------------------------|
-| 100%  | No quantitative issues          |
-|       | Up to 1 qualitative issue       |
-| 75%   | 1-2 low severity issues OR      |
+| 100%  | Up to 1 qualitative issue OR    |
+|       | Up to 1 low severity issue      |
+| 75%   | 2-3 low severity issues OR      |
 |       | Up to 2 qualitative issues      |
 | 50%   | 1-2 medium severity issues OR   |
-|       | 3-4 low severity issues OR      |
+|       | 4-5 low severity issues OR      |
 |       | Up to 3 qualitative issues      |
 | 25%   | 1-2 high severity issues OR     |
 |       | 3-4 medium severity issues OR   |
-|       | 5-6 low severity issues OR      |
+|       | 6-7 low severity issues OR      |
 |       | Up to 4 qualitative issues      |
 | 0%    | Any dealbreaker OR              |
 |       | 3+ high severity issues OR      |
 |       | 5+ medium severity issues OR    |
-|       | 7+ low severity issues OR       |
+|       | 8+ low severity issues OR       |
 |       | 5+ qualitative issues           |
 
 ## Dealbreakers
