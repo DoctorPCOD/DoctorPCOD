@@ -242,8 +242,8 @@ While [TinkerCAD](https://www.tinkercad.com) is admittedly quite slow, it is pos
 
 Things TinkerCAD cannot do
 - Use the hd44780 library (workaround: use the serial monitor to display strings)
-- Using timer/counter 1 PWM modes when TOP = `OCR1A` or `ICR1` (8-bit, 9-bit, and 10-bit modes do work)
-- Using timer/counter 1 in CTC mode (when TOP = `OCR1A` or `ICR1`)
+- Use timer/counter 1 PWM modes when TOP = `OCR1A` or `ICR1` (8-bit, 9-bit, and 10-bit modes do work)
+- Use timer/counter 1 in CTC mode (when TOP = `OCR1A` or `ICR1`)
 - WDT
 - SPI
 - Input capture unit
