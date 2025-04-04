@@ -127,6 +127,8 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
   - [Circuit 1 workbook](../ENGIN-2223/lab8_workbook.xlsx)
 - Textbook
   - Chapter 17
+- Videos
+  - [P and PI control of LED](https://youtu.be/UVFDm5bBDs0) - this video demonstrates the difference between an underdamped and over/critically damped response.
 
 Here is how to write data to the serial plotter. The `\t` delimiter is a tab that differentiates between the two pieces of data being plotted.
 
