@@ -4,7 +4,7 @@
     numerals 0-9 on a 7-segment common-cathode display
   By: Alyssa J. Pasquale, Ph.D.
   Written: October 1, 2017
-  Edited: May 18, 2022
+  Edited: April 7, 2025
   I/O Pins
   A0:
   A1:
@@ -35,26 +35,32 @@ void setup() {
   cli();
   // Enable SPI, LSB first, primary mode, default prescaler
   SPCR = 0x70;
+
+  // Configure timer/counter 1 in CTC mode with T = 0.5 s, enable COMPA interrupts
+  TCCR1A = 0x00;
+  TCCR1B = 0x0C;
+  TIMSK1 = 0x02;
+  OCR1A = 31249;
   sei();
 }
 
 void loop() {
-  static unsigned char x = 0;
-  unsigned char numArray[10] = {0xFC, 0x60, 0xDA, 0xF2, 0x66, 0xB6, 0xBE, 0xE0, 0xFE, 0xF6};
-
-  writeSPI(numArray[x]);
-
-  x++;
-  if (x > 9) x = 0;
-  _delay_ms(500);
 }
 
-void writeSPI(unsigned char dataToWrite) {
+ISR (TIMER1_COMPA_vect) {
+  unsigned char sregValue = SREG;
+  static unsigned char x = 0;
+  unsigned char numArray[10] = {0xFC, 0x60, 0xDA, 0xF2, 0x66, 0xB6, 0xBE, 0xE0, 0xFE, 0xF6};
+  
   PORTB &= 0xFB; // enable SPI write
-  SPDR = dataToWrite;
+  SPDR = numArray[x];
 
   // Wait until transfer is complete
   while (!(SPSR & (1 << SPIF)));
 
   PORTB |= 0x04; // disable SPI write
+  x++;
+  if (x == 10) x = 0;
+
+  SREG = sregValue;
 }
