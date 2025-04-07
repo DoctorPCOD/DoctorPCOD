@@ -44,23 +44,26 @@ void setup() {
   sei();
 }
 
+volatile unsigned char x = 0;
+
 void loop() {
+  unsigned char numArray[10] = {0xFC, 0x60, 0xDA, 0xF2, 0x66, 0xB6, 0xBE, 0xE0, 0xFE, 0xF6};
+  writeToSPI(numArray[x]);
 }
 
-ISR (TIMER1_COMPA_vect) {
-  unsigned char sregValue = SREG;
-  static unsigned char x = 0;
-  unsigned char numArray[10] = {0xFC, 0x60, 0xDA, 0xF2, 0x66, 0xB6, 0xBE, 0xE0, 0xFE, 0xF6};
-  
+void writeToSPI(unsigned char dataToWrite) {
   PORTB &= 0xFB; // enable SPI write
-  SPDR = numArray[x];
+  SPDR = dataToWrite;
 
   // Wait until transfer is complete
   while (!(SPSR & (1 << SPIF)));
 
   PORTB |= 0x04; // disable SPI write
+}
+
+ISR (TIMER1_COMPA_vect) {
+  unsigned char sregValue = SREG;
   x++;
   if (x == 10) x = 0;
-
   SREG = sregValue;
 }
