@@ -33,7 +33,7 @@ void setup() {
   PORTB |= 0x04; // SS high
 
   cli();
-  // Enable SPI, LSB first, primary mode, default prescaler
+  // Enable SPI, LSB first, primary mode, prescaler of 4
   SPCR = 0x70;
 
   // Configure timer/counter 1 in CTC mode with T = 0.5 s, enable COMPA interrupts
