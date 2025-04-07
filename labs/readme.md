@@ -142,6 +142,7 @@ Serial.println(sP);
 - Spring 2025 lab manual change ⚠️
   - The flowchart for circuit 1 is shown below:
 <img src="https://github.com/DoctorPCOD/DoctorPCOD/blob/main/labs/lab9_circuit1_newflowchart.png">
+
 - Code
   - [Circuit I: SPI control of 7-segment display](../ENGIN-2223/lab9_circuit1.ino)
 - Textbook
