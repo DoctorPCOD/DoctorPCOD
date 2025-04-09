@@ -219,7 +219,7 @@ Any circuits with data memory listed as "variable" is dependent on the number of
 | 8   | 2       | 1924 [^3]   |	191      |
 |     | 3       | 2046 [^3]   |	232      |
 | 9   | 1       | 644         | 20       |
-|     | 2       | 1678 [^3]   | 189      |
+|     | 2       | 698         | 10       |
 |     | 3 P     | 1278        | 16       |
 |     | 3 S     | 1324        | 16       |
 | 10  | 2       | 552         | 10       |
