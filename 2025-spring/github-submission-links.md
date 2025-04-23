@@ -42,6 +42,8 @@
 - Lab 9
   - [Circuit 2](https://classroom.github.com/a/-1DfOysX)
   - [Circuit 3](https://classroom.github.com/a/hsVX9LaW)
+- Lab 10
+  - [Circuit 2](https://classroom.github.com/a/n-BpfuRs)
 - Lab 11
   - [Circuit 1](https://classroom.github.com/a/HASaq5WN)
   - [Circuit 2](https://classroom.github.com/a/QAoBWX_t)
