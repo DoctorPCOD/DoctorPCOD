@@ -18,6 +18,7 @@ Here is a list of resources related to ENGIN-2223.
 - [Arduino Uno R3 Schematic](https://www.arduino.cc/en/uploads/Main/Arduino_Uno_Rev3-schematic.pdf) A complete pin-by-pin look at the Arduino Uno[^2] and how it interfaces with the ATmega328P microcontroller.
 - [Arduino Board Pin Reference](https://docs.arduino.cc/tutorials/uno-rev3/intro-to-board/) Explains all of the pins on the Arduino Uno board.
 - [Cheater Functions Explained](http://garretlab.web.fc2.com/en/arduino/inside/index.html) This website explains the C code behind all of the Arduino “cheater functions” (that you are definitely not allowed to use in class). See how much bloat is included in these functions that we eliminate by using C.
+- [Optiboot Bootloader](https://github.com/Optiboot/optiboot/blob/master/optiboot/bootloaders/optiboot/optiboot.c) This is the Github repository for the Optiboot bootloader C code. Skimming through this will give you an idea of all the program code that executes when the Arduino is rebooted.
 
 [^2]: Note that there are two microcontrollers on the Arduino Uno R3. The ATmega328P is the MCU that you program. The ATmega16U2 is a microcontroller included to facilitate code transfer to the ATmega328P over USB.
 
