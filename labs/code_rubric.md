@@ -133,7 +133,7 @@ The following issues will have to be taken on a case-by-case basis. Hopefully th
 - Incorrect register configuration of a peripheral
   - Using fast PWM with a motor
   - Enabling (but not using) the analog comparator
-  - Using free-running mode when needing to change `ADMUX` (this is **low** severity if accounted for elsewhere in code)
+  - Using auto trigger enable mode when needing to change `ADMUX` (this is **low** severity if accounted for elsewhere in code)
 - A variable is global when it should be local
 - Not using pointers in passing an array to a function
 - `if`/`else if`/`else` issues
