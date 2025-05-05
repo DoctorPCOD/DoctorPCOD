@@ -112,7 +112,7 @@ The following issues will have to be taken on a case-by-case basis. Hopefully th
   - Mismatch between data type in function argument vs. passed variable
   - Mismatch between function return type and returned variable
 - Incorrect register configuration of a peripheral
-  - Using free-running mode when needing to change `ADMUX` (this is **medium** severity if it's not accounted for elsewhere in code)
+  - Using auto trigger enable mode when needing to change `ADMUX` (this is **medium** severity if it's not accounted for elsewhere in code)
 - Use of continuous polling instead of an interrupt (this will not be enforced until interrupts have been taught in class)
 - Incorrect use of bitwise AND to clear
 - No use of `CLI`/`SEI` or saving `SREG` in an ISR (this may be **medium** severity depending on context)
