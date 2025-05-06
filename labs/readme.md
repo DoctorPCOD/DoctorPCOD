@@ -201,7 +201,7 @@ In May 2024, here are the values Dr. P got after doing some power optimization. 
   - Chapter 7
   - Chapter 19
 - Websites
-  - [AVR Instruction Set Manual, PDF](http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-0856-AVR-Instruction-Set-Manual.pdf)
+  - [AVR Instruction Set Manual, PDF](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/assembly_help/AVR_Instruction_Set_Manual.pdf)
   - [Microchip Studio](https://www.microchip.com/en-us/tools-resources/develop/microchip-studio)
   - [How to program Arduino from Microchip Studio](https://www.arnabkumardas.com/platforms/atmel/how-to-flash-or-program-arduino-from-atmel-studio/) this works for both Atmel Studio and Microchip Studio
   - [AVR delay loop calculator](http://darcy.rsgc.on.ca/ACES/TEI4M/AVRdelay.html)
