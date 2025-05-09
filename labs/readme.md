@@ -111,8 +111,10 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
 - Textbook
   - Chapter 13
   - Section 14.5
+- Websites
+  - [AVR Libc <avr/wdt.h> defines](https://onlinedocs.microchip.com/oxy/GUID-317042D4-BCCE-4065-BB05-AC4312DBC2C4-en-US-2/GUID-2B361770-F19D-4FA6-9287-C4933235B8CE.html) This lists all of the arguments that can be used with the `wdt_enable()` function to configure each watchdog timer prescaler.
 - Videos
-  - [How does the WDT circuit (circuit 3) work and why?](https://youtu.be/JgnG2JJMU9Q)
+  - [How does the WDT circuit (circuit 3) work and why?](https://youtu.be/JgnG2JJMU9Q) Note that this video uses terminology that is now deprecated in this class. `setup()` refers to code in the `main` function before the `while` loop and `loop()` refers to code in the `main` function `while` loop. When I have time, I will make an updated video and link it here.
 
 ## Lab 6: Timer/Counters and Timed Interrupts
 - Textbook
