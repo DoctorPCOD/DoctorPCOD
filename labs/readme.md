@@ -71,6 +71,8 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
   - Section 18.4
 - Infographics
   - [Resistor color codes](../infographics/Resistor%20color%20codes.pdf)
+- Websites
+  - [AVR Libc library documentation](https://onlinedocs.microchip.com/oxy/GUID-317042D4-BCCE-4065-BB05-AC4312DBC2C4-en-US-2/index.html) This is the documentation pertaining to the AVR libraries (such as `io.h`, `delay.h`, and so on).
 
 ## Lab 2: Digital and Analog Input Devices
 - Code
