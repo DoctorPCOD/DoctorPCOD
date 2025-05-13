@@ -33,7 +33,7 @@ Here is a list of resources related to ENGIN-2223.
 - [ASCII Code](https://www.ascii-code.com) A full table of ASCII code values in decimal, binary, octal and hexadecimal.
 - [HD44780 Character Codes](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/labs/HD44780_character_codes.pdf) A table of the character codes used in the hd44780 library. (It's similar to ASCII for the 7-bit values, and then completely different for the 8-bit values.)
 
-## ADC
+## Analog to Digital Converter (ADC)
 
 - 🎥 [Chaning ADMUX](https://youtu.be/nEmeM64WUjs) A video I made with a warning about using the ADC if you have to change the input channel in ADMUX.
 - [Understanding ADC Parameters](https://ww1.microchip.com/downloads/en/Appnotes/atmel-8456-8-and-32-bit-avr-microcontrollers-avr127-understanding-adc-parameters_application-note.pdf) This application note from Microchip goes over the basic concepts of the ADC used in AVR 8-bit microcontrollers, and in particular delves into ADC error in a bit of detail.
@@ -47,6 +47,10 @@ Here is a list of resources related to ENGIN-2223.
 
 - 🎥 [Input Capture Unit YouTube Video](https://youtu.be/eXE-8X38AHs) A video I made about the input capture unit. At the end it discusses the HC-SR04 ultrasonic sensor.
 - [Setup and Use of AVR Timers](https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ApplicationNotes/ApplicationNotes/Atmel-2505-Setup-and-Use-of-AVR-Timers_ApplicationNote_AVR130.pdf) This application note from Microchip explains the basics of the timer/counters on AVR microcontrollers.
+
+## Serial Peripheral Interface (SPI)
+
+- [Setup and Use of the SPI (AVR Application Note 151)](https://onlinedocs.microchip.com/oxy/GUID-6F1B86DC-C230-43D1-A405-0CC2E7EDF7EE-en-US-2/index.html) This document has information about how the SPI protocol works on AVR 8-bit microcontrollers.
 
 ## Memory
 
