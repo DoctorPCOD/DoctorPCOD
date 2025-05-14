@@ -1,9 +1,9 @@
 /*
   Lab 3, Circuit 1
-  Display digits 0-F on a (common-cathode or common-anode) 7-segment display
+  Display digits 0-F on a (common-cathode) 7-segment display
   By: Alyssa J. Pasquale, Ph.D.
   Written: June 5, 2017
-  Edited: February 10, 2023
+  Edited: May 14, 2025
   I/O Pins
   A0:
   A1:
@@ -27,24 +27,29 @@
   D13:
 */
 
-void setup()
-{
+
+#define MCU __AVR_ATmega328P__
+#define F_CPU 16000000UL
+
+#include <avr/io.h>
+#include <util/delay.h>
+
+int main(void) {
   // Configure DDRD using the pins you've chosen to connect to the 7-segment display
 
-}
-
-void loop()
-{
   // Define a constant value equal to the number of values in the array. Const must be used with array indexes.
   const unsigned char n = 16;
+
   // Define an array with display values for each numeral from 0-F
   // This data will come from Activity 4
-  unsigned char numArray[n] = {};
+  unsigned char numeralArray[n] = {};
 
-  // Writes each segment encoding to PORTD with a half-second delay in between each numeral
-  for (unsigned char j = 0; j < n; j++) {
-    // you need to insert a line of code here to selectively clear the segment pins
-    PORTD |= numArray[j];
-    _delay_ms(500);
+  while (1) {
+    for (unsigned char i = 0; i < n; i++) {
+      // you need to insert a line of code here to selectively clear the segment pins
+      
+      PORTD |= numeralArray[i];
+      _delay_ms(500);
+    }
   }
 }
