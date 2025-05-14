@@ -37,7 +37,7 @@ It's possible to read the feedback on your code all in one place. This is a slig
 
 # Using the Serial Monitor
 
-Note that if you have completed the USART lab, I will expect you to use C code (instead of "cheater functions") to write to the serial monitor.
+Note that once you have completed Activity 12, I will expect you to use C code (instead of "cheater functions") to write to the serial monitor.
 
 Also note that the serial monitor, because it uses the USART, will modify pins `D1` (transmit) and `D0` (receive). This can affect your hardware if, for example, you have a 7-segment display connected to pins `D7` through `D1`!
 
@@ -76,7 +76,7 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
 
 ## Lab 2: Digital and Analog Input Devices
 - Code
-  - [Circuit Ia: Pushbutton input with external pull-down resistor](../ENGIN-2223/lab2_circuit1.ino)
+  - [Circuit Ia: Pushbutton input with external pull-down resistor](../ENGIN-2223/lab2_circuit1a.ino)
 - Textbook
   - Chapter 10
   - Section 11.5
@@ -84,8 +84,6 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
   - [Potentiometer and variable resistor wiring](../infographics/Pot%20vs%20Variable%20Resistor.pdf)
 
 ## Lab 3: Displays
-- Spring 2025 lab manual errata ⚠️
-  - Page 36 says `lcd_puts("Hello!"); // note the use of single quotes` and should say `lcd_puts("Hello!"); // note the use of double quotes`
 - Code
   - [Circuit I: Single 7-segment display](../ENGIN-2223/lab3_circuit1.ino)
   - [hd44780_settings.h](../ENGIN-2223/hd44780_settings.h)
@@ -143,10 +141,6 @@ Serial.println(sP);
 ```
 
 ## Lab 9: SPI: Serial Peripheral Interface
-- Spring 2025 lab manual change ⚠️
-  - The flowchart for circuit 1 is shown below:
-<img src="https://github.com/DoctorPCOD/DoctorPCOD/blob/main/labs/lab9_circuit1_newflowchart.png">
-
 - Code
   - [Circuit I: SPI control of 7-segment display](../ENGIN-2223/lab9_circuit1.ino)
 - Textbook
