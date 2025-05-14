@@ -1,21 +1,14 @@
 # Code Rubric
 
-In spring 2025, I am piloting an "ungrading" approach to grading each lab circuit. The stamp is used as proof of completion. Then, code will go through the rubric, outlined below. I hope that this will help with the following.
-  1. Reduce arbitrariness around grading.
-  2. Promote faster identification of major code issues.
-  3. Provide students with a "flowchart" of debugging steps.
-
-For circuits where I provide the code, all credit will be awarded based on the presence of the stamp.
+This code rubric will be used to grade all software code, which will comprise the in-lab component of each lab grade. For circuits where I provide the code, all credit will be awarded based on the presence of the stamp.
 
 This rubric and all lists may not be exhaustive and may be added to as the semester progresses.
 
 ## Currently Unanswered Questions
-As of October 2024, I haven't decided what impact heavy use of program or data memory will have on scores. Perhaps we'll decide as a class how to deal with this.
-
-Jump to the end of this file to get information on how much program and data memory used in the best code I could write as of October 2024.
+As of May 2025, I have not included program or data memory usage directly into the lab score. Generally, bloated code will be dinged for the issues that cause the code to be bloated in the first place. If you are interested, jump to the end of this file to get information on how much program and data memory used in the best code I could write as of May 2025.
 
 ## The Rubric
-The severity level with the largest number of issues will be the ultimate score determinant.
+The severity level leading to the greatest score deduction will be the ultimate score determinant. (For example, code with 3 low severity issues and 1 medium severity issue will receive a grade of 50%.)
 
 | Score | Code Quality                    |
 |-------|---------------------------------|
@@ -152,7 +145,6 @@ The following issues will have to be taken on a case-by-case basis. Hopefully th
 - Non-optimal use of variables
   - Using a new variable rather than just modifying an old one, when the old one doesn't need to be preserved (e.g.: `percent = ADC; newPercent = ADC / 100;`)
 
-
 ## Qualitative Issues
 Good vibes only. Here are some code vibe-killers. This is not an exhaustive list and I will likely add to it as I read other people's (but definitely not your) code.
 
@@ -191,70 +183,68 @@ These are the best-case values of program and data memory used in each lab and a
 
 Any circuits with data memory listed as "variable" is dependent on the number of entries in an array.
 
+* Data with an asterisk next to it means I haven't updated these values in the Great Lab Overhaul of 2025.
+
 ### Labs
 
 | Lab | Circuit | Program (B) | Data (B) |
 |-----|---------|-------------|----------|
-| 1   | 1       | 488 [^1]    | 9 [^2]   |
-|     | 2       | 472         | 9        |
-|     | 3       | 562         | 9        |
-| 2   | 1a      | 458         | 9        |
-|     | 1b      | 460         | 9        |
-|     | 2       | 530         | 9        |
-|     | 3       | 512         | 9        |
-| 3   | 1       | 568         | 25       |
-|     | 2       | 1204        | 27       |
-|     | 3       | 824         | 21       |
-| 4   | 1       | 1468        | variable |
-|     | 2       | 1498        | variable |
-|     | 3       | 1550        | variable |
-| 5   | 1       | 1230        | 12       |
-|     | 2       | 1440        | 14       |
-|     | 3       | 540         | 9        |
-| 6   | 1       | 1542        | 36       |
-|     | 2       | 2422        | 33       |
-| 7   | 1       | 510         | 9        |
-|     | 2       | 624         | 9        |
-|     | 3       | 624         | 9        |
-| 8   | 2       | 1924 [^3]   |	191      |
-|     | 3       | 2046 [^3]   |	232      |
-| 9   | 1       | 644         | 20       |
-|     | 2       | 698         | 10       |
-|     | 3 P     | 1278        | 16       |
-|     | 3 S     | 1324        | 16       |
-| 10  | 2       | 552         | 10       |
-|     | 3       | 586         | 10       |
-| 11  | 1       | 568         | 13       |
-|     | 2       | 1578 [^3]   |	188      |
-| 12  | 1       | 1500        | 26       |
-|     | 2       | 1714        | 47       |
-|     | 3       | 2348        | 30       |
-| 13  | 1       | 22          | 0        |
-|     | 2       | 34          | 0        |
-|     | 3       | 86          | 0        |
+| 1   | 1       | 178         | 0        |
+|     | 2       | 162         | 0        |
+|     | 3       | 248         | 0        |
+| 2   | 1a      | 148         | 0        |
+|     | 1b      | 150         | 0        |
+|     | 2       | 204         | 0        |
+|     | 3       | 194         | 0        |
+| 3   | 1       | 262         | 16       |
+|     | 2       | 844         | 16       |
+|     | 3       | 454         | 10       |
+| 4   | 1       | 1468*        | variable |
+|     | 2       | 1498*        | variable |
+|     | 3       | 1550*        | variable |
+| 5   | 1       | 1230*        | 12*       |
+|     | 2       | 1440*        | 14*       |
+|     | 3       | 540*         | 9*        |
+| 6   | 1       | 1542*        | 36*       |
+|     | 2       | 2422*        | 33*       |
+| 7   | 1       | 510*         | 9*        |
+|     | 2       | 624*         | 9*        |
+|     | 3       | 624*         | 9*        |
+| 8   | 2       | 1924* [^3]   |	191*      |
+|     | 3       | 2046* [^3]   |	232*      |
+| 9   | 1       | 644*         | 20*       |
+|     | 2       | 698*         | 10*       |
+|     | 3 P     | 1278*        | 16*       |
+|     | 3 S     | 1324*        | 16*       |
+| 10  | 2       | 552*         | 10*       |
+|     | 3       | 586*         | 10*       |
+| 11  | 1       | 568*         | 13*       |
+|     | 2       | 1578* [^3]   |	188*      |
+| 12  | 1       | 1500*        | 26*       |
+|     | 2       | 1714*        | 47*       |
+|     | 3       | 2348*        | 30*       |
+| 13  | 1       | 22*          | 0*        |
+|     | 2       | 34*          | 0*        |
+|     | 3       | 86*          | 0*        |
 
 ### Activities
 
-Apparently I haven't recorded my data for activities 10, 11, and 15 as of October 2024.
+Apparently I haven't recorded my data for activities 10, 11, and 15 as of October 2024. I hope to have this updated in summer 2025. There are also new activity circuits that need to be included in this list.
 
 | Activity | Circuit | Program (B) | Data (B) |
 |----------|---------|-------------|----------|
-| 2		     |         | 518         | 9        |
-| 4        |         | 626         | 25       |
-| 5        |         | 1264        | variable |
-| 6        | 1       | 502         | 9        |
-|          | 2       | 522         | 9        |
+| 2		     |         | 518*         | 9*        |
+| 4        |         | 626*         | 25*       |
+| 5        |         | 1264*        | variable |
+| 6        | 1       | 502*         | 9*        |
+|          | 2       | 522*         | 9*        |
 | 10       | 2       | ??          | ??       |
 | 11       | ??      | ??          | ??       |
-| 13       | 1       | 816         | 21       |
-|          | 2       | 790         | 21       |
+| 13       | 1       | 816*         | 21*       |
+|          | 2       | 790*         | 21*       |
 | 15       | 1       | ??          | ??       |
 |          | 2       | ??          | ??       |
 
-
-[^1]: Note that even our shortest code uses at least 400 bytes of memory. The Arduino IDE comes with a lot of inherent code bloat. This is a tradeoff we make to use the simple upload over USB to the Arduino prototyping platform. If you want to eliminate bloat, consider using a "real" IDE such as Microchip Studio.
-
-[^2]: Note that the minimum data memory used in the Arduino IDE is 9 bytes. This is the amount of space the IDE gives to the stack. https://en.wikipedia.org/wiki/Stack_(abstract_data_type)
 
 [^3]: This code uses the serial monitor, which is a huge code bloater, both in terms of program and data memory.
 
