@@ -33,8 +33,7 @@
 
 #include <avr/io.h>
 
-int main(void)
-{
+int main(void) {
   // Set DDRB bit 5
   // This causes Arduino pin D13 to be an output
   DDRB = 0x20;
