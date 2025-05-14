@@ -199,9 +199,9 @@ Any circuits with data memory listed as "variable" is dependent on the number of
 | 3   | 1       | 262         | 16       |
 |     | 2       | 844         | 16       |
 |     | 3       | 454         | 10       |
-| 4   | 1       | 1468*        | variable |
-|     | 2       | 1498*        | variable |
-|     | 3       | 1550*        | variable |
+| 4   | 1       | 1192        | variable |
+|     | 2       | 1210        | variable |
+|     | 3       | 1260        | variable |
 | 5   | 1       | 1230*        | 12*       |
 |     | 2       | 1440*        | 14*       |
 |     | 3       | 540*         | 9*        |
