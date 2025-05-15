@@ -47,6 +47,7 @@ Here is a list of resources related to ENGIN-2223.
 
 - 🎥 [Input Capture Unit YouTube Video](https://youtu.be/eXE-8X38AHs) A video I made about the input capture unit. At the end it discusses the HC-SR04 ultrasonic sensor.
 - [Setup and Use of AVR Timers](https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ApplicationNotes/ApplicationNotes/Atmel-2505-Setup-and-Use-of-AVR-Timers_ApplicationNote_AVR130.pdf) This application note from Microchip explains the basics of the timer/counters on AVR microcontrollers.
+- [Skipped toggles using ATmega328P timer/counter 1 in CTC mode](https://doctor-pasquale.com/2025/04/29/skipped-toggles-using-atmega328p-timer-counter-1-in-ctc-mode/) This is a blog post I wrote about an issue I encountered due to the lack of double buffering when changing the value of `TOP` in CTC mode.
 
 ## Serial Peripheral Interface (SPI)
 
