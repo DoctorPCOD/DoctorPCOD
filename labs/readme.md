@@ -110,11 +110,19 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
   - [HD44780 character codes](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/labs/HD44780_character_codes.pdf) This document has the character codes used on the LCD screen. (It's similar to, but not the same as, ASCII.)
 - Videos
   - [Current-limiting resistors](https://youtu.be/EN3FPsV-pFg)
+- Dr. P's code memory usage
+  - Circuit 1: 262B program memory, 16B data memory
+  - Circuit 2: 844B program memory, 10B data memory
+  - Circuit 3: 454B program memory, 16B data memory
 
 ## Lab 4: Sensors and Sensor Calibration
 - Textbook
   - Chapter 12
   - Section 18.2
+- Dr. P's code memory usage
+  - Circuit 1: 1192B program memory, variable data memory (depends on the size of the circular buffer)
+  - Circuit 2: 1210B program memory, variable data memory
+  - Circuit 3: 1260B program memory, variable data memory
 
 ## Lab 5: External Interrupts
 - Code
@@ -126,10 +134,18 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
   - [AVR Libc <avr/wdt.h> defines](https://onlinedocs.microchip.com/oxy/GUID-317042D4-BCCE-4065-BB05-AC4312DBC2C4-en-US-2/GUID-2B361770-F19D-4FA6-9287-C4933235B8CE.html) This lists all of the arguments that can be used with the `wdt_enable()` function to configure each watchdog timer prescaler.
 - Videos
   - [How does the WDT circuit (circuit 3) work and why?](https://youtu.be/JgnG2JJMU9Q) Note that this video uses terminology that is now deprecated in this class. `setup()` refers to code in the `main` function before the `while` loop and `loop()` refers to code in the `main` function `while` loop. When I have time, I will make an updated video and link it here.
+- Dr. P's code memory usage
+  - Circuit 1: 946B program memory, 4B data memory
+  - Circuit 2: 1166B program memory, 6B data memory
+  - Circuit 3: 238B program memory, 0B data memory
+  - Circuit 4: 254B program memory, 0B data memory
 
 ## Lab 6: Timer/Counters and Timed Interrupts
 - Textbook
   - Chapter 14
+- Dr. P's code memory usage
+  - Circuit 1: 1258B program memory, variable data memory (depends on the size of the circular buffer)
+  - Circuit 2: 
 
 ## Lab 7: Pulse-Width Modulation and Motors
 - Textbook
