@@ -61,6 +61,8 @@ To open up the serial monitor, to go tools > serial monitor in the Arduino IDE.
 
 Following are resources for each of the microcontrollers labs. Each page contains a link to the lab manual, a list of related equipment videos, helpful links, any known errata, and other tools that will help you to be successful when doing the labs.
 
+Memory usage is provided to show a baseline that is based on code I wrote. Use these values as a "smell test." If your program or data memory usage are much larger than one of my values, you may want to reconsider your approach to programming that circuit. If you're able to do better than my values, please feel free to let me know and get some bragging rights!
+
 Note: Labs 14-17 were written for the duration of the spring 2020 semester in which we were required to work off-campus. They may not be required work in a typical semester.
 
 ## Lab 1: Introduction to Arduino Uno and ATmega328P
@@ -73,6 +75,10 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
   - [Resistor color codes](../infographics/Resistor%20color%20codes.pdf)
 - Websites
   - [AVR Libc library documentation](https://onlinedocs.microchip.com/oxy/GUID-317042D4-BCCE-4065-BB05-AC4312DBC2C4-en-US-2/index.html) This is the documentation pertaining to the AVR libraries (such as `io.h`, `delay.h`, and so on).
+- Dr. P's code memory usage
+  - Circuit 1: 178B program memory, 0B data memory
+  - Circuit 2: 162B program memory, 0B data memory
+  - Circuit 3: 248B program memory, 0B data memory
 
 ## Lab 2: Digital and Analog Input Devices
 - Code
@@ -82,6 +88,11 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
   - Section 11.5
 - Infographics
   - [Potentiometer and variable resistor wiring](../infographics/Pot%20vs%20Variable%20Resistor.pdf)
+- Dr. P's code memory usage
+  - Circuit 1a: 148B program memory, 0B data memory
+  - Circuit 1b: 150B program memory, 0B data memory
+  - Circuit 2: 204B program memory, 0B data memory
+  - Circuit 3: 194B program memory, 0B data memory
 
 ## Lab 3: Displays
 - Code
