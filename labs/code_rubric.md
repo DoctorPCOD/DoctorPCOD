@@ -134,6 +134,7 @@ The following issues will have to be taken on a case-by-case basis. Hopefully th
   - Using an empty `if` and filled `else` instead of using negative logic
   - Using `if` and an empty `else`
 - Unnecessary nested control flow
+- Copy/pasted code vs. external function or control flow
 - Incorrect or conflicting keywords
   - Not using `const` correctly
 - Code is in the `loop` function that should be in the `setup` function
@@ -163,7 +164,6 @@ Good vibes only. Here are some code vibe-killers. This is not an exhaustive list
   - I can't define too much but I know it when I see it
 - Variables that don't make sense
   - Example: two global variables labeled `x` and `y` with no comments, making me wonder what they do. Then I have to read through hundreds of lines of code before I see them being used and, if I'm lucky, figure it out by context. (True story.)
-- Copy/pasted code vs. external function or control flow
 - Bloat
   - Assembly: doing two or more `SBI` instead of `LDI` and `OUT` (if assignment is appropriate) or three or more `SBI` instead of `LDI`, `AND`, and `OUT` (if assignment is not appropriate)
   - Assembly: using GP registers as storage instead of SRAM (this is OK until we have learned pointers)
