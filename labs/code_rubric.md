@@ -96,6 +96,7 @@ The following issues will have to be taken on a case-by-case basis. Hopefully th
   - Not masking input data
 - Incorrect array size
   - Character buffer in integer/long to string conversion has too few elements
+- Enabling SPI on a primary device before configuring `SS` as an output pin
 
 ## Medium Severity Issues
 **Definition:** There may be specific instances where the code may not work as expected.
