@@ -145,15 +145,42 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
   - Chapter 14
 - Dr. P's code memory usage
   - Circuit 1: 1258B program memory, variable data memory (depends on the size of the circular buffer)
-  - Circuit 2: 
+  - Circuit 2: 1736B program memory, 23B data memory
 
 ## Lab 7: Pulse-Width Modulation and Motors
 - Textbook
   - Section 14.4
+- Dr. P's code memory usage
+  - Circuit 1: 210B program memory, 0B data memory
+  - Circuit 2: 318B program memory, 0B data memory
+  - Circuit 3: 318B program memory, 0B data memory
 
-## Lab 8: Proportional and Integral Control
+## Lab 8: Ultrasonic Sensor
+- Textbook
+  - Section 14.2
+- Videos
+  - [Input capture unit](https://youtu.be/eXE-8X38AHs)
+- Dr. P's code memory usage
+  - Circuit 1: 
+  - Circuit 2: 
+  - Circuit 3: 
+
+## Lab 9: SPI: Serial Peripheral Interface
 - Code
-  - [Circuit 1 workbook](../ENGIN-2223/lab8_workbook.xlsx)
+  - [Circuit I: SPI control of 7-segment display](../ENGIN-2223/lab9_circuit1.ino)
+- Textbook
+  - Section 15.5
+- Websites
+  - [This article from Boston University](https://www.bu.edu/articles/2020/striking-out-racist-terminology-in-engineering/) discusses the racism used in many electrical engineering concepts, which is why the terminology used in this lab differs from the terminology used in official AVR documentation and many other websites. This lab, and the lab appendix, have been rewritten to use the terms primary and secondary when referring to SPI devices.
+ - Dr. P's code memory usage
+  - Circuit 1: 
+  - Circuit 2: 
+  - Circuit 3 (primary):
+  - Circuit 3 (secondary): 
+
+## Lab 10: Proportional and Integral Control
+- Code
+  - [Circuit 1 workbook](../ENGIN-2223/lab10_workbook.xlsx)
 - Textbook
   - Chapter 17
 - Videos
@@ -167,15 +194,7 @@ Serial.print('\t');
 Serial.println(sP);
 ```
 
-## Lab 9: SPI: Serial Peripheral Interface
-- Code
-  - [Circuit I: SPI control of 7-segment display](../ENGIN-2223/lab9_circuit1.ino)
-- Textbook
-  - Section 15.5
-- Websites
-  - [This article from Boston University](https://www.bu.edu/articles/2020/striking-out-racist-terminology-in-engineering/) discusses the racism used in many electrical engineering concepts, which is why the terminology used in this lab differs from the terminology used in official AVR documentation and many other websites. This lab, and the lab appendix, have been rewritten to use the terms primary and secondary when referring to SPI devices.
-
-## Lab 10: Power Consumption and ATmega328P without Arduino
+## Lab 11: Power Consumption and ATmega328P without Arduino
 - Textbook
   - Chapter 9
   - Chapter 16
@@ -183,6 +202,10 @@ Serial.println(sP);
   - [AVR fuse calculator](https://www.engbedded.com/fusecalc/)
   - [Arduino boards.txt file](https://github.com/arduino/ArduinoCore-avr/blob/master/boards.txt) includes fuse details of the Arduino programmed ATmega328P
   - [How to use AVR fuses](http://www.crash-bang.com/programme-avr-fuse/)
+- Dr. P's code memory usage
+  - Circuit 1: 
+  - Circuit 2: 
+  - Circuit 3: 
 
 ### Fuse Bytes
 - Use the Config tab in the Xgpro programming software to configure the fuse bytes (see screenshot below)
@@ -208,15 +231,12 @@ In May 2024, here are the values Dr. P got after doing some power optimization. 
 | 3       | 95.7 mW  | 78.9 mW  |
 | 4       | 18.2 mW  | 17.5 mW  |
 
-## Lab 11: Transmitting and Receiving a Secret Message
+## Lab 12: Transmitting and Receiving a Secret Message
 - Textbook
   - Section 15.5
-
-## Lab 12: Ultrasonic Sensor
-- Textbook
-  - Section 14.2
-- Videos
-  - [Input capture unit](https://youtu.be/eXE-8X38AHs)
+- Dr. P's code memory usage
+  - Circuit 1: 
+  - Circuit 2: 
 
 ## Lab 13: Introduction to Assembly
 - Code
@@ -230,10 +250,18 @@ In May 2024, here are the values Dr. P got after doing some power optimization. 
   - [Microchip Studio](https://www.microchip.com/en-us/tools-resources/develop/microchip-studio)
   - [How to program Arduino from Microchip Studio](https://www.arnabkumardas.com/platforms/atmel/how-to-flash-or-program-arduino-from-atmel-studio/) this works for both Atmel Studio and Microchip Studio
   - [AVR delay loop calculator](http://darcy.rsgc.on.ca/ACES/TEI4M/AVRdelay.html)
+- Dr. P's code memory usage
+  - Circuit 1: 
+  - Circuit 2: 
+  - Circuit 3: 
 
 ## Lab 14: USART: Universal Synchronous/Asynchronous Receiver/Transmitter
 - Textbook
   - Section 15.4
+- Dr. P's code memory usage
+  - Circuit 1: 
+  - Circuit 2: 
+  - Circuit 3: 
 
 ## Lab 15: Pointers and ADC in Assembly
 - Code
@@ -245,6 +273,10 @@ In May 2024, here are the values Dr. P got after doing some power optimization. 
   - Chapter 19
 - Videos
   - [Circuit 2 demo](https://youtu.be/xMfgy89AevU)
+- Dr. P's code memory usage
+  - Circuit 1: 
+  - Circuit 2: 
+  - Circuit 3: 
 
 ## Lab 16: Interrupts and WDT in Assembly
 - Code
@@ -256,6 +288,10 @@ In May 2024, here are the values Dr. P got after doing some power optimization. 
   - Chapter 19
 - Videos
   - [Circuit 4 demonstration](https://youtu.be/iWqjtBQRcCk)
+- Dr. P's code memory usage
+  - Circuit 1: 
+  - Circuit 2: 
+  - Circuit 3: 
 
 ## Lab 17: Greater Than 8-Bit Math in Assembly
 - Code
@@ -266,6 +302,10 @@ In May 2024, here are the values Dr. P got after doing some power optimization. 
   - Chapter 6
   - Chapter 7
   - Chapter 19
+- Dr. P's code memory usage
+  - Circuit 1: 
+  - Circuit 2: 
+  - Circuit 3: 
 
 # TinkerCAD
 
