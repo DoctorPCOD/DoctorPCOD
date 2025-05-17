@@ -134,7 +134,6 @@ The following issues will have to be taken on a case-by-case basis. Hopefully th
   - Using an empty `if` and filled `else` instead of using negative logic
   - Using `if` and an empty `else`
 - Unnecessary nested control flow
-- Copy/pasted code vs. external function or control flow
 - Incorrect or conflicting keywords
   - Not using `const` correctly
 - Code is in the `loop` function that should be in the `setup` function
@@ -154,6 +153,7 @@ Good vibes only. Here are some code vibe-killers. This is not an exhaustive list
   - No comments kill code that's hard to follow
 - Incorrect or conflicting keywords
   - Using `static` on a global and/or `volatile` variable
+- Copy/pasted code vs. external function or control flow
 - Functions are given generic names that don't correspond to their functionality (for example, a function is called `external` or `externalFunction`)
 - Ugly
   - `if (x) {some code; }` all on the same line (curly brackets are not needed if `some code` is on the same line as the `if` statement)
