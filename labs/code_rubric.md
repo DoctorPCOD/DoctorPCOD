@@ -144,7 +144,8 @@ The following issues will have to be taken on a case-by-case basis. Hopefully th
 - Use of bitwise operators instead of assignment on registers that do not require bitwise operations (for example, most peripheral configuration registers as well as `DDRx`)
 - Non-optimal use of variables
   - Using a new variable rather than just modifying an old one, when the old one doesn't need to be preserved (e.g.: `percent = ADC; newPercent = ADC / 100;`)
-
+- Unnecessary or excessive delay(s)
+  
 ## Qualitative Issues
 Good vibes only. Here are some code vibe-killers. This is not an exhaustive list and I will likely add to it as I read other people's (but definitely not your) code.
 
@@ -172,7 +173,6 @@ Good vibes only. Here are some code vibe-killers. This is not an exhaustive list
 - Hard-coding numbers instead of using a globally defined variable
 - Not using compound operators
 - Confusing / unclear / incorrect comments
-- Exessive delays
 - Use of binary or decimal instead of HEX with configuring registers
 - Not commenting out or deleting old code or tests
   - In particular: serial monitor code
