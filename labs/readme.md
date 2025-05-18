@@ -31,9 +31,9 @@ It's possible to read the feedback on your code all in one place. This is a slig
 - In your schematics **be clear about how pushbuttons, DIP switches, toggle switches, or other digital input devices requiring a pull-up/down resistor are wired!**
   - External pull-down or pull-up. The signal pin (input) to the microcontroller connects between the pushbutton and the pull-down/pull-up. The input never connects directly to VCC or GND, which would give you a constant 1 or 0 value on the PINx register.
   - Internal pull-up. The signal pin (input) connects directly to one pushbutton pin, and the other pushbutton pin connects to ground.
-  - Debounced pushbutton PCB. Either use the KiCad symbol available at [DoctorPCOD/KiCAD](../KiCAD) or include the correct wiring in your schematic. The schematic below shows how the debounced pushbutton is wired. (If you use one button, you would only need to show the wiring for one pushbutton.)
- 
-<img src="https://i0.wp.com/doctor-pasquale.com/wp-content/uploads/2022/12/debounced-button-schematic.png">
+  - Debounced pushbutton PCB. Either use the KiCad symbol available at [DoctorPCOD/KiCAD](../KiCAD) or include the correct wiring in your schematic. The schematic below shows how each debounced pushbutton is wired on the PCB. (If you use one button, you would only need to show the wiring for one pushbutton.)
+
+![schematic of debounced pushbutton on the PCB](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/labs/debounced_pushbutton.png?raw=true)
 
 # Using the Serial Monitor
 
