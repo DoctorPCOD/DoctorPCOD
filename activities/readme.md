@@ -47,10 +47,12 @@ The <a href="https://github.com/DoctorPCOD/DoctorPCOD/tree/main/labs">lab resour
 
 # Activity 6: External and Pin Change Interrupts
 - Textbook
+  - Chapter 13
 - Infographics
-- Websites
-- Videos
+  - <a href="https://github.com/DoctorPCOD/DoctorPCOD/blob/main/infographics/Current-Limiting%20Resistors.pdf">Current-limiting resistors</a>
 - Dr. P's code memory usage
+  - Circuit 1: 212B program memory, 1B data memory
+  - Circuit 2: 232B program memory, 1B data memory
 
 # Activity 7: Smart Car I/O Pins
 - Textbook
