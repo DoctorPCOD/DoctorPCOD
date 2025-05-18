@@ -4,9 +4,6 @@ This code rubric will be used to grade all software code, which will comprise th
 
 This rubric and all lists may not be exhaustive and may be added to as the semester progresses.
 
-## Currently Unanswered Questions
-As of May 2025, I have not included program or data memory usage directly into the lab score. Generally, bloated code will be dinged for the issues that cause the code to be bloated in the first place. If you are interested, jump to the end of this file to get information on how much program and data memory used in the best code I could write as of May 2025.
-
 ## The Rubric
 The severity level leading to the greatest score deduction will be the ultimate score determinant. (For example, code with 3 low severity issues and 1 medium severity issue will receive a grade of 50%.)
 
@@ -36,6 +33,7 @@ No credit is awarded if there's a dealbreaker.
 - No CTRL-T (improper indenting)
 - No stamp
 - Use of cheater functions
+- Use of Arduino IDE's built-in `setup` and `loop` functions
 - No code header
 
 ## Code Header Needs
@@ -52,7 +50,7 @@ Issues with the code header will typically be qualitative. (For example, if your
   - Anything hard wired to a signal (e.g.: GND) must be listed
 
 ## Issues of Unknown Severity
-The following issues will have to be taken on a case-by-case basis. Hopefully this will be updated based on what I witness in spring 2025.
+The following issues will have to be taken on a case-by-case basis.
 
 - Incorrect register configuration of a peripheral
   - Incorrect prescaler
@@ -177,50 +175,6 @@ Good vibes only. Here are some code vibe-killers. This is not an exhaustive list
 - Use of binary or decimal instead of HEX with configuring registers
 - Not commenting out or deleting old code or tests
   - In particular: serial monitor code
-  - Leaving in the default Arduino IDE comments in the `setup` and `loop` functions
- 
-## Best-Case Code
-These are the best-case values of program and data memory used in each lab and activity circuit, assuming I write the best possible code. Please feel free to prove that assumption incorrect by doing better than this!
-
-Any circuits with data memory listed as "variable" is dependent on the number of entries in an array.
-
-* Data with an asterisk next to it means I haven't updated these values in the Great Lab Overhaul of 2025.
-
-### Labs
-
-| Lab | Circuit | Program (B) | Data (B) |
-|-----|---------|-------------|----------|
-| 8   | 2       | 1924* [^3]   |	191*      |
-|     | 3       | 2046* [^3]   |	232*      |
-| 9   | 1       | 644*         | 20*       |
-|     | 2       | 698*         | 10*       |
-|     | 3 P     | 1278*        | 16*       |
-|     | 3 S     | 1324*        | 16*       |
-| 10  | 2       | 552*         | 10*       |
-|     | 3       | 586*         | 10*       |
-| 11  | 1       | 568*         | 13*       |
-|     | 2       | 1578* [^3]   |	188*      |
-| 13  | 1       | 22*          | 0*        |
-|     | 2       | 34*          | 0*        |
-|     | 3       | 86*          | 0*        |
-
-### Activities
-
-Apparently I haven't recorded my data for activities 10, 11, and 15 as of October 2024. I hope to have this updated in summer 2025. There are also new activity circuits that need to be included in this list.
-
-| Activity | Circuit | Program (B) | Data (B) |
-|----------|---------|-------------|----------|
-| 2		     |         | 518*         | 9*        |
-| 4        |         | 626*         | 25*       |
-| 5        |         | 1264*        | variable |
-| 6        | 1       | 502*         | 9*        |
-|          | 2       | 522*         | 9*        |
-| 10       | 2       | ??          | ??       |
-| 11       | ??      | ??          | ??       |
-| 13       | 1       | 816*         | 21*       |
-|          | 2       | 790*         | 21*       |
-| 15       | 1       | ??          | ??       |
-|          | 2       | ??          | ??       |
 
 [^3]: This code uses the serial monitor, which is a huge code bloater, both in terms of program and data memory.
 
