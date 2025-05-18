@@ -172,7 +172,7 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
   - Section 15.5
 - Websites
   - [This article from Boston University](https://www.bu.edu/articles/2020/striking-out-racist-terminology-in-engineering/) discusses the racism used in many electrical engineering concepts, which is why the terminology used in this lab differs from the terminology used in official AVR documentation and many other websites. This lab, and the lab appendix, have been rewritten to use the terms primary and secondary when referring to SPI devices.
- - Dr. P's code memory usage
+- Dr. P's code memory usage
   - Circuit 1: 348B program memory, 11B data memory
   - Circuit 2: 378B program memory, 0B data memory
   - Circuit 3 (primary): 394B program memory, 2B data memory
