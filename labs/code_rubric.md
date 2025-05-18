@@ -176,8 +176,6 @@ Good vibes only. Here are some code vibe-killers. This is not an exhaustive list
 - Not commenting out or deleting old code or tests
   - In particular: serial monitor code
 
-[^3]: This code uses the serial monitor, which is a huge code bloater, both in terms of program and data memory.
-
 [^4]: An example of "bad" pseudocode would be:
   `array[n] = {}; // empty array`
   `array[0] = variableA / 10;`
