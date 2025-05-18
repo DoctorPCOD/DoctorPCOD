@@ -87,7 +87,7 @@ The <a href="https://github.com/DoctorPCOD/DoctorPCOD/tree/main/labs">lab resour
   - Section 15.4
   - Section 15.5
 - Dr. P's code memory usage
-  - Circuit 1:
+  - Circuit 1: 184B program memory, 0B data memory
 
 # Activity 13: SPI with Multiple Secondary Devices
 - Textbook
