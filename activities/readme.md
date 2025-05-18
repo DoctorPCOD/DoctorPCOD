@@ -1,3 +1,9 @@
+# General Information
+
+- Refer to the syllabus for logistical information about activities.
+- Code submission links in Github will be available in your class semester folder in the same place you can find the lab code submission links.
+- You will be provided with one printed set of activities at the start of the semester. You are responsible for printing/replacing anything you lose. Before printing from the file provided on this repository, sure that the footer of the activity file corresponds with your semester. (If not, ask Dr. P to upload the updated file.)
+
 # Schematics
 
 The <a href="https://github.com/DoctorPCOD/DoctorPCOD/tree/main/labs">lab resources page</a> explains how to create schematics. I have the same expectations for activity schematics that I have for lab schematics.
