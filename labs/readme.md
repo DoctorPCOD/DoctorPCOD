@@ -246,8 +246,8 @@ In May 2024, here are the values Dr. P got after doing some power optimization. 
   - [How to program Arduino from Microchip Studio](https://www.arnabkumardas.com/platforms/atmel/how-to-flash-or-program-arduino-from-atmel-studio/) this works for both Atmel Studio and Microchip Studio
   - [AVR delay loop calculator](http://darcy.rsgc.on.ca/ACES/TEI4M/AVRdelay.html)
 - Dr. P's code memory usage
-  - Circuit 1: 
-  - Circuit 2: 
+  - Circuit 1: 22B program memory, 0B data memory
+  - Circuit 2: 34B program memory, 0B data memory
   - Circuit 3: 
 
 ## Lab 14: USART: Universal Synchronous/Asynchronous Receiver/Transmitter
