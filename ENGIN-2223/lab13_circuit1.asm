@@ -10,10 +10,10 @@
 ; D8: LED
 ; D7: pushbutton (external pull-down)
 
-; any non-repeating tasks should occur outside of the loop
+; any non-repeating tasks should occur before the subroutine
 SBI DDRB, 0	; configure D8 as an output pin
 
-; loop subroutine starts here
+; any repeating code will go in this subroutine
 loop:
 	; start by turning the LED off
 	CBI PORTB, 0
