@@ -190,11 +190,6 @@ Any circuits with data memory listed as "variable" is dependent on the number of
 
 | Lab | Circuit | Program (B) | Data (B) |
 |-----|---------|-------------|----------|
-| 6   | 1       | 1258        | variable |
-|     | 2       | 2120[^1]    | 24       |
-| 7   | 1       | 210         | 0        |
-|     | 2       | 318         | 0        |
-|     | 3       | 318         | 0        |
 | 8   | 2       | 1924* [^3]   |	191*      |
 |     | 3       | 2046* [^3]   |	232*      |
 | 9   | 1       | 644*         | 20*       |
@@ -205,9 +200,6 @@ Any circuits with data memory listed as "variable" is dependent on the number of
 |     | 3       | 586*         | 10*       |
 | 11  | 1       | 568*         | 13*       |
 |     | 2       | 1578* [^3]   |	188*      |
-| 12  | 1       | 1500*        | 26*       |
-|     | 2       | 1714*        | 47*       |
-|     | 3       | 2348*        | 30*       |
 | 13  | 1       | 22*          | 0*        |
 |     | 2       | 34*          | 0*        |
 |     | 3       | 86*          | 0*        |
@@ -229,8 +221,6 @@ Apparently I haven't recorded my data for activities 10, 11, and 15 as of Octobe
 |          | 2       | 790*         | 21*       |
 | 15       | 1       | ??          | ??       |
 |          | 2       | ??          | ??       |
-
-[^1]: My code will likely be more bloated than yours because I included extra conditional logic and LCD writes to display commas in numbers larger than 999.
 
 [^3]: This code uses the serial monitor, which is a huge code bloater, both in terms of program and data memory.
 
