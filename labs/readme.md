@@ -155,15 +155,15 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
   - Circuit 2: 318B program memory, 0B data memory
   - Circuit 3: 318B program memory, 0B data memory
 
-## Lab 8: Ultrasonic Sensor
+## Lab 8: Input Capture Unit
 - Textbook
   - Section 14.2
 - Videos
   - [Input capture unit](https://youtu.be/eXE-8X38AHs)
 - Dr. P's code memory usage
-  - Circuit 1: 
-  - Circuit 2: 
-  - Circuit 3: 
+  - Circuit 1: 1236B program memory, 27B data memory
+  - Circuit 2: 1428B program memory, 30B data memory
+  - Circuit 3: 1488B program memory, 34B data memory
 
 ## Lab 9: SPI: Serial Peripheral Interface
 - Code
