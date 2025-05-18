@@ -34,7 +34,7 @@ The <a href="https://github.com/DoctorPCOD/DoctorPCOD/tree/main/labs">lab resour
 - Videos
   - <a href="https://youtu.be/EN3FPsV-pFg">Current-limiting resistors</a>
 - Dr. P's code memory usage
-  - Circuit 1:
+  - Circuit 1: 310B program memory, 16B data memory
 
 # Activity 5: Averaging a Circular Buffer
 - Textbook
