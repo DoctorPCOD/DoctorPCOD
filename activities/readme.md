@@ -32,6 +32,7 @@ The <a href="https://github.com/DoctorPCOD/DoctorPCOD/tree/main/labs">lab resour
 - Infographics
   - <a href="https://github.com/DoctorPCOD/DoctorPCOD/blob/main/infographics/Current-Limiting%20Resistors.pdf">Current-limiting resistors</a>
 - Videos
+  - <a href="https://www.youtube.com/watch?v=4VKFYXrp-nI">A video of how the circuit works</a>
   - <a href="https://youtu.be/EN3FPsV-pFg">Current-limiting resistors</a>
 - Dr. P's code memory usage
   - Circuit 1: 310B program memory, 16B data memory
