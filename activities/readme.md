@@ -17,22 +17,24 @@ The <a href="https://github.com/DoctorPCOD/DoctorPCOD/tree/main/labs">lab resour
 # Activity 2: Control Flow
 - Textbook
   - Section 18.8
+- Infographics
+  - <a href="https://github.com/DoctorPCOD/DoctorPCOD/blob/main/infographics/Current-Limiting%20Resistors.pdf">Current-limiting resistors</a>
 - Dr. P's code memory usage
   - Circuit 1: 208B program memory, 0B data memory
 
 # Activity 3: ADC Configuration Registers
 - Textbook
-- Infographics
-- Websites
-- Videos
-- Dr. P's code memory usage
+  - Chapter 11
 
 # Activity 4: Arrays
 - Textbook
+  - Section 18.3
 - Infographics
-- Websites
+  - <a href="https://github.com/DoctorPCOD/DoctorPCOD/blob/main/infographics/Current-Limiting%20Resistors.pdf">Current-limiting resistors</a>
 - Videos
+  - <a href="https://youtu.be/EN3FPsV-pFg">Current-limiting resistors</a>
 - Dr. P's code memory usage
+  - Circuit 1:
 
 # Activity 5: Averaging a Circular Buffer
 - Textbook
