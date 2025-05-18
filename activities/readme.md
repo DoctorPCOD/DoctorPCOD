@@ -60,17 +60,14 @@ The <a href="https://github.com/DoctorPCOD/DoctorPCOD/tree/main/labs">lab resour
 
 # Activity 8: Timer/Counter LED Toggling
 - Textbook
-- Infographics
-- Websites
-- Videos
+  - Chapter 14, particularly section 14.4
 - Dr. P's code memory usage
+  - Circuit 1: 182B program memory, 0B data memory
 
 # Activity 9: Lab 7 Super Pre-Lab
 - Textbook
-- Infographics
-- Websites
-- Videos
-- Dr. P's code memory usage
+  - Section 14.5
+  - Section 14.6
 
 # Activity 10: Wheel Encoders
 - Textbook
