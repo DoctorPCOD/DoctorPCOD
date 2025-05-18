@@ -187,7 +187,7 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
   - [P and PI control of LED](https://youtu.be/UVFDm5bBDs0) - this video demonstrates the difference between an underdamped and over/critically damped response.
 - Dr. P's code memory usage
   - Circuit 2: 594B program memory, 1B data memory
-  - Circuit 3: 
+  - Circuit 3: 702B program memory, 2B data memory
 
 ## Lab 11: Power Consumption and ATmega328P without Arduino
 - Textbook
