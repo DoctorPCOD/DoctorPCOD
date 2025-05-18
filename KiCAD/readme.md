@@ -1,5 +1,7 @@
 # Pasquale Library Information
 
+I am aware there are issues with this library and hope to address them in the summer and fall of 2025.
+
 ## Symbols Included
 - 74279 (S'R' Latch)
 - 74C922 (Keypad Encoder)
