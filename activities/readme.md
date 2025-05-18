@@ -55,11 +55,8 @@ The <a href="https://github.com/DoctorPCOD/DoctorPCOD/tree/main/labs">lab resour
   - Circuit 2: 232B program memory, 1B data memory
 
 # Activity 7: Smart Car I/O Pins
-- Textbook
-- Infographics
 - Websites
-- Videos
-- Dr. P's code memory usage
+  - <a href="https://github.com/DoctorPCOD/DoctorPCOD/blob/main/smart-car/kit_contents.md">Smart car kit contents</a>
 
 # Activity 8: Timer/Counter LED Toggling
 - Textbook
