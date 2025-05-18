@@ -173,10 +173,10 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
 - Websites
   - [This article from Boston University](https://www.bu.edu/articles/2020/striking-out-racist-terminology-in-engineering/) discusses the racism used in many electrical engineering concepts, which is why the terminology used in this lab differs from the terminology used in official AVR documentation and many other websites. This lab, and the lab appendix, have been rewritten to use the terms primary and secondary when referring to SPI devices.
  - Dr. P's code memory usage
-  - Circuit 1: 
-  - Circuit 2: 
-  - Circuit 3 (primary):
-  - Circuit 3 (secondary): 
+  - Circuit 1: 348B program memory, 11B data memory
+  - Circuit 2: 378B program memory, 0B data memory
+  - Circuit 3 (primary): 394B program memory, 2B data memory
+  - Circuit 3 (secondary): 392B program memory, 2B data memory
 
 ## Lab 10: Proportional and Integral Control
 - Code
@@ -185,6 +185,9 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
   - Chapter 17
 - Videos
   - [P and PI control of LED](https://youtu.be/UVFDm5bBDs0) - this video demonstrates the difference between an underdamped and over/critically damped response.
+- Dr. P's code memory usage
+  - Circuit 2: 
+  - Circuit 3: 
 
 Here is how to write data to the serial plotter. The `\t` delimiter is a tab that differentiates between the two pieces of data being plotted.
 
