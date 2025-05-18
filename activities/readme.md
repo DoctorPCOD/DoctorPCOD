@@ -79,36 +79,37 @@ The <a href="https://github.com/DoctorPCOD/DoctorPCOD/tree/main/labs">lab resour
   - Circuit 2 (with `PCINTx` and LCD screen): 1110B program memory, 8B data memory
 
 # Activity 11: H-Bridge Motor Driver
-- Textbook
-- Infographics
-- Websites
-- Videos
 - Dr. P's code memory usage
+  - Circuit 1: 
 
 # Activity 12: SPI and USART Protocols
 - Textbook
-- Infographics
-- Websites
-- Videos
+  - Section 15.4
+  - Section 15.5
 - Dr. P's code memory usage
+  - Circuit 1:
 
 # Activity 13: SPI with Multiple Secondary Devices
 - Textbook
-- Infographics
-- Websites
-- Videos
+  - Section 15.4
 - Dr. P's code memory usage
+  - Circuit 1 (independent secondary):
+  - Circuit 2 (daisy-chained): 
 
 # Activity 14: ATmega328P Fuses
 - Textbook
-- Infographics
+  - Section 9.4
 - Websites
-- Videos
-- Dr. P's code memory usage
+  - <a href="https://www.engbedded.com/fusecalc/">AVR fuse calculator</a>
+  - <a href="https://github.com/arduino/ArduinoCore-avr/blob/master/boards.txt">Arduino boards.txt</a>
+  - <a href="https://www.crash-bang.com/programme-avr-fuse/">How to use AVR fuses</a>
 
 # Activity 15: Assembly
 - Textbook
-- Infographics
+  - Chapter 19
 - Websites
-- Videos
+  - <a href="https://github.com/DoctorPCOD/DoctorPCOD/tree/main/assembly_help">Assembly help</a>
+  - <a href="https://github.com/DoctorPCOD/DoctorPCOD/blob/main/assembly_help/AVR_Instruction_Set_Manual.pdf">AVR instruction set manual</a>
 - Dr. P's code memory usage
+  - Circuit 1:
+  - Circuit 2:
