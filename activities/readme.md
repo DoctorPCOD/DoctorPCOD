@@ -39,10 +39,11 @@ The <a href="https://github.com/DoctorPCOD/DoctorPCOD/tree/main/labs">lab resour
 
 # Activity 5: Averaging a Circular Buffer
 - Textbook
+  - Section 12.3
 - Infographics
-- Websites
-- Videos
+  - <a href="https://github.com/DoctorPCOD/DoctorPCOD/blob/main/infographics/Pot%20vs%20Variable%20Resistor.pdf">Wiring a potentiometer</a>
 - Dr. P's code memory usage
+  - Circuit 1 (with LCD screen): 980B program memory, variable data memory (depends on size of the circular buffer)
 
 # Activity 6: External and Pin Change Interrupts
 - Textbook
