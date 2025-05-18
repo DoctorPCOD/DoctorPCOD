@@ -70,10 +70,8 @@ The <a href="https://github.com/DoctorPCOD/DoctorPCOD/tree/main/labs">lab resour
   - Section 14.6
 
 # Activity 10: Wheel Encoders
-- Textbook
-- Infographics
 - Websites
-- Videos
+  - <a href="https://github.com/DoctorPCOD/DoctorPCOD/blob/main/smart-car/kit_contents.md">Smart car kit contents</a>
 - Dr. P's code memory usage
   - Circuit 1 (with `INT0` and `INT1` and LCD screen): 1042B program memory, 14B data memory
   - Circuit 1 (with `PCINTx` and LCD screen): 1016B program memory, 14B data memory
