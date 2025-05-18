@@ -254,9 +254,9 @@ In May 2024, here are the values Dr. P got after doing some power optimization. 
 - Textbook
   - Section 15.4
 - Dr. P's code memory usage
-  - Circuit 1: 
-  - Circuit 2: 
-  - Circuit 3: 
+  - Circuit 1: 184B program memory, 0B data memory
+  - Circuit 2: 348B program memory, 2B data memory (both Arduinos have the same memory usage)
+  - Circuit 3: 398B program memory, 11B data memory
 
 ## Lab 15: Pointers and ADC in Assembly
 - Code
