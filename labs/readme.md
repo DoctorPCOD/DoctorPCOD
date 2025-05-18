@@ -230,8 +230,8 @@ In May 2024, here are the values Dr. P got after doing some power optimization. 
 - Textbook
   - Section 15.5
 - Dr. P's code memory usage
-  - Circuit 1: 
-  - Circuit 2: 
+  - Circuit 1: 238B program memory, 4B data memory
+  - Circuit 2: 696B program memory, 4B data memory
 
 ## Lab 13: Introduction to Assembly
 - Code
