@@ -186,16 +186,8 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
 - Videos
   - [P and PI control of LED](https://youtu.be/UVFDm5bBDs0) - this video demonstrates the difference between an underdamped and over/critically damped response.
 - Dr. P's code memory usage
-  - Circuit 2: 
+  - Circuit 2: 594B program memory, 1B data memory
   - Circuit 3: 
-
-Here is how to write data to the serial plotter. The `\t` delimiter is a tab that differentiates between the two pieces of data being plotted.
-
-```
-Serial.print(pV);
-Serial.print('\t');
-Serial.println(sP);
-```
 
 ## Lab 11: Power Consumption and ATmega328P without Arduino
 - Textbook
