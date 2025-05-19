@@ -93,8 +93,8 @@ The <a href="https://github.com/DoctorPCOD/DoctorPCOD/tree/main/labs">lab resour
 - Textbook
   - Section 15.4
 - Dr. P's code memory usage
-  - Circuit 1 (independent secondary):
-  - Circuit 2 (daisy-chained): 
+  - Circuit 1 (independent secondary): 518B program memory, 12B data memory
+  - Circuit 2 (daisy-chained): 494B program memory, 12B data memory
 
 # Activity 14: ATmega328P Fuses
 - Textbook
