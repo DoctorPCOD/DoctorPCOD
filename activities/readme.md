@@ -80,7 +80,7 @@ The <a href="https://github.com/DoctorPCOD/DoctorPCOD/tree/main/labs">lab resour
 
 # Activity 11: H-Bridge Motor Driver
 - Dr. P's code memory usage
-  - Circuit 1: 
+  - Circuit 1: 332B program memory, 1B data memory
 
 # Activity 12: SPI and USART Protocols
 - Textbook
