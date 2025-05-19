@@ -284,7 +284,7 @@ In May 2025, here are the values Dr. P got after doing some power optimization. 
 - Videos
   - [Circuit 4 demonstration](https://youtu.be/iWqjtBQRcCk)
 - Dr. P's code memory usage
-  - Circuit 1: 
+  - Circuit 1: 36B program memory, 0B data memory
   - Circuit 2: 
   - Circuit 3: 
 
