@@ -248,7 +248,7 @@ In May 2025, here are the values Dr. P got after doing some power optimization. 
 - Dr. P's code memory usage
   - Circuit 1: 22B program memory, 0B data memory
   - Circuit 2: 34B program memory, 0B data memory
-  - Circuit 3: 
+  - Circuit 3: 156B program memory, 0B data memory
 
 ## Lab 14: USART: Universal Synchronous/Asynchronous Receiver/Transmitter
 - Textbook
