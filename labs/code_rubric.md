@@ -76,6 +76,7 @@ The following issues will have to be taken on a case-by-case basis.
 - A function has a return type defined but no `return` statement (return type should be `void`)
 - Lack of an ISR when an ISR is enabled
 - Performing non-essential actions in an ISR
+- Unnecessary interrupt masking
 - Use of assignment instead of bitwise operators (when bitwise is required, for example with `PORTx` registers)
 - Missing variable increment (e.g.: `x++`)
 - Not accounting for zero-indexing of an array (allowing an array address to go out of bounds)
@@ -145,6 +146,11 @@ The following issues will have to be taken on a case-by-case basis.
 - Non-optimal use of variables
   - Using a new variable rather than just modifying an old one, when the old one doesn't need to be preserved (e.g.: `percent = ADC; newPercent = ADC / 100;`)
 - Unnecessary or excessive delay(s)
+- Bloat
+  - Assembly: doing two or more `SBI` instead of `LDI` and `OUT` (if assignment is appropriate) or three or more `SBI` instead of `LDI`, `AND`, and `OUT` (if assignment is not appropriate)
+  - Assembly: using GP registers as storage instead of SRAM (this is OK until we have learned pointers)
+  - Defining a variable that isn't needed (e.g.: `a = VAR1 && VAR2` and then using `if(a)` instead of just `if (VAR1 && VAR2)`)
+  - Using an external interrupt on a particiular trigger condition, and then probing for that trigger condition
   
 ## Qualitative Issues
 Good vibes only. Here are some code vibe-killers. This is not an exhaustive list and I will likely add to it as I read other people's (but definitely not your) code.
@@ -160,16 +166,8 @@ Good vibes only. Here are some code vibe-killers. This is not an exhaustive list
   - `signed int a = whatever;` (no need to use the keyword `signed` which is by default)
   - Double spacing
 - Spaghetti 🍝 code
-- Too much masking of interrupts
-  - I can't define too much but I know it when I see it
 - Variables that don't make sense
   - Example: two global variables labeled `x` and `y` with no comments, making me wonder what they do. Then I have to read through hundreds of lines of code before I see them being used and, if I'm lucky, figure it out by context. (True story.)
-- Bloat
-  - Assembly: doing two or more `SBI` instead of `LDI` and `OUT` (if assignment is appropriate) or three or more `SBI` instead of `LDI`, `AND`, and `OUT` (if assignment is not appropriate)
-  - Assembly: using GP registers as storage instead of SRAM (this is OK until we have learned pointers)
-  - Too much stuff in an ISR
-  - A variable that isn't needed (e.g.: `a = VAR1 && VAR2` and then using `if(a)` instead of just `if (VAR1 && VAR2)`)
-  - Using an external interrupt on a particiular trigger condition, and then probing for that trigger condition
 - Hard-coding numbers instead of using a globally defined variable
 - Not using compound operators
 - Confusing / unclear / incorrect comments
