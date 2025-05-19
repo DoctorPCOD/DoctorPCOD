@@ -198,9 +198,9 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
   - [Arduino boards.txt file](https://github.com/arduino/ArduinoCore-avr/blob/master/boards.txt) includes fuse details of the Arduino programmed ATmega328P
   - [How to use AVR fuses](http://www.crash-bang.com/programme-avr-fuse/)
 - Dr. P's code memory usage
-  - Circuit 1: 
-  - Circuit 2: 
-  - Circuit 3: 
+  - Circuit 1: 186B program memory, 0B data memory
+  - Circuit 2: 302B program memory, 2B data memory
+  - Circuit 3: 338B program memory, 2B data memory
 
 ### Fuse Bytes
 - Use the Config tab in the Xgpro programming software to configure the fuse bytes (see screenshot below)
@@ -214,17 +214,17 @@ Here are some details to make the circuits more clear.
 - External interrupts triggered by a pushbutton must always work (be sure this doesn't stop functioning if you decrease VCC).
 - Circuit 1 is a baseline to determine where you've started from. Do no optimizations at all on this circuit.
 - Circuits 1 and 2 must have a VCC of 5 V.
-- Circuits 3 and 4 can have a VCC down to 2.7 V, but **only** if the LED is visibly ON **and** external interrupts still work. (In circuit 3, the LED must be visibly ON with the USB cable disconnected from the Arduino Uno.)
+- Circuits 3 and 4 can have a VCC down to 2.7 V, but **only** if the LED is visibly ON **and** external interrupts still work. (In all circuits, the LED must be visibly ON with the USB cable disconnected from the Arduino Uno.)
 
 ### Dr. P's Power Data
-In May 2024, here are the values Dr. P got after doing some power optimization. The constraints were the same as lab: the LED was visibly ON when enabled, and the pushbutton was always able to trigger an interrupt.
+In May 2025, here are the values Dr. P got after doing some power optimization. The constraints were the same as lab: the LED was visibly ON when enabled, and the pushbuttons were always able to trigger an interrupt. In circuit 4, the multimeter was not precise enough to record the current draw when the MCU was in a sleep mode.
 
-| Circuit | LED ON   | LED OFF  |
-|---------|----------|----------|
-| 1       | 297.5 mW | 292.5 mW |
-| 2       | 295.0 mW | 220.0 mW |
-| 3       | 95.7 mW  | 78.9 mW  |
-| 4       | 18.2 mW  | 17.5 mW  |
+| Circuit | LED ON   | LED OFF  | SLEEP    |
+|---------|----------|----------|----------|
+| 1       | 192.5 mW | 153.5 mW | N/A      |
+| 2       | 202.5 mW | 161.0 mW | 124.0 mW |
+| 3       | 43.5 mW  | 43.2 mW  | 41.7 mW  |
+| 4       | 0.2 mW   | 0.1 mW   | few uW   |
 
 ## Lab 12: Transmitting and Receiving a Secret Message
 - Textbook
