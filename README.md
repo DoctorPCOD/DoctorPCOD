@@ -10,7 +10,6 @@ This repository is for my ENGIN-2223 (Microcontrollers) class at COD. Have a loo
 
 # My Other Public Repositories
 
-- [microcontrollers-notes](https://github.com/DoctorPCOD/microcontrollers-notes) contains lecture outlines for ENGIN-2223
 - [rulesOfTheGame](https://github.com/DoctorPCOD/rulesOfTheGame) is a simulation I wrote in JavaScript (😬!!) for my PHYSI-1100 course of a "simple" game with rules that may be deduced from observing the game multiple times; the simulation randomly simulates game play between two players
 - [physics1100](https://github.com/DoctorPCOD/physics1100) contains images and the LaTeX file I used to generate the images for the open source Conceptual Physics textbook I co-authored
 
