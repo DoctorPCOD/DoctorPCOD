@@ -75,6 +75,7 @@ The following issues will have to be taken on a case-by-case basis.
 - Failure to enable a peripheral the code assumes is enabled
 - A function has a return type defined but no `return` statement (return type should be `void`)
 - Lack of an ISR when an ISR is enabled
+- Performing non-essential actions in an ISR
 - Use of assignment instead of bitwise operators (when bitwise is required, for example with `PORTx` registers)
 - Missing variable increment (e.g.: `x++`)
 - Not accounting for zero-indexing of an array (allowing an array address to go out of bounds)
