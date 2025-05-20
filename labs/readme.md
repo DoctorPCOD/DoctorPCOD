@@ -301,7 +301,8 @@ In May 2025, here are the values Dr. P got after doing some power optimization. 
 - Dr. P's code memory usage
   - Circuit 1: 
   - Circuit 2: 
-  - Circuit 3: 
+  - Circuit 3:
+  - Circuit 4:
 
 # TinkerCAD
 
