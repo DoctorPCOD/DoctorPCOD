@@ -271,7 +271,7 @@ In May 2025, here are the values Dr. P got after doing some power optimization. 
 - Dr. P's code memory usage
   - Circuit 1: 112B program memory, 10B data memory
   - Circuit 2: 
-  - Circuit 3: 
+  - Circuit 3: 242B program memory, 10B data memory
 
 ## Lab 16: Interrupts and WDT in Assembly
 - Code
