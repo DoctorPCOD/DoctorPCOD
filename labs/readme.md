@@ -269,7 +269,7 @@ In May 2025, here are the values Dr. P got after doing some power optimization. 
 - Videos
   - [Circuit 2 demo](https://youtu.be/xMfgy89AevU)
 - Dr. P's code memory usage
-  - Circuit 1: 
+  - Circuit 1: 112B program memory, 10B data memory
   - Circuit 2: 
   - Circuit 3: 
 
@@ -286,7 +286,7 @@ In May 2025, here are the values Dr. P got after doing some power optimization. 
 - Dr. P's code memory usage
   - Circuit 1: 36B program memory, 0B data memory
   - Circuit 2: 48B program memory, 0B data memory
-  - Circuit 3:
+  - Circuit 3: 138B program memory, 10B data memory
   - Circuit 4: 
 
 ## Lab 17: Greater Than 8-Bit Math in Assembly
