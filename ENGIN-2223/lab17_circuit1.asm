@@ -4,28 +4,28 @@
 ; Internal pull-ups are activated on PORTD
 ;
 ; Created: 6/30/2020 7:30:47 AM
-; Author : AJP
-; D0 -- LSB dip switch
-; D1
-; D2
-; D3
-; D4
-; D5
-; D6
-; D7 -- MSB dip switch
-; D8 -- LED0 (LSB)
-; D9 -- LED1
-; D10 - LED2
-; D11 - LED3
-; D12 - LED4
-; D13 - LED5
-; A0 -- LED6
-; A1 -- LED7 (MSB)
-; A2
-; A3
-; A4
-; A5 -- pushbutton
-;
+; Edited:  5/20/2025
+; Author : Alyssa J. Pasquale, Ph.D.
+; port D pins
+; D0 - dip (LSB)
+; D1 - dip
+; D2 - dip
+; D3 - dip
+; D4 - dip
+; D5 - dip
+; D6 - dip
+; D7 - dip (MSB)
+; port B pins
+; B0 - led 0 (LSB)
+; B1 - led 1
+; B2 - led 2
+; B3 - led 3
+; B4 - led 4
+; B5 - led 5
+; port C pins
+; C0 - led 6
+; C1 - led 7 (MSB)
+; C5 - pushbutton
 
 .org 0x0000
 	RJMP SETUP
@@ -34,13 +34,10 @@
 
 SETUP:
 	; configure I/O pins
-	LDI r17, 0x00
 	LDI r16, 0x3F
 	OUT DDRB, r16
-	OUT PORTB, r17
 	LDI r16, 0x03
 	OUT DDRC, r16
-	OUT PORTC, r17
 	; enable internal pull-ups on PORTD, this means no external resistors need to be used on pins D0--D7
 	LDI r17, 0xFF
 	OUT PORTD, r17
@@ -52,30 +49,46 @@ SETUP:
 	STS PCMSK1, r17
 	SEI
 
-; do nothing
 LOOP:
-	JMP LOOP
+	; first write to port c LEDs
+	; get bits 7 and 6 into the least significant locations
+	LDS r16, 0x100
+	SWAP r16
+	LSR r16
+	LSR r16
+	; "bitwise AND" and "bitwise OR" to PORTC
+	LDS r17, PORTC
+	ANDI r17, 0xFC
+	OR r17, r16
+	OUT PORTC, r17
 
+	; now write to port b LEDs
+	; we want bits 5-0
+	LDS r16, 0x100
+	ANDI r16, 0x3F
+	; "bitwise AND" and "bitwise OR" to PORTB
+	LDS r17, PORTB
+	ANDI r17, 0xC0
+	OR r17, r16
+	OUT PORTB, r17
+
+	JMP LOOP
 
 ; pin-change interrupt port C
 PINCHANGE1:
+	; save SREG
+	LDS r15, SREG
+
 	; if pin A5 is 0, then this was a falling edge and we don't want to service the ISR
 	SBIS PINC, 5
 	RETI
+
+	; pin A5 is 1, so let's store the contents of PIND into SRAM
+	; it's active-LOW data, so we use the COM instruction
 	IN r16, PIND
-	; we are inverting the PIND data because it is active LOW (due to using the internal pull-up resistors)
 	COM r16
-	MOV r17, r16
-	ANDI r16, 0x3F
-	OUT PORTB, r16
-	; shift right 6 times
-	LDI r18, 6
-	SHIFT_RIGHT:
-		CPI r18, 0
-		BREQ END_SHIFT
-		LSR r17
-		DEC r18
-		JMP SHIFT_RIGHT
-	END_SHIFT:
-		OUT PORTC, r17
+	STS 0x100, r16
+	
+	; restore SREG
+	STS SREG, r15
 	RETI
