@@ -287,7 +287,7 @@ In May 2025, here are the values Dr. P got after doing some power optimization. 
   - Circuit 1: 36B program memory, 0B data memory
   - Circuit 2: 48B program memory, 0B data memory
   - Circuit 3: 138B program memory, 10B data memory
-  - Circuit 4: 
+  - Circuit 4: 56B program memory, 0B data memory
 
 ## Lab 17: Greater Than 8-Bit Math in Assembly
 - Code
