@@ -299,7 +299,7 @@ In May 2025, here are the values Dr. P got after doing some power optimization. 
   - Chapter 7
   - Chapter 19
 - Dr. P's code memory usage
-  - Circuit 1: 
+  - Circuit 1: 94B program memory, 1B data memory
   - Circuit 2: 
   - Circuit 3:
   - Circuit 4:
