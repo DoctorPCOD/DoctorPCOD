@@ -74,9 +74,9 @@ For the final demonstration: The final code upload to GitHub can consist of no m
 
 ## Barrier Detection Demonstration
 
--  The car will move forward autonomously in a small L-shaped maze. It will enter on one side and exit on the other side, making a right-hand turn. The car must be able to accomplish this in less than 10 seconds.
--  The car will then travel through the L-shaped maze in the opposite direction, making a left-hand turn. The car must be able to accomplish this in less than 10 seconds.
--  Half credit will be awarded if the car travels through the maze in either direction between 10 and 20 seconds.
+-  The car will move forward autonomously in a small L-shaped maze. It will enter on one side and exit on the other side, making a right-hand turn. The car must be able to accomplish this in less than 8 seconds.
+-  The car will then travel through the L-shaped maze in the opposite direction, making a left-hand turn. The car must be able to accomplish this in less than 8 seconds.
+-  Half credit will be awarded if the car travels through the maze in either direction between 8 and 20 seconds.
 -  One quarter credit will be awarded if the car travels through the maze in either direction between 20 and 30 seconds.
 -  Two LEDs will be mounted somewhere on your car. One will light if there was a barrier to the right, and the other will light if there was a barrier to the left.
 
