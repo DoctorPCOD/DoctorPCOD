@@ -111,5 +111,5 @@ The <a href="https://github.com/DoctorPCOD/DoctorPCOD/tree/main/labs">lab resour
   - <a href="https://github.com/DoctorPCOD/DoctorPCOD/tree/main/assembly_help">Assembly help</a>
   - <a href="https://github.com/DoctorPCOD/DoctorPCOD/blob/main/assembly_help/AVR_Instruction_Set_Manual.pdf">AVR instruction set manual</a>
 - Dr. P's code memory usage
-  - Circuit 1:
-  - Circuit 2:
+  - Circuit 1: 30B program memory, 0B data memory
+  - Circuit 2: 108B program memory, 0B data memory
