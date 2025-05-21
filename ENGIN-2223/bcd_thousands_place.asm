@@ -12,10 +12,10 @@ BCD1:
 	SBCI r25, 0x03
 	BRBC 4, BCD1	; has not overflown, go back and subtract again
 	; has overflown, add 1000 back and go do 100s place
-	LDI r28, 0xE8
-	LDI r29, 0x03
-	ADD r24, r28
-	ADC r25, r29
+	LDI r16, 0xE8
+	LDI r17, 0x03
+	ADD r24, r16
+	ADC r25, r17
 	; (hundreds place)
 	LDI r20, -1
 BCD2:
@@ -24,10 +24,10 @@ BCD2:
 	SBCI r25, 0
 	BRBC 4, BCD2	; has not overflown, go back and subtract again
 	; has overflown, add 100 back and go do 10s place
-	LDI r28, 100
-	CLR r29
-	ADD r24, r28
-	ADC r25, r29
+	LDI r16, 100
+	CLR r17
+	ADD r24, r16
+	ADC r25, r17
 	; (tens place)
 	LDI r21, -1
 BCD3:
@@ -35,8 +35,8 @@ BCD3:
 	SUBI r24, 10
 	BRCC BCD3	; has not overflown, go back and subtract again
 	; has overflown, add 10 back and go do 1s place
-	LDI r28, 10
-	ADD r24, r28
+	LDI r16, 10
+	ADD r24, r16
 	; (ones place)
 	LDI r22, -1
 BCD4:
