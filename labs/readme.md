@@ -302,7 +302,7 @@ In May 2025, here are the values Dr. P got after doing some power optimization. 
   - Circuit 1: 96B program memory, 1B data memory
   - Circuit 2: 130B program memory, 2B data memory
   - Circuit 3: 178B program memory, 3B data memory
-  - Circuit 4:
+  - Circuit 4: 414B program memory, 21B data memory
 
 # TinkerCAD
 
