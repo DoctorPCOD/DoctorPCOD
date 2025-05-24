@@ -13,7 +13,7 @@ Circuit 1 displays the binary value of a DIP switch onto eight LEDs. The LEDs on
 
 ### Hardware Description
 
-The hardware consisted of a pushbutton with external pull-down resistor connected to pin `A5`. A DIP switch was used to generate the 8-bit number. The DIP switch was connected to pins `D7`-`D0` and used internal pull-up resistors. Finally, eight LEDs were connected to pins `D8-D13` and `A0` and `A1`. Each one was connected in series with a 220 ohm current-limiting resistor.
+The hardware consisted of a pushbutton with external pull-down resistor connected to pin `C5`. A DIP switch was used to generate the 8-bit number. The DIP switch was connected to pins `D7`-`D0` and used internal pull-up resistors. Finally, eight LEDs were connected to pins `B0`-`B5`, `C0`, and `C1`. Each one was connected in series with a 220 ohm current-limiting resistor.
 
 ### Software Description
 
