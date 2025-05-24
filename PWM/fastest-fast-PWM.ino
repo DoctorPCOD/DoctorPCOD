@@ -1,6 +1,14 @@
 // fastest fast PWM
 // noisy ~4 MHz signal on scope
-void setup() {
+
+#define MCU __AVR_ATmega328P__
+#define F_CPU 16000000UL
+
+#include <avr/io.h>
+#include <avr/interrupt.h>
+#include <util/delay.h>
+
+int main(void) {
   cli();
   DDRD = 0x20;
   TCCR0A = 0x23;
@@ -9,9 +17,7 @@ void setup() {
   OCR0B = 1;
   sei();
 
-}
+  while (1) {
 
-void loop() {
-  // put your main code here, to run repeatedly:
-
+  }
 }
