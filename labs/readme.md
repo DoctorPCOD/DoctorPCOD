@@ -42,16 +42,15 @@ Note that once you have completed Activity 12, I will expect you to use C code (
 Also note that the serial monitor, because it uses the USART, will modify pins `D1` (transmit) and `D0` (receive). This can affect your hardware if, for example, you have a 7-segment display connected to pins `D7` through `D1`!
 
 ```
-void setup() {
+int main(void) {
   Serial.begin(9600); // this piece of cheater code initializes the serial monitor and sets the baud rate (note the use of uppercase S in Serial!)
-}
-
-void loop() {
-  unsigned char varName = 108;
-  Serial.print(varName); // this will print the variable value in base 10 on the serial monitor
-  Serial.print(varName,BIN); // this will print the variable value in binary
-  Serial.print(varName,HEX); // this will print the variable value in hexadecimal
-  Serial.println(varName); // use this when you want a line break after printing the variable
+  while (1) {
+    unsigned char varName = 108;
+    Serial.print(varName); // this will print the variable value in base 10 on the serial monitor
+    Serial.print(varName,BIN); // this will print the variable value in binary
+    Serial.print(varName,HEX); // this will print the variable value in hexadecimal
+    Serial.println(varName); // use this when you want a line break after printing the variable
+  }
 }
 ```
 
