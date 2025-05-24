@@ -27,7 +27,7 @@ The repeating function (called `loop`) reads from `0x100` and writes the value o
 
 **PORTC** The data currently stored in `PORTC` is stored into register `r17`. It's masked using `ANDI` to clear the values of pins `C1` and `C0` (connected to the LEDs). Because these are the two most significant LEDs, we want to store bits 6 and 7 from `r16` into them. Rather than perform 6 bitshift operations, the data in `r17` is nibble swapped using `SWAP`, then bitshifted right two times. The registers `r16` and `r17` are then OR'ed together using `OR`. This result is stored to `PORTC` using the `OUT` instruction.
 
-**PORTB** The value from `0x100` is stored again into `r16` (because it was modified in the previous steps) and now the value of `PORTB` is stored into register `r17`. This value is masked using `ANDI` to clear the values of pins `B0` through `B5` (connected to the remaining 6 LEDs). The value in `r16` is masked to clear the two most sigificant bits (so as not to affect the two post significant bits in port B). These two registers are then OR'ed together using `OR`. This result is stored to `PORTB` using the `OUT` instruction.
+**PORTB** The value from `0x100` is stored again into `r16` (because it was modified in the previous steps) and now the value of `PORTB` is stored into register `r17`. This value is masked using `ANDI` to clear the values of pins `B0` through `B5` (connected to the remaining 6 LEDs). The value in `r16` is masked to clear the two most sigificant bits (so as not to affect the two most significant bits in port B). These two registers are then OR'ed together using `OR`. This result is stored to `PORTB` using the `OUT` instruction.
 
 Finally, the `JMP` instruction is used to continually repeat the `loop` subroutine.
 
