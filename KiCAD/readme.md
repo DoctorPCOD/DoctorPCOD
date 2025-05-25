@@ -12,7 +12,7 @@ Links go to each datasheet or informational page (which contains a schematic of 
   - 16-key keypad
 - PCBs
   - [Debounced pushbutton PCB](https://doctor-pasquale.com/debounced-pushbuttons/)
-  - Keypad / encoder PCB
+  - [Keypad / encoder PCB](https://doctor-pasquale.com/keypad-and-encoder/)
   - [BCD to 7-segment display PCB](https://doctor-pasquale.com/7-segment-decoder-and-display/)
   - [SPI 7-segment display PCB](https://doctor-pasquale.com/7-segment-display-serial-input/)
   - [0-99 BCD display PCB](https://doctor-pasquale.com/0-99-decoder/)
