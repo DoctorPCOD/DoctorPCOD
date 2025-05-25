@@ -9,7 +9,7 @@ Links go to each datasheet or informational page (which contains a schematic of 
   - [74C922 (Keypad Encoder)](https://doctor-pasquale.com/wp-content/uploads/2017/05/74922-16-KEY-ENCODER.pdf)
   - [27C1024 (EPROM 64k x 16)](https://doctor-pasquale.com/wp-content/uploads/2018/03/AT27C1024.pdf)
 - PCBs
-  - Debounced pushbutton PCB
+  - [Debounced pushbutton PCB](https://doctor-pasquale.com/debounced-pushbuttons/)
   - Keypad / encoder PCB
   - 16-key keypad
   - [BCD to 7-segment display PCB](https://doctor-pasquale.com/7-segment-decoder-and-display/)
