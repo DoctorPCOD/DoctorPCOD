@@ -1,17 +1,20 @@
 # Pasquale Library Information
 
 ## Symbols Included
+
+Links go to each datasheet or informational page (which contains a schematic of the printed circuit board).
+
 - ICs
-  - 74279 (S'R' Latch)
-  - 74C922 (Keypad Encoder)
-  - 27C1024 (EPROM 64k x 16)
+  - [74279 (S'R' Latch)](https://doctor-pasquale.com/wp-content/uploads/2019/07/74279-Quad-SR-Latches.pdf)
+  - [74C922 (Keypad Encoder)](https://doctor-pasquale.com/wp-content/uploads/2017/05/74922-16-KEY-ENCODER.pdf)
+  - [27C1024 (EPROM 64k x 16)](https://doctor-pasquale.com/wp-content/uploads/2018/03/AT27C1024.pdf)
 - PCBs
   - Debounced pushbutton PCB
   - Keypad / encoder PCB
   - 16-key keypad
-  - BCD to 7-segment display PCB
-  - SPI 7-segment display PCB
-  - 0-99 BCD display PCB
+  - [BCD to 7-segment display PCB](https://doctor-pasquale.com/7-segment-decoder-and-display/)
+  - [SPI 7-segment display PCB](https://doctor-pasquale.com/7-segment-display-serial-input/)
+  - [0-99 BCD display PCB](https://doctor-pasquale.com/0-99-decoder/)
   - 16-segment display PCB
   - RGB LED matrix PCB
 
