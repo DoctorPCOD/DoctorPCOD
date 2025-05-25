@@ -1,15 +1,19 @@
 # Pasquale Library Information
 
 ## Symbols Included
-- 74279 (S'R' Latch)
-- 74C922 (Keypad Encoder)
-- 27C1024 (EPROM 64k x 16)
-- Keypad / encoder PCB
-- Debounced pushbutton PCB
-- 0-99 BCD display PCB
-- 16-segment display PCB
-- RGB LED matrix PCB
-- 16-key keypad
+- ICs
+  - 74279 (S'R' Latch)
+  - 74C922 (Keypad Encoder)
+  - 27C1024 (EPROM 64k x 16)
+- PCBs
+  - Debounced pushbutton PCB
+  - Keypad / encoder PCB
+  - 16-key keypad
+  - BCD to 7-segment display PCB
+  - SPI 7-segment display PCB
+  - 0-99 BCD display PCB
+  - 16-segment display PCB
+  - RGB LED matrix PCB
 
 ## How to Install
 1. Download ZIP file
