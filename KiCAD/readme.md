@@ -16,7 +16,7 @@ Links go to each datasheet or informational page (which contains a schematic of 
   - [BCD to 7-segment display PCB](https://doctor-pasquale.com/7-segment-decoder-and-display/)
   - [SPI 7-segment display PCB](https://doctor-pasquale.com/7-segment-display-serial-input/)
   - [0-99 BCD display PCB](https://doctor-pasquale.com/0-99-decoder/)
-  - 16-segment display PCB
+  - [16-segment display PCB](https://doctor-pasquale.com/16-segment-display/)
   - [4x4 RGB LED matrix PCB](https://doctor-pasquale.com/4x4-rgb-led-matrix/)
 
 ## How to Install
