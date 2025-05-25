@@ -1,7 +1,5 @@
 # Pasquale Library Information
 
-I am aware there are issues with this library and hope to address them in the summer and fall of 2025.
-
 ## Symbols Included
 - 74279 (S'R' Latch)
 - 74C922 (Keypad Encoder)
@@ -23,9 +21,10 @@ I am aware there are issues with this library and hope to address them in the su
 7. When you create a schematic file, you will be able to access the new symbols, which are listed in the **Pasquale** library
 
 ## Request a Part
-Contact Dr. P!
+Contact Dr. P! Note that it may take me several days to over a month to add to this library depending on my workload.
 
 ### Library Updates
+- 2025-05-24: added SPI to 7-segment display PCB and BCD to 7-segment display PCB
 - 2024-04-24: added 74C922, 16-key keypad, and RGB LED matrix display
 - 2023-06-13: added 0-99 BCD display PCB
 - 2023-03-18: added debounced pushbutton PCB
