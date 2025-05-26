@@ -9,7 +9,7 @@ The PCB contains the following components:
 - battery connector -- this connects to the LiPo battery using the XT60 connector
 - H-bridge pin header -- this header contains connections to the [H-bridge motor driver chip](https://doctor-pasquale.com/wp-content/uploads/2017/05/754410-QUAD-HALF-H-DRIVER.pdf), the silkscreen labels each individual connection
 - 2 A slow blow fuse -- this fuse will blow if the current draw from the battery exceeds 2 A
-- 754410 H-bridge motor driver chip with heatsink -- this is the [H-bridge motor driver chip](https://doctor-pasquale.com/wp-content/uploads/2017/05/754410-QUAD-HALF-H-DRIVER.pdf) and has a heatsink on top :warning: the heatsink may get hot so avoid touching it! this chip is powered directly by the LiPo battery and the regulated 5V supply
+- 754410 H-bridge motor driver chip with heatsink -- this is the [H-bridge motor driver chip](https://doctor-pasquale.com/wp-content/uploads/2017/05/754410-QUAD-HALF-H-DRIVER.pdf) and has a heatsink on top :warning: the heatsink will get hot (this is normal) so avoid touching it! this chip is powered directly by the LiPo battery and the regulated 5V supply
 - terminal block to connect to Arduino -- use the terminal block to connect a barrel jack connector to the Arduino
 - regulated VCC and GND pin header connections -- these are extra regulated VCC and GND connections in case you run out of regulated connections on the Arduino; these should also be capable of sourcing/sinking more current than the Arduino pins can
 
