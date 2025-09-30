@@ -5,7 +5,6 @@
 - [Lab 3 Circuit 1](lab3_circuit1.ino)
 - [Lab 5 Circuit 1](lab5_circuit1.ino)
 - [Lab 9 Circuit 1](lab9_circuit1.ino)
-- [Lab 10 Workbook](lab10_workbook.xlsx)
 - [Lab 13 Circuit 1](lab13_circuit1.asm)
 - [Lab 16 Circuit 1](lab16_circuit1.asm)
 - [Lab 17 Circuit 1](lab17_circuit1.asm)
