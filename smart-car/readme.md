@@ -121,7 +121,7 @@ The subsystem report will be due the last class day of the week given in the sch
 | Introduction         | Describes the subsystem and what you will discuss in the report.                                      | 1      |
 | Flowchart            | Flowchart of the full operation of the subsystem.                                                     | 2      |
 | I/O Pins Used        | List all of the microcontroller pins that you've used and a description of what they're connected to. | 2      |
-| Hardware Description | Describes ALL of the hardware components, include schematics, and explain what they are used for, and what pins they connect to on the microcontroller. | 3 |
+| Hardware Description | Describes ALL of the hardware components, include schematics, and explain what they are used for, and what pins they connect to on the microcontroller. Any input(s) that require a pull-up or pull-down resistor must be explicitly explained with the type of resistor used and whether it was internal or external. | 3 |
 | Software Description | Describes ALL subroutines, external functions, libraries, or other notable components to your software. Cites from where any external code was obtained. | 3 |
 | Functionality        | Describes how the hardware and software interact to carry out the subsystem functions. Written in paragraph form, not as bullet points. | 2 |
 | Challenges           | What challenges were encountered when creating this subsystem? Are there any unsolved problems? If so, how do you plan to solve them before the full system must be functioning? | 2 |
@@ -168,7 +168,7 @@ This list of enhancement ideas is by no means exhaustive. Be creative in coming 
 
 - Speedometer and/or odometer using 7-segment display or LCD screen
 - Use of magnetometer to have the Smart Car follow a magnet
-- Execution of a 3-point turn at the end of the track
+- Execution of a 3-point turn after completing the track, the turn must be automatically conducted at the end of the track
 - Remote steering of the car using IR or Bluetooth
 
 ## Final Report Rubric
@@ -180,14 +180,14 @@ This list of enhancement ideas is by no means exhaustive. Be creative in coming 
 | Block Diagram        | Block diagram of all smart car components and how they communicate with each other.                   | 5      |
 | Flowchart            | Flowchart of the full operation of the smart car.                                                     | 5      |
 | I/O Pins Used        | List all of the microcontroller pins that you've used and a description of what they're connected to. (If you have separate lists for each demonstration, then you may break this into sections.) | 2 |
-| Hardware Description | Describes **all** of the hardware components, include circuit diagrams, and explain what they are used for, and what pins they connect to on the microcontroller. (Very large circuit diagrams may be included in an appendix and referenced here.) | 10 |
-| Software Description | Describes **all** subroutines, external functions, libraries, or other notable components to your software. Cites from where any external code was obtained. Explain the basis of any and all constants or other parameters used in your software code. (E.G. How did you obtain the track threshold value?) | 10 |
+| Hardware Description | Describes **all** of the hardware components, include circuit diagrams, and explain what they are used for, and what pins they connect to on the microcontroller. (Very large circuit diagrams may be included in an appendix and referenced here.) Any input(s) that require a pull-up or pull-down resistor must be explicitly explained with the type of resistor used and whether it was internal or external. | 10 |
+| Software Description | Describes **all** subroutines, external functions, libraries, or other notable components to your software. Cites from where any external code was obtained. Explain the basis of any and all constants or other parameters used in your software code. (E.G. How did you obtain the track threshold value?) If one or more demonstration did not work, explain what aspects of the code worked, which aspects of the code did not work, and what you think the software issue(s) may be and why. | 10 |
 | Peripherals          | Explain any peripherals used (ADC, TCNT, etc.), what hardware they're used with (if applicable), and explain frequencies, modes of operation, etc. There is no need to give exact register configuration values. | 5 |
-| Functionality        | Describes how the hardware and software interact to carry out the design project functions. Explain whether or not you successfully completed the maze and/or track requirements, and how much time it took to complete each of these demos. | 5 |
+| Functionality        | Describes how the hardware and software interact to carry out the design project functions. Explain whether or not you successfully completed the maze and/or track requirements, and how much time it took to complete each of these demos. If one or more demonstration was not successfully completed, explain what you would have done to attempt to meet the requirements if you'd had more time. | 5 |
 | Design Changes       | Describes what changes were made after the barrier detection demonstration and before the final maze demonstration, and the changes that were made after the line detection demonstration and before the final line following demonstration. How and why were these changes made? | 5 |
 | Feedback Control     | Comment on the use of P, PI, or PID control in your project (how and in what subsystems was it used?). Explain the parameters used and how they were determined. Describe how the use of feedback control improved the functionality of your project. | 10 |
-| Enhancement 1        | Describe the first enhancement, including a schematic and an explanation of all software code used.   | 10      |
-| Enhancement 2        | Describe the second enhancement, including a schematic and an explanation of all software code used.  | 10      |
+| Enhancement 1        | Describe the first enhancement, including a schematic and an explanation of all software code used. If the enhancement did not work, explain what aspects of the code worked, which aspects of the code did not work, and what you think the software issue(s) may be and why. What would you have changed if you'd had more time? | 10      |
+| Enhancement 2        | Describe the second enhancement, including a schematic and an explanation of all software code used. If the enhancement did not work, explain what aspects of the code worked, which aspects of the code did not work, and what you think the software issue(s) may be and why. What would you have changed if you'd had more time? | 10      |
 | Challenges           | What challenges were encountered throughout the design process? Are there any unsolved problems? If so, how would you have done things differently to avoid them? | 5 |
 | Conclusion           | Briefly describe the most notable things that were discussed in the report.                           | 5       |
 | Code (GitHub)        | Upload all of your well-documented code to your team's GitHub repository. Each student must join the team to receive individual credit. | 10 |
