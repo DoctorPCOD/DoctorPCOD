@@ -35,8 +35,16 @@
   - [Circuit 2](https://classroom.github.com/a/1EU0bKwi)
   - [Circuit 3](https://classroom.github.com/a/Xf1YICKN)
 - Lab 5
+  - [Circuit 2](https://classroom.github.com/a/zN5-IFaK)
+  - [Circuit 3](https://classroom.github.com/a/5IirKGiv)
+  - [Circuit 4](https://classroom.github.com/a/vpwB9nwu) *extra credit*
 - Lab 6
+  - [Circuit 1](https://classroom.github.com/a/vM45aT9q)
+  - [Circuit 2](https://classroom.github.com/a/qIJExh1S)
 - Lab 7
+  - [Circuit 1](https://classroom.github.com/a/H-N3L0yS)
+  - [Circuit 2](https://classroom.github.com/a/pkL11FYc)
+  - [Circuit 3](https://classroom.github.com/a/J65Kq_I1)
 - Lab 8
 - Lab 9
 - Lab 10
