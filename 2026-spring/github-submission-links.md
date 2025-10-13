@@ -46,10 +46,21 @@
   - [Circuit 2](https://classroom.github.com/a/pkL11FYc)
   - [Circuit 3](https://classroom.github.com/a/J65Kq_I1)
 - Lab 8
+  - [Circuit 1](https://classroom.github.com/a/emDHXa8W)
+  - [Circuit 2](https://classroom.github.com/a/me8eIn-O)
+  - [Circuit 3](https://classroom.github.com/a/Qv9WeYjG)
 - Lab 9
+  - [Circuit 2](https://classroom.github.com/a/KKfKZDjc)
+  - [Circuit 3](https://classroom.github.com/a/VkfxFAza)
 - Lab 10
+  - [Circuit 2](https://classroom.github.com/a/5zUT9wDB)
+  - [Circuit 3](https://classroom.github.com/a/Oww28I8c)
 - Lab 11
+  - [Circuit 2](https://classroom.github.com/a/WFqiPRPH)
+  - [Circuit 3](https://classroom.github.com/a/KDrMn--1)
 - Lab 12
+  - [Circuit 1](https://classroom.github.com/a/CyZOF12P)
+  - [Circuit 2](https://classroom.github.com/a/ln972Nnc)
 - Lab 13
-- Lab 14
-- Lab 15
+  - [Circuit 2](https://classroom.github.com/a/cNve4Kmj)
+  - [Circuit 3](https://classroom.github.com/a/XkEXs0ho)
