@@ -20,3 +20,28 @@
   - [Circuit 2](https://classroom.github.com/a/GINjAQYu)
 
 # Lab Submission Links
+
+- Lab 1
+  - [Circuit 3](https://classroom.github.com/a/DqGywg1B)
+- Lab 2
+  - [Circuit 1b](https://classroom.github.com/a/mG-qL_oQ)
+  - [Circuit 2](https://classroom.github.com/a/7rJCUnDy)
+  - [Circuit 3](https://classroom.github.com/a/k1-Hsb77)
+- Lab 3
+  - [Circuit 2](https://classroom.github.com/a/jX0BtiD_)
+  - [Circuit 3](https://classroom.github.com/a/S02M-mYg)
+- Lab 4
+  - [Circuit 1](https://classroom.github.com/a/3Fbk7kkK)
+  - [Circuit 2](https://classroom.github.com/a/1EU0bKwi)
+  - [Circuit 3](https://classroom.github.com/a/Xf1YICKN)
+- Lab 5
+- Lab 6
+- Lab 7
+- Lab 8
+- Lab 9
+- Lab 10
+- Lab 11
+- Lab 12
+- Lab 13
+- Lab 14
+- Lab 15
