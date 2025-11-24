@@ -24,7 +24,6 @@ It's possible to read the feedback on your code all in one place. This is a slig
 
 - Approved software (must use schematics view)
   - KiCad
-  - Eagle
   - If you have something else in mind, ask for my permission
 - Symbols for special parts and additional information about components to use in KiCAD is available at [DoctorPCOD/KiCAD](../KiCAD)
   - I can add additional symbols on request, but I need advance notice!
@@ -68,8 +67,8 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
 - Code
   - [Circuit 1: Blinking an LED](../ENGIN-2223/lab1_circuit1.ino)
 - Textbook
-  - Chapter 10
-  - Section 18.4
+  - Chapter 5 (I/O Ports)
+  - Section 14.5 (Bitwise Operators)
 - Infographics
   - [Resistor color codes](../infographics/Resistor%20color%20codes.pdf)
 - Websites
@@ -83,8 +82,8 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
 - Code
   - [Circuit Ia: Pushbutton input with external pull-down resistor](../ENGIN-2223/lab2_circuit1a.ino)
 - Textbook
-  - Chapter 10
-  - Section 11.5
+  - Chapter 5 (I/O Ports)
+  - Section 6.4 (ADC on the ATmega328P)
 - Infographics
   - [Potentiometer and variable resistor wiring](../infographics/Pot%20vs%20Variable%20Resistor.pdf)
 - Dr. P's code memory usage
@@ -100,9 +99,9 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
   - [hd44780.h](../ENGIN-2223/hd44780.h)
   - [hd44780.cpp](../ENGIN-2223/hd44780.cpp)
 - Textbook
-  - Section 18.3
-  - Section 18.6
-  - Section 18.8
+  - Section 14.3 (Arrays)
+  - Section 14.7 (Compound Operators)
+  - Section 14.9 (Control Flow: Iterative)
 - Infographics
   - [Using current-limiting resistors with segmented displays and RGB LEDs](../infographics/Current-Limiting%20Resistors.pdf)
 - Websites
@@ -116,8 +115,8 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
 
 ## Lab 4: Sensors and Sensor Calibration
 - Textbook
-  - Chapter 12
-  - Section 18.2
+  - Chapter 7 (Sensors and Sensor Calibration)
+  - Section 14.2 (Variable Scope and Keywords)
 - Dr. P's code memory usage
   - Circuit 1: 1192B program memory, variable data memory (depends on the size of the circular buffer)
   - Circuit 2: 1210B program memory, variable data memory
@@ -127,8 +126,8 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
 - Code
   - [Circuit I: Keypad adder](../ENGIN-2223/lab5_circuit1.ino)
 - Textbook
-  - Chapter 13
-  - Section 14.5
+  - Chapter 8 (Interrupts)
+  - Section 9.8 (ATmega328P Watchdog Timer)
 - Websites
   - [AVR Libc <avr/wdt.h> defines](https://onlinedocs.microchip.com/oxy/GUID-317042D4-BCCE-4065-BB05-AC4312DBC2C4-en-US-2/GUID-2B361770-F19D-4FA6-9287-C4933235B8CE.html) This lists all of the arguments that can be used with the `wdt_enable()` function to configure each watchdog timer prescaler.
 - Videos
@@ -141,14 +140,14 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
 
 ## Lab 6: Timer/Counters and Timed Interrupts
 - Textbook
-  - Chapter 14
+  - Chapter 9 (Clocks, Timer/Counters, and Pulse-Width Modulation)
 - Dr. P's code memory usage
   - Circuit 1: 1258B program memory, variable data memory (depends on the size of the circular buffer)
   - Circuit 2: 1736B program memory, 23B data memory
 
 ## Lab 7: Pulse-Width Modulation and Motors
 - Textbook
-  - Section 14.4
+  - Section 9.6 (ATmega328P Timer/Counter PWM Modes of Operation)
 - Dr. P's code memory usage
   - Circuit 1: 210B program memory, 0B data memory
   - Circuit 2: 318B program memory, 0B data memory
@@ -156,7 +155,7 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
 
 ## Lab 8: Input Capture Unit
 - Textbook
-  - Section 14.2
+  - Section 9.7 (ATmega328P Input Capture Unit)
 - Videos
   - [Input capture unit](https://youtu.be/eXE-8X38AHs)
 - Dr. P's code memory usage
@@ -168,7 +167,7 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
 - Code
   - [Circuit I: SPI control of 7-segment display](../ENGIN-2223/lab9_circuit1.ino)
 - Textbook
-  - Section 15.5
+  - Section 10.2 (ATmega328P Serial Peripheral Interface)
 - Websites
   - [This article from Boston University](https://www.bu.edu/articles/2020/striking-out-racist-terminology-in-engineering/) discusses the racism used in many electrical engineering concepts, which is why the terminology used in this lab differs from the terminology used in official AVR documentation and many other websites. This lab, and the lab appendix, have been rewritten to use the terms primary and secondary when referring to SPI devices.
 - Dr. P's code memory usage
@@ -181,7 +180,7 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
 - Code
   - [Circuit 1 workbook](../ENGIN-2223/lab10_workbook.xlsx)
 - Textbook
-  - Chapter 17
+  - Chapter 12 (Control Systems and Feedback)
 - Videos
   - [P and PI control of LED](https://youtu.be/UVFDm5bBDs0) - this video demonstrates the difference between an underdamped and over/critically damped response.
 - Dr. P's code memory usage
@@ -190,8 +189,8 @@ Note: Labs 14-17 were written for the duration of the spring 2020 semester in wh
 
 ## Lab 11: Power Consumption and ATmega328P without Arduino
 - Textbook
-  - Chapter 9
-  - Chapter 16
+  - Section 4.7 (Fuse Bytes)
+  - Chapter 11 (Power Management and Sleep Modes)
 - Websites
   - [AVR fuse calculator](https://www.engbedded.com/fusecalc/)
   - [Arduino boards.txt file](https://github.com/arduino/ArduinoCore-avr/blob/master/boards.txt) includes fuse details of the Arduino programmed ATmega328P
@@ -227,7 +226,7 @@ In May 2025, here are the values Dr. P got after doing some power optimization. 
 
 ## Lab 12: Transmitting and Receiving a Secret Message
 - Textbook
-  - Section 15.5
+  - Section 10.2 (ATmega328P Serial Peripheral Interface)
 - Dr. P's code memory usage
   - Circuit 1: 238B program memory, 4B data memory
   - Circuit 2: 696B program memory, 4B data memory
@@ -237,8 +236,8 @@ In May 2025, here are the values Dr. P got after doing some power optimization. 
   - [Circuit I: Pushbutton and LED](../ENGIN-2223/lab13_circuit1.asm)
   - [DrPCOD/assembly_help](https://github.com/DoctorPCOD/DoctorPCOD/tree/main/assembly_help)
 - Textbook
-  - Chapter 7
-  - Chapter 19
+  - Chapter 13 (Memory and Memory Addressing)
+  - Chapter 15 (AVR Assembly)
 - Websites
   - [AVR Instruction Set Manual, PDF](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/assembly_help/AVR_Instruction_Set_Manual.pdf)
   - [Microchip Studio](https://www.microchip.com/en-us/tools-resources/develop/microchip-studio)
