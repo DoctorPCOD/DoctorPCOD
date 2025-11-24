@@ -11,7 +11,7 @@
 
 - Mondays and Fridays from 9:00 - 10:15 a.m. in BIC 3F07
 - Attendance policy: arrive within 10 minutes of the start of lecture
-- [Textbook [PDF]](https://doctor-pasquale.com/wp-content/uploads/2021/02/The-Yellow-Book.pdf)
+- Textbook: [PDF version](https://doctor-pasquale.com/wp-content/uploads/2021/02/The-Yellow-Book.pdf), [web version](https://doctor-pasquale.com/micro/frontmatter.html)
 
 # Lab
 
