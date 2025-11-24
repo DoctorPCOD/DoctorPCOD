@@ -250,7 +250,7 @@ In May 2025, here are the values Dr. P got after doing some power optimization. 
 
 ## Lab 14: USART: Universal Synchronous/Asynchronous Receiver/Transmitter
 - Textbook
-  - Section 15.4
+  - Section 10.3 (ATmega328P Universal Synchronous/Asynchronous Receiver/Transmitter)
 - Dr. P's code memory usage
   - Circuit 1: 184B program memory, 0B data memory
   - Circuit 2: 348B program memory, 2B data memory (both Arduinos have the same memory usage)
@@ -261,9 +261,9 @@ In May 2025, here are the values Dr. P got after doing some power optimization. 
   - [Binary to BCD conversion](../ENGIN-2223/binary-bcd.asm)
   - [DrPCOD/assembly_help](https://github.com/DoctorPCOD/DoctorPCOD/tree/main/assembly_help)
 - Textbook
-  - Chapter 6
-  - Chapter 7
-  - Chapter 19
+  - Section 4.3 (Status Register `SREG`)
+  - Chapter 13 (Memory and Memory Addressing)
+  - Chapter 15 (AVR Assembly)
 - Videos
   - [Circuit 2 demo](https://youtu.be/xMfgy89AevU)
 - Dr. P's code memory usage
@@ -276,9 +276,9 @@ In May 2025, here are the values Dr. P got after doing some power optimization. 
   - [Circuit 1: Pushbutton LED toggle with interrupts](../ENGIN-2223/lab16_circuit1.asm)
   - [DrPCOD/assembly_help](https://github.com/DoctorPCOD/DoctorPCOD/tree/main/assembly_help)
 - Textbook
-  - Chapter 6
-  - Chapter 7
-  - Chapter 19
+  - Section 4.3 (Status Register `SREG`)
+  - Chapter 13 (Memory and Memory Addressing)
+  - Chapter 15 (AVR Assembly)
 - Videos
   - [Circuit 4 demonstration](https://youtu.be/iWqjtBQRcCk)
 - Dr. P's code memory usage
@@ -293,9 +293,9 @@ In May 2025, here are the values Dr. P got after doing some power optimization. 
   - [Binary to BCD conversion with thousands place](../ENGIN-2223/bcd_thousands_place.asm)
   - [DrPCOD/assembly_help](https://github.com/DoctorPCOD/DoctorPCOD/tree/main/assembly_help)
 - Textbook
-  - Chapter 6
-  - Chapter 7
-  - Chapter 19
+  - Section 4.3 (Status Register `SREG`)
+  - Chapter 13 (Memory and Memory Addressing)
+  - Chapter 15 (AVR Assembly)
 - Dr. P's code memory usage
   - Circuit 1: 96B program memory, 1B data memory
   - Circuit 2: 130B program memory, 2B data memory
