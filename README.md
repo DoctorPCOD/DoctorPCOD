@@ -16,7 +16,7 @@ This repository is for my ENGIN-2223 (Microcontrollers) class at COD. Have a loo
 # My Open Textbooks
 
 - [Digital Systems (PDF)](https://doctor-pasquale.com/wp-content/uploads/2020/11/DigitalSystemsBook.pdf)
-- [Microcontrollers (PDF)](https://doctor-pasquale.com/wp-content/uploads/2021/02/The-Yellow-Book.pdf)
+- Microcontrollers ([PDF version](https://doctor-pasquale.com/wp-content/uploads/2021/02/The-Yellow-Book.pdf), [web version](https://doctor-pasquale.com/micro/frontmatter.html))
 - [Circuit Analysis (PDF)](https://doctor-pasquale.com/wp-content/uploads/2021/09/CircuitAnalysisBook.pdf)
 - [Conceptual Physics](https://cod.pressbooks.pub/physics1100/)
 
