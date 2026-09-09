@@ -91,6 +91,10 @@ Here is a list of resources related to ENGIN-2223.
 
 [^5]: To learn how to build an R-2R ladder, refer to the [Circuit Analysis Lab Manual](https://doctor-pasquale.com/wp-content/uploads/2023/05/ENGIN-2210-Lab-Manual.pdf).
 
+## AI and LLM Resources
+
+- [AI Didn't Make Programming Easier. It Just Made It Differently Difficult (PDF)](https://github.com/DoctorPCOD/DoctorPCOD/blob/main/3795534.pdf) This article goes over how AI changes the cognitive burden of writing code. As the title implies, AI doesn't make coding easier, it just changes how we need to approach writing software if we use AI in the process.
+
 ## Recommended Books and Textbooks
 - _The Atmel AVR Microcontroller: MEGA and XMEGA in Assembly and C_ by Han-Way Huang
 - _Atmel AVR Microcontroller Primer: Programming and Interfacing_ by Steven F. Barrett, Daniel J. Pack
