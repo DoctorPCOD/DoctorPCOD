@@ -63,6 +63,7 @@
 - All lab and activity code will be submitted through Classroom 50
 - Spring 2027 is my first time using this platform, so we are learning as we go!
 - Stay tuned for an invite or link as we start the semester
+- [Student Guide](https://github.com/foundation50/classroom50/wiki/Web-Student-Guide)
 
 # More Resources
 
