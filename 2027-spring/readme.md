@@ -31,7 +31,7 @@
 - In-lab
   - Starter code is available in my GitHub repository [DoctorPCOD/ENGIN-2223](../ENGIN-2223)
   - Upload your labs and variable sheets to [MyOpenMath](https://www.myopenmath.com) prior to the conclusion of each lab session.
-  - Upload your code to GitHub. [Links to each assignment are located in this repository.](github-submission-links.md)
+  - Upload your code to Classroom 50
   - Each student must join the GitHub team to receive individual credit for code.
 - Lab report
   - Upload lab reports (including schematics) to [MyOpenMath](https://www.myopenmath.com)
@@ -42,8 +42,8 @@
 # Exams
 
 - There will be one practical exam and one final exam
-- Practical exam: April (TBD) at 9:00 a.m.
-- Final exam: Wednesday, May (TBD) at 9:00 a.m.
+- Practical exam: April 14 at 9:00 a.m.
+- Final exam: Wednesday, May 19 at 9:00 a.m.
 
 # Design Project
 
@@ -56,8 +56,13 @@
 - You must be in attendance in lecture on time to receive credit for the activities
 - Any activity starter code will be available on [DoctorPCOD/ENGIN-2223](../ENGIN-2223)
 - Upload your activities and variable sheets to [MyOpenMath](https://www.myopenmath.com) prior to each activity due date.
-- Upload your code to GitHub. [Links to each assignment are located in this repository.](github-submission-links.md)
+- Upload your code to Classroom 50
 - Each student must join the GitHub team to receive individual credit for code.
+
+# Code Submission
+- All lab and activity code will be submitted through Classroom 50
+- Spring 2027 is my first time using this platform, so we are learning as we go!
+- Stay tuned for an invite or link as we start the semester
 
 # More Resources
 
