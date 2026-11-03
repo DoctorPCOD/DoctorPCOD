@@ -107,6 +107,24 @@ Here is a list of resources related to ENGIN-2223.
 
 I give my students surveys every semester and ask them to give advice to future microcontrollers students. This is what they have to say.
 
+> Set limits to prevent burn out. Eat three square meals a day, exercise, and generally do things that are not looking at the smart car. Every time you tinker with something write down your observations and questions and talk to Dr. P. You will get a lot wrong at first; the class may take a while to click.
+
+> do your lab reports as soon as possible
+
+> Finish your smart car before the demos!
+
+> Keep things simple when it comes to the smart car.
+
+> Work on your lab reports ASAP. Like literally the day you finish the lab. Like literally the minute you walk out of lab.
+
+> Stay on time, stay ahead of schedule if you can. This is a 6 hour credit course hidden in a 4.
+
+> Learn when it is time to stop working and take a break from the car. Looking at the YouTube videos of Dr P is helpful.
+
+> Just like digital, this class will become your main focus of the semester. Be sure to have fun with it, but also maintain diligence with your work and your group projects. You got this!!
+
+> Don’t procrastinate your lab reports or activities. Every point counts!
+
 > Pace yourself. There is a lot to be done outside of lab, and unlike digital, it can be mostly done with a computer and compiler. Prepare ahead of time, and keep your lab manual/appendixes on hand.
 
 > Utilize the drop-in labs to practice your coding skills on the Arduino. START YOUR LAB REPORTS EARLY!
