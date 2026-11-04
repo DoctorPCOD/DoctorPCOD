@@ -5,10 +5,13 @@
 Links go to each datasheet or informational page (which contains a schematic of the printed circuit board).
 
 - ICs
+  - [7417 (Hex Buffers)](https://doctor-pasquale.com/wp-content/uploads/2017/05/7417-BUFFERS.pdf)
   - [7489 (64-bit RAM)](https://doctor-pasquale.com/wp-content/uploads/2017/05/7489-64-BIT-RAM.pdf)
-  - [74279 (S'R' Latch)](https://doctor-pasquale.com/wp-content/uploads/2019/07/74279-Quad-SR-Latches.pdf)
+  - [74224 (16 x 4 FIFO Memory)](https://doctor-pasquale.com/wp-content/uploads/2022/02/74224-datasheet.pdf)
+  - [74279 (Quad S'R' Latch)](https://doctor-pasquale.com/wp-content/uploads/2019/07/74279-Quad-SR-Latches.pdf)
   - [74C922 (Keypad Encoder)](https://doctor-pasquale.com/wp-content/uploads/2017/05/74922-16-KEY-ENCODER.pdf)
   - [27C1024 (EPROM 64k x 16)](https://doctor-pasquale.com/wp-content/uploads/2018/03/AT27C1024.pdf)
+  - [uPD449 (2048 x 8 RAM)](https://doctor-pasquale.com/wp-content/uploads/2019/11/2297063.pdf)
 - Input devices
   - 16-key keypad
 - PCBs
@@ -33,7 +36,9 @@ Links go to each datasheet or informational page (which contains a schematic of 
 Contact Dr. P! Note that it may take me several days to over a month to add to this library depending on my workload.
 
 ### Library Updates
-- 2026-10-26: added 74LS89, 64-bit RAM
+- 2026-11-04: added 74LS17, 74LS224, and uPD449
+- 2026-11-04: modified 74LS279 part to have four separate units (this means you can place each individual SR latch separately rather than place an entire chip)
+- 2026-10-26: added 74LS89
 - 2025-05-24: added SPI to 7-segment display PCB and BCD to 7-segment display PCB
 - 2024-04-24: added 74C922, 16-key keypad, and RGB LED matrix display
 - 2023-06-13: added 0-99 BCD display PCB
